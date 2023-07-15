@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/182-1829110_icon-location-vector-free-png-download-location-icon.png.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Location Icon.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/supu.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,8 @@
       <workItem from="1689243871177" duration="190000" />
       <workItem from="1689244064334" duration="112000" />
       <workItem from="1689244209898" duration="81000" />
-      <workItem from="1689244308850" duration="2319000" />
+      <workItem from="1689244308850" duration="2566000" />
+      <workItem from="1689257090895" duration="1225000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
