@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/assignments/image 64.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -37,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assests/Education & Experience",
+    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,16 +52,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments" />
       <recent name="$PROJECT_DIR$/assests/Education &amp; Experience" />
       <recent name="$PROJECT_DIR$/assets/profile" />
       <recent name="$PROJECT_DIR$/assets/services" />
       <recent name="$PROJECT_DIR$/assets/my photos" />
-      <recent name="$PROJECT_DIR$/assets/recomment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/profile" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyPortfolio/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +96,7 @@
       <workItem from="1689850184521" duration="579000" />
       <workItem from="1689918055790" duration="5338000" />
       <workItem from="1689970271287" duration="6000" />
-      <workItem from="1689970309982" duration="6091000" />
+      <workItem from="1689970309982" duration="8006000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
