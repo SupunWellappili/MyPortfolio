@@ -36,7 +36,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assets/profile&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,7 +49,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/profile" />
+      <recent name="$PROJECT_DIR$/assets/services" />
+      <recent name="$PROJECT_DIR$/assets/my photos" />
+      <recent name="$PROJECT_DIR$/assets/recomment" />
+      <recent name="$PROJECT_DIR$/assets/contact" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/profile" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -74,6 +82,8 @@
       <workItem from="1689827432853" duration="2281000" />
       <workItem from="1689834728354" duration="9821000" />
       <workItem from="1689850184521" duration="579000" />
+      <workItem from="1689918055790" duration="5338000" />
+      <workItem from="1689970271287" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
