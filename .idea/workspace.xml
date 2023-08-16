@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit" />
+    <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/case_1/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +112,7 @@
       <workItem from="1691225461990" duration="1557000" />
       <workItem from="1691291666430" duration="1599000" />
       <workItem from="1691719931353" duration="5068000" />
-      <workItem from="1692071700572" duration="9214000" />
+      <workItem from="1692071700572" duration="9529000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
