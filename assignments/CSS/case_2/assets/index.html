@@ -45,14 +45,28 @@
             border: black 2px solid;
         }
 
-        main > nav {
+        main>nav{
 
             background-color: cornflowerblue;
             width: 100px;
         }
 
-        main > section > section > div {
+        main>section{
 
+            border: green 2px solid;
+        }
+
+        main>section>section>div{
+            position: absolute;
+            right: 0;
+           top: 0;
+            border: deeppink 2px solid;
+        }
+        main>section>section>div:nth-of-type(2){
+            right: 200px;
+        }
+        main>section>section>div:nth-of-type(3){
+            right: 400px;
         }
     </style>
 
@@ -82,7 +96,9 @@
     </nav>
     <section>
         <section>
-
+            <div><img src="animated-monkey-image-0286.gif" alt="1"></div>
+            <div><img src="animated-monkey-image-0286.gif" alt="2"></div>
+            <div><img src="animated-monkey-image-0286.gif" alt="3"></div>
         </section>
 
         <section></section>
