@@ -99,6 +99,7 @@
 
         main > section > section {
             position: relative;
+
         }
 
         main > section > section {
@@ -138,8 +139,29 @@
 
         main > section > section > div {
             border: black 3px solid;
-            background-color: brown;
+            /*background-color: brown;*/
             width: calc(100% / 3);
+        }
+
+        main > section > section:nth-child(1) > div:nth-child(1) {
+            position: absolute;
+            left: 0;
+        }
+
+        main > section > section:nth-child(1) > div:nth-child(2) {
+            position: absolute;
+            left: calc(100% /3);
+
+        }
+
+        main > section > section:nth-child(1) > div:nth-child(3) {
+            position: absolute;
+            right: 0;
+        }
+
+        main>section>section:nth-child(2){
+
+           margin-top: 250px;
         }
 
 
