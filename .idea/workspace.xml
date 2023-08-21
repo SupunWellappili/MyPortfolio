@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit" />
+    <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/case_1/assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,6 +114,11 @@
       <workItem from="1691719931353" duration="5068000" />
       <workItem from="1692071700572" duration="16005000" />
       <workItem from="1692250283303" duration="24569000" />
+      <workItem from="1692444205774" duration="1942000" />
+      <workItem from="1692496222305" duration="598000" />
+      <workItem from="1692497996722" duration="339000" />
+      <workItem from="1692533365308" duration="1212000" />
+      <workItem from="1692580318276" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
