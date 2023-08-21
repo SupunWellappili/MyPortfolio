@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Borel&family=Courgette&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Borel&family=Courgette&family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Borel&family=Courgette&family=Kalam:wght@300&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/css/all.min.css">
 
     <style>
@@ -41,8 +42,7 @@
             padding: 1vw;
             right: 25px;
             display: inline-block;
-            cursor: pointer;
-            color: darkred;
+
         }
 
         main {
@@ -59,25 +59,32 @@
             bottom: 0;
         }
 
-        main > nav > ul>li {
-            cursor: pointer;
-            color: white;
+        nav > ul > li {
             list-style: none;
             padding-top: 40px;
-            font-size: 2vw;
-
+            font-size: 1.5vw;
+            text-decoration: none;
         }
 
-        main>section{
+        header>nav>ul>li>a{
+            color: brown;
+        }
+
+        main>nav > ul >li> a {
+            color: white;
+        }
+
+
+        main > section {
             margin-left: 20vw;
             padding: 15px;
         }
 
-        main > section>section {
+        main > section > section {
             position: relative;
         }
 
-        main>section>section{
+        main > section > section {
             font-family: 'Blinker', sans-serif;
             font-family: 'Borel', cursive;
             font-family: 'Courgette', cursive;
@@ -117,10 +124,6 @@
             margin-left: 44vw;
         }
 
-        ul>li:hover{
-            color: darkblue;
-        }
-
 
     </style>
 
@@ -132,20 +135,20 @@
     <img width="200vw" height="60vh" src="assets/ijse.png" alt="IJSE Logo">
     <nav>
         <ul>
-            <li>🏡Home</li>
-            <li>🗄️Service</li>
-            <li>📞Contact</li>
-            <li>🔖About Us</li>
+            <li><a href="#" target="_blank">🏡Home</a></li>
+            <li><a href="#" target="_blank">🗄️Service </a></li>
+            <li><a href="#" target="_blank">📞Contact</a></li>
+            <li><a href="#" target="_blank">🔖About Us</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Service</li>
-            <li>Contact</li>
-            <li>About Us</li>
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">Service</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+            <li><a href="#" target="_blank">About Us</a></li>
         </ul>
     </nav>
     <section>
