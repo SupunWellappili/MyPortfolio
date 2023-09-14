@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transition-02</title>
+    <style>
+
+        body{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+        section{
+            width: 500px;
+            height: 500px;
+            border-radius: 100%;
+            border: 20px solid red;
+            background-color: #009e1a;
+            border-top: 20px solid gray;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+
+        section>h1{
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+            position: absolute;
+
+        }
+
+        section:hover{
+            transform: rotate(360deg);
+            transition: 2s all;
+        }
+
+        section:hover h1{
+            transform: rotate(-360deg);
+            transition: 2s all;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <h1>RWAD</h1>
+
+
+</section>
+
+
+</body>
+</html>
