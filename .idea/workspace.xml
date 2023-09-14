@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/case_2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/case_06/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,11 +51,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/CSS/case_06/assets" />
+      <recent name="$PROJECT_DIR$/assignments/CSS/case_05/asset" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_1/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_2/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS" />
-      <recent name="$PROJECT_DIR$/assests" />
-      <recent name="$PROJECT_DIR$/assignments" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignments/CSS/case_2" />
@@ -126,7 +125,9 @@
       <workItem from="1692682441839" duration="2036000" />
       <workItem from="1693101260124" duration="5610000" />
       <workItem from="1693451866054" duration="10388000" />
-      <workItem from="1694058764570" duration="1607000" />
+      <workItem from="1694058764570" duration="7596000" />
+      <workItem from="1694096111034" duration="599000" />
+      <workItem from="1694318089620" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
