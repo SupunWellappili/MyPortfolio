@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
         }
 
         section > div {
-            background-color: #51009e;
+            background-color: #89e7ef;
             width: 100px;
             height: 50px;
 
@@ -54,12 +54,84 @@
 <body>
 
 <section>
-    <div><p>Menu One<i class="fa-solid fa-house" ></p></div>
+    <div><p>Menu One<i class="fa-solid fa-house"></i></p></div>
     <div><p>Menu Two</p></div>
     <div><p>Menu three</p></div>
     <div><p>Menu Four</p></div>
     <div><p>Menu Five</p></div>
 </section>
 
+</body>
+</html>-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Case-01</title>
+    <style>
+        * {
+            color: greenyellow;
+        }
+
+        body > section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        body > section > div {
+            width: 250px;
+            height: 50px;
+            background-color: #c953c9;
+            margin-top: 100px;
+            transition: all 3s;
+            margin-left: -200px;
+            box-shadow: 1px 30px 20px 1px black;
+        }
+
+        body > section > div:hover {
+            transition: all 2s;
+            margin-left: -20px;
+            cursor: pointer;
+        }
+
+        body > section > div > p:first-child {
+            margin-top: 0;
+            margin-left: 10px;
+            padding: 8px;
+            font-size: 30px;
+            font-family: Arial;
+        }
+
+        body > section > div > p:nth-child(2) {
+            margin-top: -72px;
+            margin-left: 210px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+<section>
+    <div>
+        <p>Customers</p>
+        <p><i class="fa-solid fa-user"></i></p>
+    </div>
+    <div>
+        <p>Items</p>
+        <p><i class="fa-solid fa-sitemap"></i></p>
+    </div>
+    <div>
+        <p>Orders</p>
+        <p><i class="fa-solid fa-anchor"></i></p>
+    </div>
+    <div>
+        <p>Details</p>
+        <p><i class="fa-solid fa-angle-down"></i></p>
+    </div>
+</section>
 </body>
 </html>
