@@ -3,8 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Transition-03</title>
+    <style>
+
+        body {
+            background-color: #5b6d7e;
+        }
+
+        body > section {
+            width: 600px;
+            height: 300px;
+            background-image: url("assests/dodge-challenger-red.gif");
+            background-size: cover;
+            background-position: center;
+            border: 2px solid white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            box-shadow: 10px -10px 40px 5px;
+        }
+
+        body > section > div {
+            width: 100%;
+            height: 0;
+            position: absolute;
+            bottom: 0;
+            background-color: black;
+            transition: height 0.5s;
+            opacity: 0.3;
+        }
+
+        body > section:hover > div {
+            height: 100%;
+        }
+
+        body > section > img {
+            height: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            transition: top 0.5s ease;
+        }
+
+        body > section:hover > img {
+            height: 20%;
+            top: 20vh;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 <body>
+<section>
+    <div></div>
+    <img src="assests/pause-logo-general.png">
+</section>
 
 </body>
 </html>
+
