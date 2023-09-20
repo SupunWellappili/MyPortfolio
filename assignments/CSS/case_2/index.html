@@ -171,13 +171,35 @@
             margin-left: 44vw;
         }
 
-
+        /*--------------------At Rules---------------------------------------------*/
         @media all and (max-width: 375px) {
+
+            header{
+                height: 100px;
+
+            }
             header>img{
+                width: 150px;
                 position: absolute;
                 left: 0;
                 right: 0;
                 margin: auto;
+            }
+
+            header>nav{
+
+                position: absolute;
+                right: 0;
+                top: 32px;
+                left: 0;
+                width: max-content;
+                margin: auto;
+            }
+
+            header>nav>ul>li{
+                font-size: 13px;
+                padding: 5px;
+                top: 10px;
             }
         }
 
