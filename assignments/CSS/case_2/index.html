@@ -243,7 +243,7 @@
 
         /*--------------------At Rules(0-325)---------------------------------------------*/
 
-        @media  all and (max-width: 325px){
+        @media all and (max-width: 325px) {
 
             header {
                 height: 120px;
@@ -297,7 +297,7 @@
             }
 
 
-            main>section>section>p {
+            main > section > section > p {
                 font-size: 20px;
             }
 
@@ -322,10 +322,73 @@
             }
         }
 
+        /*--------------------At Rules(1024px - 1440px)---------------------------------------------*/
+
+        @media all and (min-width: 1024px )and (max-width: 1440px) {
+            header {
+                height: 80px;
+            }
+
+            header > img {
+                position: relative;
+                top: 2vh;
+                left: 3vw;
+            }
+
+            header > nav {
+                font-size: 18px;
+            }
+
+            header > nav > ul > li {
+                padding: 1vw;
+            }
 
 
+            main {
+                margin-top: 85px;
+            }
+
+            main > nav {
+
+                width: 25vw;
+
+            }
+
+            nav > ul > li {
+                font-size: 1.6vw;
+            }
+
+            header > nav > ul > li > a {
+                color: brown;
+                text-decoration: none;
+            }
+
+            header > nav > ul > li > a:hover {
+                color: #d50cd5;
+            }
+
+            main > nav > ul > li > a {
+                color: white;
+                text-decoration: none;
+                font-size: 2.5vw;
+            }
 
 
+            main > section {
+                margin-left: 25vw;
+
+            }
+
+            main>section>section>p{
+                font-size: 18px;
+            }
+
+
+            footer > p {
+                font-size: 15px;
+            }
+
+        }
 
 
     </style>
