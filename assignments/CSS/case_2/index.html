@@ -176,17 +176,17 @@
         }
 
 
-        /*--------------------At Rules---------------------------------------------*/
+        /*--------------------At Rules(325-375)---------------------------------------------*/
 
 
-        @media all and (max-width: 375px) {
+        @media all and (min-width: 325px) and (max-width: 375px) {
 
             header {
                 height: 100px;
             }
 
             header > img {
-                width: 150px;
+                width: 200px;
                 position: absolute;
                 left: 0;
                 right: 0;
@@ -240,6 +240,75 @@
                 margin-top: 0;
             }
         }
+
+        /*--------------------At Rules(0-325)---------------------------------------------*/
+
+        @media  all and (max-width: 325px){
+
+            header {
+                height: 120px;
+            }
+
+            header > img {
+                width: 100px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+
+            header > nav {
+
+                position: absolute;
+                width: max-content;
+                left: 0;
+                right: 0;
+                margin: auto;
+                top: 35px;
+            }
+
+
+            header > nav > ul > li {
+                font-size: 11px;
+                padding: 5px;
+                top: 20px;
+            }
+
+            main {
+                border: 0;
+                margin-top: 100px;
+            }
+
+            main > nav {
+                display: none;
+            }
+
+            main > section {
+                position: relative;
+                width: 100%;
+                margin: 15px 0 0 0;
+                padding: 10px;
+            }
+
+            main > section > section > div {
+                height: 400px;
+                width: 100%;
+                position: relative;
+            }
+
+            main > section > section:nth-child(1) > div:nth-child(2) {
+                left: 0;
+            }
+
+            main > section > section:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+
+        }
+
+
+
 
 
     </style>
