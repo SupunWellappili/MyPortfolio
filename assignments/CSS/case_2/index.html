@@ -379,7 +379,7 @@
 
             }
 
-            main>section>section>p{
+            main > section > section > p {
                 font-size: 18px;
             }
 
@@ -390,6 +390,52 @@
 
         }
 
+        /*--------------------At Rules(768px - 1024px)---------------------------------------------*/
+
+        @media all and (min-width: 768px) and (max-width: 1024px) {
+            header {
+                height: 90px;
+            }
+
+            header > img {
+                top: 2.5vh;
+                left: 4vw;
+            }
+
+            header > nav {
+            }
+
+            header > nav > ul > li {
+                font-size: 15px;
+                padding: 1vw;
+                margin-top: 20px;
+            }
+
+
+
+            main > nav {
+                display: none;
+            }
+
+
+            main > section {
+                margin-left: 10px;
+                padding: 15px;
+                margin-top: 10px;
+            }
+
+
+
+            main > section > section:nth-child(2) {
+
+                margin-top: 230px;
+            }
+
+
+            footer > p {
+                font-size: 15px;
+            }
+        }
 
     </style>
 
