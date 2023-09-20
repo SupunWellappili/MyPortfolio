@@ -173,12 +173,33 @@
 
         main > section:nth-child(4) {
             background-color: #128ec2;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
 
         }
 
-        main > section:nth-child(4) > ul {
+        main > section:nth-child(4) {
             font-size: 50px;
+
         }
+
+        main > section:nth-child(4) > div{
+            border: 1px red solid;
+            padding: 50px;
+        }
+
+        main > section:nth-child(4)>div{
+            font-size: 40px;
+            width: 400px;
+            margin-left: 10px;
+
+        }
+
+
+
+
+        /*///////////////////////////////////////p cos///////////////////////////////////////////////////*/
 
 
         main > section:nth-child(5) > section > h2 {
@@ -287,11 +308,18 @@
     <!--///////////////////////////////////////counts///////////////////////////////////////////////////-->
 
     <section>
-        <ul>
-            <sup>6</sup> Months of Experience<br>
+
+        <div>6</div>
+        <div>3</div>
+        <div>1</div>
+        <div>Months of Experience</div>
+        <div>Independent Projects</div>
+        <div>Team Projects</div>
+
+          <!--  <sup>6</sup> Months of Experience<br>
             <sup>3</sup> Projects<br>
-            <sup>1</sup> Team Projects<br>
-        </ul>
+            <sup>1</sup> Team Projects<br>-->
+
     </section>
 
 
