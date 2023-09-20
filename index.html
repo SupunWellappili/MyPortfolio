@@ -123,22 +123,49 @@
         }
 
 
+        /*///////////////////////////////////////my skill///////////////////////////////////////////////////*/
+
+
         main > section:nth-child(3) {
             background-color: rgba(92, 96, 108, 0.56);
+
         }
 
         main > section:nth-child(3) > section > h2 {
+            position: relative;
             font-size: 40px;
-            margin-left: 500px;
+            width: 400px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            padding: 10px;
+
         }
 
-        main > section:nth-child(3) > section:nth-child(2) > ul > li {
+
+        main > section:nth-child(3) > section:nth-child(2){
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(2,1fr);
+            width: 850px;
+            left: 0;
+            right: 0;
+            margin: auto;
             font-size: 20px;
-            display: inline-block;
-            padding: 30px;
-            margin-left: 60px;
+            gap: 25px ;
+            padding: 20px;
+
+
+
         }
 
+
+
+
+
+            /*///////////////////////////////////////mill///////////////////////////////////////////////////*/
 
         main > section:nth-child(4) {
             background-color: #128ec2;
@@ -170,17 +197,16 @@
         }
 
 
-        main > section:nth-child(7), section:nth-child(8), section:nth-child(9), section:nth-child(10), section:nth-child(11), section:nth-child(12) {
-            background-color: darkgrey;
+        main > section:nth-child(7) {
+
         }
 
-        main > section:nth-child(16) {
-            background-color: rgba(79, 215, 239, 0.38);
+        main > section:nth-child(8) {
+
         }
 
 
-        main > section:nth-child(17) > article {
-            background-color: rgba(79, 215, 239, 0.38);
+        main > section:nth-child(9) > article {
         }
 
 
@@ -244,12 +270,12 @@
     <section>
         <section><h2>MY SKILLS</h2></section>
         <section>
-            <ul>
-                <li>FRONTEND DEVELOPMENT</li>
-                <li>BACKEND DEVELOPMENT</li>
-                <li>UI/UX DESIGN</li>
-                <li>SOCIAL MEDIA</li>
-            </ul>
+
+            <div>*FRONTEND DEVELOPMENT</div>
+            <div>*UI/UX DESIGN</div>
+            <div>*BACKEND DEVELOPMENT</div>
+            <div>*SOCIAL MEDIA</div>
+
         </section>
     </section>
 
@@ -561,18 +587,18 @@
 
         <aside>
             <form>
-                    <fieldset>
-                        <legend><h3>Contact Form</h3></legend>
-                        <input type="text" name="name" id="name" placeholder="name">
-                        <br>
-                        <input type="email" name="email" id="email" placeholder="email">
-                        <br>
-                        <input type="number" name="pnumber" id="pnumber" placeholder="phone number">
-                        <br>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                        <br>
-                        <button>Send<img src="assets\icons8-send-100.png" alt="send icon" height="30px"></button>
-                    </fieldset>
+                <fieldset>
+                    <legend><h3>Contact Form</h3></legend>
+                    <input type="text" name="name" id="name" placeholder="name">
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="email">
+                    <br>
+                    <input type="number" name="pnumber" id="pnumber" placeholder="phone number">
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <br>
+                    <button>Send<img src="assets\icons8-send-100.png" alt="send icon" height="30px"></button>
+                </fieldset>
             </form>
 
         </aside>
