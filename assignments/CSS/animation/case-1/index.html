@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-01</title>
+    <style>
+
+        body > div {
+            width: 200px;
+            height: 100px;
+            background-color: greenyellow;
+        }
+
+        body > div {
+
+            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-name: sup;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: alternate;
+            left: 0;
+            top: 0;
+
+        }
+
+        @keyframes sup {
+            0% {
+                background-color: pink;
+                left: 0;
+                top: 0;
+                rotate: -360deg;
+
+            }
+
+            25% {
+                background-color: #51009e;
+                left: 600px;
+                top: 0;
+                transform:rotate(360deg);
+
+            }
+            50% {
+                background-color: #009e1a;
+                top: 600px;
+                left: 600px;
+                transform:rotate(-360deg);
+
+            }
+            75% {
+                background-color: yellow;
+                top: 600px;
+                left: 0;
+                transform:rotate(360deg);
+
+            }
+            100% {
+                background-color: saddlebrown;
+                top: 0;
+                left: 0;
+                transform:rotate(-360deg);
+
+            }
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div></div>
+</body>
+</html>

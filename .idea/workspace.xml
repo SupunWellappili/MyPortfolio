@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/case_06/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +48,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "database.inspector",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -129,7 +132,7 @@
       <workItem from="1694096111034" duration="599000" />
       <workItem from="1694318089620" duration="7000" />
       <workItem from="1694636612811" duration="15156000" />
-      <workItem from="1694845764665" duration="92216000" />
+      <workItem from="1694845764665" duration="96566000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
