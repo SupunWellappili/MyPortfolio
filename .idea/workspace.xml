@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/assignments/CSS/animation/case-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/case_06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/animation/case-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/488-4888787_trashcan-can-dump-recycle-bin-recycle-symbol-png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/lovepik-red-car-png-image_400236870_wh1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/pause-logo-general.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/pngtree-pause-gesture-cartoon-illustration-png-image_4522331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2RCo9thAtqHwQxJIZVoYhE98mw2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/transition/case_3/assests",
+    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/animation/case-2/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,24 +57,24 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "database.inspector",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_3/assests" />
       <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_1/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_06/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_05/asset" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/case_1/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_2" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_1/assets" />
       <recent name="$PROJECT_DIR$/assests" />
       <recent name="$PROJECT_DIR$/assests/assignments" />
-      <recent name="$PROJECT_DIR$/assets/profile" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,6 +142,8 @@
       <workItem from="1694318089620" duration="7000" />
       <workItem from="1694636612811" duration="15156000" />
       <workItem from="1694845764665" duration="96566000" />
+      <workItem from="1695241639361" duration="18860000" />
+      <workItem from="1695364311975" duration="2456000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
