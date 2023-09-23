@@ -42,8 +42,8 @@
         }
 
 
-        header>img:hover{
-            cursor:pointer;
+        header > img:hover {
+            cursor: pointer;
         }
 
 
@@ -105,18 +105,18 @@
         }
 
 
-        main>section:nth-child(1)>section{
+        main > section:nth-child(1) > section {
             position: relative;
             /*border: 1px solid red;*/
             display: flex;
             flex-direction: row;
             top: 80px;
-            margin-left:388px;
+            margin-left: 388px;
 
         }
 
 
-        main > section:nth-child(1) > section>div {
+        main > section:nth-child(1) > section > div {
             flex-shrink: 1;
             border: 1px solid blue;
             font-size: 27px;
@@ -124,11 +124,11 @@
             padding: 5px;
         }
 
-        main>section:nth-child(1)>section>div:nth-child(1){
+        main > section:nth-child(1) > section > div:nth-child(1) {
             background-color: #009e1a;
         }
 
-        main>section:nth-child(1)>section>div:nth-child(2){
+        main > section:nth-child(1) > section > div:nth-child(2) {
             background-color: #bb83f1;
         }
 
@@ -153,7 +153,7 @@
             height: 170px;
         }
 
-        main > section:nth-child(3)>section{
+        main > section:nth-child(3) > section {
             position: relative;
             left: 0;
             right: 0;
@@ -161,6 +161,7 @@
             width: 250px;
             padding: 5px;
         }
+
         main > section:nth-child(3) > section:nth-child(1) > h2 {
             font-size: 40px;
             margin: 0;
@@ -169,35 +170,64 @@
 
         main > section:nth-child(3) > section:nth-child(2) {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
             /*border: 1px red solid;*/
             gap: 15px;
             width: 800px;
             padding: 10px;
 
         }
-        main > section:nth-child(3) > section:nth-child(2)>div{
+
+        main > section:nth-child(3) > section:nth-child(2) > div {
             /*border: 1px yellow solid;*/
             color: #51009e;
             font-size: 25px;
-
-
         }
 
         /*///////////////////////////////////////project counts///////////////////////////////////////////////////*/
 
 
         main > section:nth-child(4) {
-            background-color: #128ec2;
-            display: grid;
+            background: linear-gradient(white, darkblue);
+            display: flex;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
+            /*border: 1px solid red;*/
+
+        }
+
+        main > section:nth-child(4) > div {
+            /*border: #009e1a solid 1px;*/
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        main > section:nth-child(4) > div > h1 {
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 20px;
+            font-size: 150px;
+            color: white;
+            text-shadow: 15px 10px black;
+        }
+
+        main > section:nth-child(4) > div > h3 {
+            font-size: 50px;
+            /*left: 0;
+            right: 0;
+            margin: auto;*/
+            text-shadow: 0 0 10px #e8dada, 0 0 5px #0000FF;
+
         }
 
 
+        /*
+
         main > section:nth-child(4) {
-            font-size: 50px;
+            font-size: 3px;
         }
 
 
@@ -213,6 +243,7 @@
             margin-left: 10px;
         }
 
+        */
 
         /*///////////////////////////////////////Education & Experience///////////////////////////////////////////////////*/
 
@@ -360,8 +391,8 @@
         </dd>
 
         <section>
-              <div>Hire Me</div>
-               <div>View My Work </div>
+            <div>Hire Me</div>
+            <div>View My Work</div>
         </section>
 
         <aside><img sizes="250px" src="assests/profile/image%201.png" alt="this is profile">
@@ -402,12 +433,18 @@
 
     <section>
 
-        <div>6</div>
-        <div>3</div>
-        <div>1</div>
-        <div>Months of Experience</div>
-        <div>Independent Projects</div>
-        <div>Team Projects</div>
+        <div>
+            <h1>6</h1>
+            <h3>Months of Experience</h3>
+        </div>
+        <div>
+            <h1>3</h1>
+            <h3>Independent Projects</h3>
+        </div>
+        <div>
+            <h1>1</h1>
+            <h3>Team Projects</h3>
+        </div>
 
         <!--  <sup>6</sup> Months of Experience<br>
           <sup>3</sup> Projects<br>
