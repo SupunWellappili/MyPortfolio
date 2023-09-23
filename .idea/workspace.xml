@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/assignments/CSS/animation/case-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/animation/case-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/488-4888787_trashcan-can-dump-recycle-bin-recycle-symbol-png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/lovepik-red-car-png-image_400236870_wh1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/pause-logo-general.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets/pngtree-pause-gesture-cartoon-illustration-png-image_4522331.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/animation/case-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/animation/case-2/assets",
+    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/animation/case-3/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_3/assests" />
       <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_1/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/case_06/assets" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/case_05/asset" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
@@ -144,6 +137,7 @@
       <workItem from="1694845764665" duration="96566000" />
       <workItem from="1695241639361" duration="18860000" />
       <workItem from="1695364311975" duration="2456000" />
+      <workItem from="1695367088159" duration="7455000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
