@@ -83,18 +83,19 @@
 
         main > section:nth-child(1) > h1 {
             position: relative;
-            top: 100px;
-            left: 300px;
+            top: 80px;
+            margin-left: 300px;
             font-size: 65px;
         }
 
 
         main > section:nth-child(1) > dd {
             position: relative;
-            top: 60px;
-            left: 300px;
+            top: 50px;
+            margin-left: 400px;
             font-size: 20px;
             color: white;
+
         }
 
 
@@ -111,7 +112,7 @@
             display: flex;
             flex-direction: row;
             top: 80px;
-            margin-left: 388px;
+            margin-left: 400px;
 
         }
 
@@ -119,7 +120,7 @@
         main > section:nth-child(1) > section > div {
             flex-shrink: 1;
             border: 1px solid blue;
-            font-size: 27px;
+            font-size: 30px;
             margin: 10px;
             padding: 5px;
         }
@@ -216,47 +217,40 @@
 
         main > section:nth-child(4) > div > h3 {
             font-size: 50px;
-            /*left: 0;
+            left: 0;
             right: 0;
-            margin: auto;*/
-            text-shadow: 0 0 10px #e8dada, 0 0 5px #0000FF;
-
+            margin: auto;
+            text-shadow: 0 0 10px #e8dada;
         }
 
-
-        /*
-
-        main > section:nth-child(4) {
-            font-size: 3px;
-        }
-
-
-        main > section:nth-child(4) > div {
-            border: 1px red solid;
-            padding: 50px;
-        }
-
-
-        main > section:nth-child(4) > div {
-            font-size: 40px;
-            width: 30px;
-            margin-left: 10px;
-        }
-
-        */
 
         /*///////////////////////////////////////Education & Experience///////////////////////////////////////////////////*/
 
-
-        main > section:nth-child(5) > section > h2 {
-            position: relative;
-            font-size: 50px;
-        }
-
-
         main > section:nth-child(5) {
-            background-color: green;
+            border: 3px yellow solid;
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            gap: 50px;
         }
+
+
+        main > section:nth-child(5) > section {
+            border: 2px red solid;
+            background-color: rgba(18, 76, 162, 0.41);
+            width: 800px;
+        }
+
+        main>section>section>h2{
+            font-size: 40px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 200px;
+            padding: 20px;
+
+        }
+
 
 
         /*///////////////////////////////////////service///////////////////////////////////////////////////*/
@@ -445,11 +439,6 @@
             <h1>1</h1>
             <h3>Team Projects</h3>
         </div>
-
-        <!--  <sup>6</sup> Months of Experience<br>
-          <sup>3</sup> Projects<br>
-          <sup>1</sup> Team Projects<br>-->
-
     </section>
 
 
