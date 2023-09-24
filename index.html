@@ -356,27 +356,35 @@
             padding: 40px;
 
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows: repeat(5,1fr);
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr);
             border: 2px solid blue;
             gap: 10px;
 
         }
 
-        main>section:nth-child(8)>div{
+        main > section:nth-child(8) > div {
             border: 1px solid green;
 
+        }
+
+        main > section:nth-child(8) > div:nth-child(1) {
+            grid-column: 1/4;
+            grid-row: 1/4;
+            /*background-image: url("");*/
+            background-size: cover;
+            background-position: center;
         }
 
 
         /*/////////////////////////////////Recommend/////////////////////////////////////////////////////////*/
 
-
-    </style>
+</style>
 </head>
 <!--------------------------------Main New---------------------------------------------------------------------->
 <body>
 <header>
+
     <img src="assests/profile/SW.png" alt="This is a Logo Design">
     <menu class="Menu">
         <li><a href="#home-section">HOME </a></li>
