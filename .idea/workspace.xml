@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/animation/case-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/animation/case-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/animation/case-3/assets",
+    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assests/my photos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,17 +49,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assests/my photos" />
       <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_3/assests" />
       <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_1/assets" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/case_06/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
@@ -138,6 +137,7 @@
       <workItem from="1695241639361" duration="18860000" />
       <workItem from="1695364311975" duration="2456000" />
       <workItem from="1695367088159" duration="7455000" />
+      <workItem from="1695380552715" duration="62467000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
