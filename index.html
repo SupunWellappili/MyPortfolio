@@ -507,28 +507,63 @@
 
 
         main > section:nth-child(11) {
+            position: relative;
             background-color: rgba(111, 7, 162, 0.49);
-            width: 100%;
-            border: 10px solid red;
+            width: 99%;
+            border: 1px solid red;
             font-size: 20px;
-
-            /*display: flex;*/
-            /*justify-content: center;*/
-            /*flex-direction: row;*/
         }
 
         main > section:nth-child(11) > h2 {
             font-size: 40px;
+            margin-left: 200px;
         }
 
+        main > section:nth-child(11) >img {
+            margin-left: 100px;
+            padding: 10px;
+           /* background-position: center;
+            background-size: cover;*/
 
-        main > section:nth-child(11)>aside {
+        }
+
+        main > section:nth-child(11) > aside {
             position: absolute;
-            border: 10px solid green;
-            right: 0;
+            /*border: 3px solid green;*/
+            top: 0;
+            right: 100px;
+            margin: auto;
             width: 500px;
-            margin-top: 0px;
         }
+
+        main > section:nth-child(11) > section {
+            display: flex;
+            flex-direction: row;
+            /*border: 3px solid yellow;*/
+            justify-content: flex-start;
+            margin-left: 100px;
+            gap: 30px;
+            padding: 60px;
+            width: 310px;
+
+
+        }
+
+        main > section:nth-child(11) > section > div {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            flex-shrink: 0;
+            box-shadow:  pink 1px 1px 10px 10px;
+        }
+
+
+        main > section:nth-child(11) > aside>form>fieldset>button {
+            background-size: cover;
+            background-position: center;
+        }
+
+
 
         /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
 
@@ -898,9 +933,9 @@
 
     <section>
 
-            <h2>CONTACT INFO</h2>
+        <h2>CONTACT INFO</h2>
 
-            <dfn id="contact-section"></dfn>
+        <dfn id="contact-section"></dfn>
 
             <img width="30" src="assests/contact/image%2026.png" alt="Website Logo">www.supunwellappili.com<br>
 
@@ -916,43 +951,58 @@
             <a href="tel:+94711400179">+94 711400179</a>
             <a href="tel:+947771400179">/ +94 771400179</a>
 
-            <br>
-            <img usemap="#faceMap" width="40" src="assests/contact/image%2019.png" alt="Facebook Logo">
-            <map name="faceMap">
-                <area shape="rect" coords="10,10,40,40" href="https://www.facebook.com/supun.chandana.39566/"
-                      alt="Facebook  logo">
-            </map>
+        <section>
+            <div>
+                <img usemap="#faceMap" width="40" src="assests/contact/image%2019.png" alt="Facebook Logo">
+                <map name="faceMap">
+                    <area shape="rect" coords="10,10,40,40" href="https://www.facebook.com/supun.chandana.39566/"
+                          alt="Facebook  logo">
+                </map>
+            </div>
 
 
-            <img usemap="#YoutubeMap" width="40" src="assests/contact/image%2020.png" alt="Youtube Logo">
-            <map name="YoutubeMap">
-                <area shape="rect" coords="10,10,40,40" href=" https://www.youtube.com"
-                      alt="Youtube  logo">
-            </map>
+            <div>
+                <img usemap="#YoutubeMap" width="40" src="assests/contact/image%2020.png" alt="Youtube Logo">
+                <map name="YoutubeMap">
+                    <area shape="rect" coords="10,10,40,40" href=" https://www.youtube.com"
+                          alt="Youtube  logo">
+                </map>
+            </div>
 
 
-            <img usemap="#TwitterMap" width="40" src="assests/contact/image%2016.png" alt="Twitter Logo">
-            <map name="TwitterMap">
-                <area shape="rect" coords="10,10,40,40" href="https://twitter.com/i/flow/login?redirect_after_login=%2F"
-                      alt="Twitter  logo">
-            </map>
+            <div>
+                <img usemap="#TwitterMap" width="40" src="assests/contact/image%2016.png" alt="Twitter Logo">
+                <map name="TwitterMap">
+                    <area shape="rect" coords="10,10,40,40"
+                          href="https://twitter.com/i/flow/login?redirect_after_login=%2F"
+                          alt="Twitter  logo">
+                </map>
+            </div>
 
 
-            <img usemap="#InstraMap" width="40" src="assests/contact/image%2021.png" alt="Instra Logo">
-            <map name="InstraMap">
-                <area shape="rect" coords="10,10,40,40" href="https://www.instagram.com"
-                      alt="Instra  logo">
-            </map>
+            <div>
+                <img usemap="#InstraMap" width="40" src="assests/contact/image%2021.png" alt="Instra Logo">
+                <map name="InstraMap">
+                    <area shape="rect" coords="10,10,40,40" href="https://www.instagram.com"
+                          alt="Instra  logo">
+                </map>
+            </div>
 
 
-            <img usemap="#linkedinMap" width="40" src="assests/contact/image%2022.png" alt="Linkedin Logo">
-            <map name="linkedinMap">
-                <area shape="rect" coords="10,10,40,40" href="https://www.linkedin.com/in/supun-wellappili-288596204/"
-                      alt="Linkedin logo">
-            </map>
+            <div>
+                <img usemap="#linkedinMap" width="40" src="assests/contact/image%2022.png" alt="Linkedin Logo">
+                <map name="linkedinMap">
+                    <area shape="rect" coords="10,10,40,40"
+                          href="https://www.linkedin.com/in/supun-wellappili-288596204/"
+                          alt="Linkedin logo">
+                </map>
+            </div>
 
 
+        </section>
 
+
+        <!---->
         <aside>
             <form>
                 <fieldset>
@@ -963,9 +1013,9 @@
                     <br>
                     <input type="number" name="pnumber" id="pnumber" placeholder="phone number">
                     <br>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <textarea name="message" id="message" cols="50" rows="10" placeholder="Message"></textarea>
                     <br>
-                    <button>Send<img src="assets\icons8-send-100.png" alt="send icon" height="30px"></button>
+                    <button>Send<img src="assests/contact/icons8-send-100.png" alt="send icon" height="10"></button>
                 </fieldset>
             </form>
 
