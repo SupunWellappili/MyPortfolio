@@ -2,9 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
   <title>Case-03</title>
+  <style>
+    body{
+      position: relative;
+      height: 300vh;
+    }
+
+    body>div:first-child{
+      width: 260px;
+      height: 260px;
+      border: 16px solid gray;
+      border-radius: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    body>div:nth-child(2){
+      width: 230px;
+      height: 230px;
+      border: 16px solid red;
+      border-radius: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    body>div:nth-child(3){
+      width: 230px;
+      height: 230px;
+      background-color: mediumpurple;
+      border-radius: 100%;
+      position: absolute;
+      top: 240px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    body>div:nth-child(4){
+      width: 230px;
+      height: 230px;
+      background-color: cornflowerblue;
+      border-radius: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    body>div:nth-child(5){
+      width: 230px;
+      height: 230px;
+      background-color: coral;
+      border-radius: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 240px;
+      margin: auto;
+    }
+
+    body>div>p{
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      position: relative;
+      top: 55px;
+    }
+
+    body>div:nth-child(5)>p{
+      top: 10px;
+    }
+
+  </style>
 </head>
 <body>
-
+<div></div>
+<div></div>
+<div><p>Hello</p></div>
+<div><p>Welcome To</p></div>
+<div><p>Institute <br> of <br> Software <br> Engineering</p></div>
 </body>
 </html>
