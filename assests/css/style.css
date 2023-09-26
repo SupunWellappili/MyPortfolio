@@ -148,7 +148,7 @@
 
     /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
     main > section:nth-child(3) {
-        background-color: rgba(49, 97, 170, 0.22);
+        background-color: rgba(9, 70, 162, 0.74);
         height: 170px;
     }
 
@@ -257,6 +257,8 @@
         /*position: relative;*/
         font-size: 20px;
         margin-left: 50px;
+
+
     }
 
 
@@ -312,7 +314,7 @@
 
 
     main > section:nth-child(6) > section > section {
-        background-color: rgba(108, 102, 102, 0.35);
+        background-color: rgba(13, 13, 227, 0.1);
         padding: 50px;
         box-shadow: #4c89a9 10px 10px 10px 1px;
     }
@@ -320,6 +322,11 @@
     main > section:nth-child(6) > section > section:hover {
         cursor: pointer;
     }
+
+    main > section:nth-child(6) > section > section >h4{
+        color: rgba(255, 247, 247, 0.72);
+    }
+
 
 
 
@@ -604,6 +611,22 @@
 
     footer > small {
         margin-left: 350px;
+
+    }
+
+
+    /*/////////////////////////////////Mobile/////////////////////////////////*/
+    @media all and (min-width: 0 ) and  (max-width: 425px){
+
+    }
+    /*////////////////////////////////Tab//////////////////////////////////*/
+
+    @media all and (min-width: 425px ) and  (max-width: 765px){
+
+    }
+    /*/////////////////////////////////Lap/////////////////////////////////*/
+
+    @media all and (min-width: 765px ) and  (max-width: 1280px){
 
     }
 
