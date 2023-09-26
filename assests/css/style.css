@@ -182,7 +182,7 @@
 
     main > section:nth-child(3) > section:nth-child(2) > div {
         /*border: 1px yellow solid;*/
-        color: #51009e;
+        color: #c1a7d9;
         font-size: 25px;
     }
 
@@ -266,11 +266,22 @@
     }
 
 
+    main > section:nth-child(5) > section > h3 {
+        color: #030b3b;
+    }
+
+    main > section:nth-child(5) > section > h4 {
+        color: #6713bb;
+    }
+
+
+
     main > section:nth-child(5) > section > p {
         position: relative;
         font-size: 18px;
         margin-left: 20px;
         width: 650px;
+        color: rgba(42, 25, 133, 0.94);
     }
 
 
