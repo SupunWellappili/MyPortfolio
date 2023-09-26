@@ -7,7 +7,7 @@
     <title>My portfolio</title>
     <meta charset="UTF-8">
     <base href="https://supunwellappili.github.io/MyPortfolio/">
-    <link rel="stylesheet" href="assignments/CSS/transition/case_1/assets/normalize.css">
+    <link rel="stylesheet" href="assests/normalize.css">
     <meta name="viewport" content="width=device-width initial-scale=1">
     <link rel="icon" href="assests/profile/image%201.png">
     <meta name="keywords" content="Supun,Supun Wellappili,Software Engineering,Computer Undergraduate  ">
@@ -17,570 +17,12 @@
            (SERPs) to give users an idea of what they can expect when they click on a particular link.">
     <meta name="Supun Wellappili(Owner)" content="IJSE">
     <meta name="Supun Wellapili(author)" content="about Me">
-    <meta name="theme-color" content="red">
+    <!--    <meta name="theme-color" content="red">-->
+    <!--    <link rel="canonical" href="http://supunwellappili.infinityfreeapp.com/?i=1">-->
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="http://supunwellappili.infinityfreeapp.com/?i=1">
-    <style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assests/css/style.css">
 
-
-        header {
-            position: fixed;
-            z-index: 1;
-            width: 100%;
-            height: 70px;
-            top: 0;
-            box-shadow: 1px 2px 10px 10px #3c464b;
-            background-color: rgba(175, 175, 236, 0.29);
-        }
-
-
-        header > img {
-            position: relative;
-            top: 10px;
-            left: 20px;
-            height: 50px;
-        }
-
-
-        header > img:hover {
-            cursor: pointer;
-        }
-
-
-        header > menu {
-            position: absolute;
-            top: 0;
-            right: 80px;
-            list-style: none;
-        }
-
-
-        header > menu > li {
-            display: inline-block;
-            padding: 15px;
-            font-size: 25px;
-        }
-
-
-        header > menu > li:hover {
-            background-color: rgba(58, 192, 222, 0.21);
-            border-radius: 100%;
-        }
-
-
-        header > menu > li > a {
-            text-decoration: none;
-            color: black;
-        }
-
-
-        main > section:nth-child(1) {
-            background: linear-gradient(white, darkblue);
-            height: 470px;
-            margin-top: 0;
-        }
-
-
-        main > section:nth-child(1) > h1 {
-            position: relative;
-            top: 80px;
-            margin-left: 300px;
-            font-size: 65px;
-        }
-
-
-        main > section:nth-child(1) > dd {
-            position: relative;
-            top: 50px;
-            margin-left: 400px;
-            font-size: 20px;
-            color: white;
-        }
-
-
-        main > section:nth-child(1) > aside > img {
-            position: absolute;
-            top: 98px;
-            right: 170px;
-        }
-
-
-        main > section:nth-child(1) > section {
-            position: relative;
-            /*border: 1px solid red;*/
-            display: flex;
-            flex-direction: row;
-            top: 80px;
-            margin-left: 400px;
-        }
-
-
-        main > section:nth-child(1) > section > div {
-            flex-shrink: 1;
-            border: 1px solid blue;
-            font-size: 30px;
-            margin: 10px;
-            padding: 5px;
-        }
-
-
-        main > section:nth-child(1) > section > div:nth-child(1) {
-            background-color: #009e1a;
-        }
-
-
-        main > section:nth-child(1) > section > div:nth-child(2) {
-            background-color: #bb83f1;
-        }
-
-
-        main > section:nth-child(2) > h4 {
-            font-size: 40px;
-            margin-left: 80px;
-        }
-
-
-        main > section:nth-child(2) > h5 {
-            font-size: 20px;
-            margin-left: 80px;
-        }
-
-
-        /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
-
-
-        main > section:nth-child(3) {
-            background-color: rgba(49, 97, 170, 0.22);
-            height: 170px;
-        }
-
-
-        main > section:nth-child(3) > section {
-            position: relative;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 250px;
-            padding: 5px;
-        }
-
-
-        main > section:nth-child(3) > section:nth-child(1) > h2 {
-            font-size: 40px;
-            margin: 0;
-        }
-
-
-        main > section:nth-child(3) > section:nth-child(2) {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            /*border: 1px red solid;*/
-            gap: 15px;
-            width: 800px;
-            padding: 10px;
-        }
-
-
-        main > section:nth-child(3) > section:nth-child(2) > div {
-            /*border: 1px yellow solid;*/
-            color: #51009e;
-            font-size: 25px;
-        }
-
-
-        /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
-
-
-        main > section:nth-child(4) {
-            background: linear-gradient(white, darkblue);
-            display: flex;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            /*border: 1px solid red;*/
-        }
-
-
-        main > section:nth-child(4) > div {
-            /*border: #009e1a solid 1px;*/
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-
-
-        main > section:nth-child(4) > div > h1 {
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 20px;
-            font-size: 150px;
-            color: white;
-            text-shadow: 15px 10px black;
-        }
-
-
-        main > section:nth-child(4) > div > h3 {
-            font-size: 50px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            text-shadow: 0 0 10px #e8dada;
-        }
-
-
-        /*///////////////////////////////////////Education & Experience///////////////////////////////////////////////////*/
-
-        main > section:nth-child(5) {
-            /*border: 3px yellow solid;*/
-            display: flex;
-            justify-content: center;
-            margin: 50px;
-            gap: 50px;
-        }
-
-
-        main > section:nth-child(5) > section {
-            /*border: 2px red solid;*/
-            background-color: rgba(28, 116, 178, 0.7);
-            width: 800px;
-            box-shadow: 5px 5px 20px 10px #4c89a9;
-        }
-
-
-        main > section:nth-child(5) > section > h2 {
-            font-size: 40px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 200px;
-            padding: 20px;
-        }
-
-
-        main > section:nth-child(5) > section > h4 {
-            /*position: relative;*/
-            font-size: 20px;
-            margin-left: 50px;
-        }
-
-
-        main > section:nth-child(5) > section > h3 {
-            font-size: 30px;
-            margin-left: 60px;
-        }
-
-
-        main > section:nth-child(5) > section > p {
-            position: relative;
-            font-size: 18px;
-            margin-left: 20px;
-            width: 650px;
-        }
-
-
-        /*///////////////////////////////////////Service///////////////////////////////////////////////////*/
-
-        main > section:nth-child(6) {
-            background-color: rgba(0, 158, 26, 0.04);
-            height: 820px;
-        }
-
-
-        main > section:nth-child(6) > h2 {
-            font-size: 40px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 200px;
-        }
-
-
-        main > section:nth-child(6) > section {
-            height: 425px;
-            display: grid;
-            grid-template-rows: repeat(3, 1fr);
-            grid-template-columns: repeat(3, 1fr);
-            padding: 40px;
-            gap: 20px;
-        }
-
-
-        main > section:nth-child(6) > section > section {
-            background-color: rgba(108, 102, 102, 0.35);
-            padding: 50px;
-            box-shadow: #4c89a9 10px 10px 10px 1px;
-        }
-
-
-        main > section:nth-child(6) > section > section > h4:nth-child(1) {
-            margin-left: 150px;
-        }
-
-
-        main > section:nth-child(6) > section > section > h4:nth-child(2) {
-            font-size: 20px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 150px;
-        }
-
-
-        main > section:nth-child(6) > section > section > p {
-            font-size: 20px;
-        }
-
-
-        /*///////////////////////////////////////My Work///////////////////////////////////////////////////*/
-
-        main > section:nth-child(7) > section:nth-child(1) > h2 {
-            font-size: 40px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 250px;
-            padding: 15px;
-        }
-
-
-        main > section:nth-child(7) {
-            border: 4px solid #216e75;
-            background-color: rgba(14, 74, 203, 0.48);
-        }
-
-
-        main > section:nth-child(7) > section:nth-child(2) > img {
-            border: 3px solid red;
-        }
-
-
-        main > section:nth-child(7) > div {
-            width: 95px;
-            font-size: 20px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            padding: 10px;
-            color: #51009e;
-        }
-
-
-        main > section:nth-child(7)>div {
-        /*<a href="assignment.html" target="_blank"><button>Assignments</button></a>*/
-
-        }
-
-
-        /*///////////////////////////////////////Gallery///////////////////////////////////////////////////*/
-
-
-        main > section:nth-child(8) {
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 1300px;
-            height: 800px;
-            padding: 40px;
-
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(5, 1fr);
-            /*border: 2px solid blue;*/
-            gap: 10px;
-        }
-
-
-        main > section:nth-child(8) > div {
-            box-shadow: rgba(11, 30, 236, 0.75) 1px 1px 5px 1px;
-        }
-
-
-        main > section:nth-child(8) > div:nth-child(1) {
-            grid-column: 1/4;
-            grid-row: 1/5;
-            background-size: cover;
-            background-position: center;
-            background-image: url("assests/my photos/2.jpg");
-        }
-
-
-        main > section:nth-child(8) > div:nth-child(2) {
-            grid-row: 1/5;
-            grid-column: 4/5;
-            background-image: url("assests/my photos/sup desk.jpg");
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        main > section:nth-child(8) > div:nth-child(3) {
-            grid-row: 5/40;
-            grid-column: 1/3;
-            background-image: url("assests/my photos/3.jpg");
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        main > section:nth-child(8) > div:nth-child(4) {
-            grid-row: 5/20;
-            grid-column: 3/4;
-            background-image: url("assests/my photos/DSC00310.JPG");
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        main > section:nth-child(8) > div:nth-child(5) {
-            grid-row: 20/40;
-            grid-column: 3/4;
-            background-image: url("assests/my photos/IMG-20230216-WA0030.jpg");
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        main > section:nth-child(8) > div:nth-child(6) {
-            grid-row: 5/40;
-            grid-column: 4/5;
-            background-image: url("assests/my photos/337890581_806270914449407_6449141672644738370_n.jpg");
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        /*///////////////////////////////////////Recommend///////////////////////////////////////////////////*/
-
-        main > section:nth-child(9) {
-            background-color: #B9D9F6;
-            /*border: 1px solid red;*/
-            display: flex;
-            justify-content: center;
-        }
-
-
-        main > section:nth-child(9) > article {
-            /*border: 1px solid black;*/
-            width: 100%;
-            padding: 60px;
-        }
-
-
-        main > section:nth-child(9) > article > div > img {
-            margin-left: calc(100% / 3);
-            padding: 10px;
-        }
-
-
-        main > section:nth-child(9) > article > B {
-            margin-left: 250px;
-        }
-
-
-        /*///////////////////////////////////////Blog///////////////////////////////////////////////////*/
-        main > section:nth-child(10) > h2 {
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 650px;
-            padding: 15px;
-            font-size: 40px;
-        }
-
-
-        main > section:nth-child(10) > section {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            /*border: 1px solid green;*/
-            gap: 30px;
-            margin: 20px;
-
-
-        }
-
-        main > section:nth-child(10) > section > article {
-            /*border: 1px solid red;*/
-            width: 200px;
-            padding: 50px;
-            background-color: #77DB9F;
-            font-size: 18px;
-        }
-
-
-        /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
-
-
-        main > section:nth-child(11) {
-            position: relative;
-            background-color: rgba(111, 7, 162, 0.49);
-            width: 99%;
-            /*border: 1px solid red;*/
-            font-size: 20px;
-        }
-
-        main > section:nth-child(11) > h2 {
-            font-size: 40px;
-            margin-left: 200px;
-            padding: 20px;
-        }
-
-        main > section:nth-child(11) > img {
-            margin-left: 100px;
-            padding: 10px;
-            /* background-position: center;
-             background-size: cover;*/
-
-        }
-
-        main > section:nth-child(11) > aside {
-            position: absolute;
-            /*border: 3px solid green;*/
-            top: 0;
-            right: 100px;
-            margin: auto;
-            width: 500px;
-        }
-
-        main > section:nth-child(11) > section {
-            display: flex;
-            flex-direction: row;
-            /*border: 3px solid yellow;*/
-            justify-content: flex-start;
-            margin-left: 100px;
-            gap: 30px;
-            padding: 60px;
-            width: 310px;
-
-
-        }
-
-        main > section:nth-child(11) > section > div {
-            width: 40px;
-            height: 40px;
-            border-radius: 100%;
-            flex-shrink: 0;
-            box-shadow: pink 1px 1px 10px 10px;
-        }
-
-
-        main > section:nth-child(11) > aside > form > fieldset > button {
-            background: bisque;
-        }
-
-
-        /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
-
-        footer {
-            /*background-color: rgba(81, 0, 158, 0.17);*/
-        }
-
-        footer > small {
-            margin-left: 350px;
-        }
-
-    </style>
 </head>
 
 
@@ -589,7 +31,7 @@
 <body>
 <header>
 
-    <img src="assests/profile/SW.png" alt="This is a Logo Design">
+    <img src="assests/profile/SW.png" height="44" width="82"/>
     <menu class="Menu">
         <li><a href="#home-section">HOME </a></li>
         <li><a href="#services-section">SERVICES </a></li>
@@ -652,7 +94,6 @@
     <!--///////////////////////////////////////counts///////////////////////////////////////////////////-->
 
     <section>
-
         <div>
             <h1>6</h1>
             <h3>Months of Experience</h3>
@@ -749,8 +190,7 @@
             <section><h4><img width="30" src="assests/services/image%2033.png" alt="Mobile Service logo"></h4>
                 <h4>Mobile Service</h4>
                 <p>is for computing professionals who want to build skills in advanced topics in computer science, such
-                    as
-                    artificial
+                    as artificial
                 </p>
             </section>
 
@@ -759,8 +199,7 @@
                 <h4><img width="60" src="assests/services/image%2039.png" alt="PC Service logo"></h4>
                 <h4>PC Design</h4>
                 <p>is for computing professionals who want to build skills in advanced topics in computer science, such
-                    as
-                    artificial</p>
+                    as artificial</p>
             </section>
 
 
@@ -768,16 +207,14 @@
                 <h4><img width="60" src="assests/services/image%2040.png" alt="Web Service logo"></h4>
                 <h4>Web Design</h4>
                 <p>is for computing professionals who want to build skills in advanced topics in computer science, such
-                    as
-                    artificial</p>
+                    as artificial</p>
             </section>
 
             <section>
                 <h4><img width="40" src="assests/services/image%2041.png" alt="Database Service  logo"></h4>
                 <h4>Database Design</h4>
                 <p>is for computing professionals who want to build skills in advanced topics in computer science, such
-                    as
-                    artificial</p>
+                    as artificial</p>
             </section>
 
 
@@ -785,8 +222,7 @@
                 <h4><img width="55" src="assests/services/image%2042.png" alt="Social Media log"></h4>
                 <h4>Social Media</h4>
                 <p>is for computing professionals who want to build skills in advanced topics in computer science, such
-                    as
-                    artificial</p>
+                    as artificial</p>
             </section>
 
 
@@ -794,8 +230,7 @@
                 <h4><img width="55" src="assests/services/image%2043.png" alt="Other Service logo"></h4>
                 <h4>Other Service</h4>
                 <p>is for computing professionals who want to build skills in advanced topics in computer science, such
-                    as
-                    artificial</p>
+                    as artificial</p>
             </section>
         </section>
     </section>
@@ -818,9 +253,8 @@
         </section>
 
         <div>
-<!--            <button type="button">Assignment</button>-->
-            <a href="assignment.html" target="_blank"><button>Assignments</button></a>
 
+            <a href="http://localhost:63342/MyPortfolio/pages/assignment.html?_ijt=184qpd2m52ac1do7jiur3thbn&_ij_reload=RELOAD_ON_SAVE"  target="_blank">Assignment</a>
         </div>
 
     </section>
@@ -843,7 +277,6 @@
 
     <section>
         <article>
-
             <div>
                 <!--<img width="150" src="assests/recomment/Ellipse%2011.png" alt="ellipse logo">-->
                 <img width="100" src="assests/recomment/image%2050.png" alt="people icon logo">
@@ -857,7 +290,8 @@
             that
             there will be more projects to come in the future. “<br><br>
 
-            <B> Amar Gunatilleke</B>
+            <B>Amar Gunatilleke</B>
+
         </article>
 
 
@@ -873,7 +307,7 @@
             technology with his passion for excellence. Supun strives to achieve cutting edge web solutions and is
             always on top of his game. this is one of the many reasons i choose to work with him. “<br><br>
 
-            <B> Ashanthi Rathnayaka</B>
+            <B>Ashanthi Rathnayaka</B>
 
         </article>
 
@@ -987,7 +421,7 @@
                 <map name="TwitterMap">
                     <area shape="rect" coords="10,10,40,40"
                           href="https://twitter.com/i/flow/login?redirect_after_login=%2F"
-                          alt="Twitter  logo">
+                          alt="Twitter logo">
                 </map>
             </div>
 
