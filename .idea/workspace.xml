@@ -5,6 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/assests/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_shims.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_sizing.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/_variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/brands.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/fontawesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/regular.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/solid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/case_2/assets/fonts/less/v4-shims.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -40,7 +60,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assests/contact",
+    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/CSS/transition/case_1/assets",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,22 +72,27 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_1/assets" />
+      <recent name="$PROJECT_DIR$/assignments/CSS/case_1/assets" />
+      <recent name="$PROJECT_DIR$/assests/assignments" />
       <recent name="$PROJECT_DIR$/assests/contact" />
       <recent name="$PROJECT_DIR$/assests/my photos" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-2/assets" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/transition/case_3/assests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assignments/CSS/animation/case-3/assets" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/case_2" />
-      <recent name="$PROJECT_DIR$/assignments/CSS/case_1/assets" />
-      <recent name="$PROJECT_DIR$/assests" />
-      <recent name="$PROJECT_DIR$/assests/assignments" />
+      <recent name="$PROJECT_DIR$/assests/css" />
+      <recent name="$PROJECT_DIR$/page" />
+      <recent name="$PROJECT_DIR$/assests/my photos" />
+      <recent name="$PROJECT_DIR$/assests/profile" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,7 +163,7 @@
       <workItem from="1695241639361" duration="18860000" />
       <workItem from="1695364311975" duration="2456000" />
       <workItem from="1695367088159" duration="7455000" />
-      <workItem from="1695380552715" duration="83022000" />
+      <workItem from="1695380552715" duration="129029000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
