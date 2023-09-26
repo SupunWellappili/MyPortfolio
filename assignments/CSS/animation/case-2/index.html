@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Case-02</title>
+    <base href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="../../../../assests/normalize.css">
+
+    <style>
+        .bacground{
+            width: 100%;
+            height: 100vh;
+            background-color: #111F34;
+        }
+        .front{
+            width: 18%;
+            height: 38%;
+            border-radius: 100%;
+            background-color: #111F34;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 1;
+        }
+        .back{
+            width: 18%;
+            height: 38%;
+            border-radius: 100%;
+            background-color: #d7847b;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-name: moon;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+        @keyframes moon {
+            0%{
+                bottom: -6%;
+                left: -6.1%;
+                width: 16%;
+                height: 36%;
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0), 0 0 30px rgba(255, 255, 255, 0);
+            }
+            25%{
+                bottom: 0;
+                left: 0;
+                width: 18%;
+                height: 38%;
+                box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+            }
+            50%{
+                bottom: 6%;
+                left: 6.1%;
+                width: 16%;
+                height: 36%;
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0), 0 0 30px rgba(255, 255, 255, 0);
+            }
+            75%{
+                bottom: 0;
+                left: 0;
+                width: 18%;
+                height: 38%;
+                box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+            }
+            100%{
+                bottom: -6%;
+                left: -6.1%;
+                width: 16%;
+                height: 36%;
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0), 0 0 30px rgba(255, 255, 255, 0);
+            }
+        }
+    </style>
 </head>
 <body>
-
+<section class="bacground">
+    <div class="front"></div>
+    <div class="back"></div>
+</section>
 </body>
 </html>
