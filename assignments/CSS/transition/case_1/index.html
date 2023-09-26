@@ -1,138 +1,121 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-    <link rel="stylesheet" href="assets/normalize.css">
-    <title>Transition-01</title>
-
-    <li><a href="#a"><i class="fa-solid fa-house"></i> Home</a></li>
-    <li><a href="#a"><i class="fa-solid fa-earth-americas"></i>Service</a></li>
-    <li><a href="#a"><i class="fa-solid fa-address-book"></i>Contact Us</a></li>
-    <li><a href="#a"><i class="fa-solid fa-address-card"></i>About Us</a></li>
-
-    <style>
-
-        section {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-
-        section > div {
-            background-color: #89e7ef;
-            width: 100px;
-            height: 50px;
-
-        }
-
-        section > div:nth-child(1):hover {
-
-        }
-
-        section > div:nth-child(2) {
-
-        }
-
-        section > div:nth-child(3) {
-
-        }
-
-        section > div:nth-child(4) {
-
-        }
-
-        section > div:nth-child(5) {
-
-        }
-
-
-    </style>
-
-</head>
-<body>
-
-<section>
-    <div><p>Menu One<i class="fa-solid fa-house"></i></p></div>
-    <div><p>Menu Two</p></div>
-    <div><p>Menu three</p></div>
-    <div><p>Menu Four</p></div>
-    <div><p>Menu Five</p></div>
-</section>
-
-</body>
-</html>-->
-
-<!doctype html>
+<!--
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../../../../assests/normalize.css">
-
-    <title>Case-01</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Case 1</title>
     <style>
-        * {
-            color: greenyellow;
-        }
 
-        body > section {
-            display: flex;
-            flex-direction: column;
-        }
-
-        body > section > div {
-            width: 250px;
+        section>div{
+            position: relative;
+            width: 300px;
             height: 50px;
-            background-color: #c953c9;
-            margin-top: 100px;
-            transition: all 3s;
-            margin-left: -200px;
-            box-shadow: 1px 30px 20px 1px black;
+            left: -250px;
+            transition: all 1s;
+            background: purple;
+        }
+        section>div:hover{
+            left: 0;
+            transition: all 1s;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        section>div>img{
+            width: 12%;
+            right: 10px;
+            top: 0;
+            margin: auto;
+            bottom: 0;
+            position: absolute;
         }
 
-        body > section > div:hover {
-            transition: all 2s;
-            margin-left: -20px;
-            cursor: pointer;
-        }
 
-        body > section > div > p:first-child {
-            margin-top: 0;
-            margin-left: 10px;
-            padding: 8px;
-            font-size: 30px;
-            font-family: Arial;
-        }
-
-        body > section > div > p:nth-child(2) {
-            margin-top: -72px;
-            margin-left: 210px;
-            font-size: 30px;
-        }
     </style>
 </head>
-
 <body>
 <section>
     <div>
-        <p>Customers</p>
-        <p><i class="fa-solid fa-user"></i></p>
+        <h1>Menu One</h1><img src="assets/icons8-phonebook-96.png" alt="">
     </div>
     <div>
-        <p>Items</p>
-        <p><i class="fa-solid fa-sitemap"></i></p>
+        <h1>Menu Two</h1><img src="assets/icons8-customer-100%20(1).png" alt="">
     </div>
     <div>
-        <p>Orders</p>
-        <p><i class="fa-solid fa-anchor"></i></p>
+        <h1>Menu Three</h1><img src="assets/icons8-ambulance-100.png" alt="">
     </div>
     <div>
-        <p>Details</p>
-        <p><i class="fa-solid fa-angle-down"></i></p>
+        <h1>Menu Four</h1><img src="assets/icons8-stack-80.png" alt="">
+    </div>
+    <div>
+        <h1>Menu Five</h1><img src="assets/icons8-cart-100%20(1).png" alt="">
     </div>
 </section>
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Case-01</title>
+    <style>
+
+        section>div{
+            position: relative;
+            width: 300px;
+            height: 50px;
+            left: -250px;
+            transition: all 1s;
+            background: #ce1dce;
+        }
+        section>div:hover{
+            left: 0;
+            transition: all 1s;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        section>div>img{
+            width: 12%;
+            right: 10px;
+            top: 0;
+            margin: auto;
+            bottom: 0;
+            position: absolute;
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <h1>Menu One</h1><img src="assets/icons8-home-50.png" alt="">
+    </div>
+    <div>
+        <h1>Menu Two</h1><img src="assets/icons8-customer-50.png" alt="">
+    </div>
+    <div>
+        <h1>Menu Three</h1><img src="assets/icons8-blog-80.png" alt="">
+    </div>
+    <div>
+        <h1>Menu Four</h1><img src="assets/icons8-contact-50.png" alt="">
+    </div>
+    <div>
+        <h1>Menu Five</h1><img src="assets/icons8-search-client-50.png" alt="">
+    </div>
+</section>
+
 </body>
 </html>
