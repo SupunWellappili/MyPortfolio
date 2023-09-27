@@ -477,14 +477,14 @@ main > section:nth-child(8) > div:nth-child(6) {
 
 main > section:nth-child(9) {
     background-color: #B9D9F6;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     justify-content: center;
 }
 
 
 main > section:nth-child(9) > article {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 100%;
     padding: 60px;
 }
@@ -1015,6 +1015,12 @@ footer > small {
 
     main > section:nth-child(6) > h2 {
         font-size: 30px;
+    }
+
+/*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
+
+    main > section:nth-child(9) > article > B {
+        margin-left: 100px;
     }
 
 
