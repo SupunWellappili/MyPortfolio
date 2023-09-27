@@ -1,0 +1,40 @@
+body {
+    background-color: #16141FD8;
+    color: white;
+}
+
+body > table {
+    background-color: #030b3b;
+}
+
+body > table > caption {
+    font-size: 40px;
+    color: #009e1a;
+    margin: 20px;
+}
+
+body > table > thead {
+    color: #93009e;
+    font-size: 23px;
+    background-color: #200833;
+    height: 80px;
+}
+
+
+body > table > tbody>tr {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body > table > tbody >tr:nth-child(5){
+    color: yellow;
+}
+body > table > tbody >tr:nth-child(10){
+    color: yellow;
+}
+
+
+
+
+
+
