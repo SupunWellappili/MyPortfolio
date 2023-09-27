@@ -1002,7 +1002,7 @@ footer > small {
 
     /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
     main > section:nth-child(11) {
-       height: 820px;
+        height: 820px;
     }
 
     main > section:nth-child(11) > h2 {
@@ -1026,23 +1026,24 @@ footer > small {
         padding: 30px;
     }
 
-    main > section:nth-child(11) >aside   {
-       width: 300px;
+    main > section:nth-child(11) > aside {
+        width: 300px;
         top: 380px;
     }
 
-    main > section:nth-child(11) >aside >form >fieldset{
+    main > section:nth-child(11) > aside > form > fieldset {
         width: 200px;
         padding: 0;
     }
 
-
-
-
-
-
-
+    /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
+    footer > small {
+        margin-left: 12px;
+        font-size: 6px;
     }
+
+}
+
 
 
 
