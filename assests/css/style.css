@@ -129,7 +129,6 @@ main > section:nth-child(1) > section > div > a > button:hover {
 }
 
 
-
 main > section:nth-child(1) > section > div:nth-child(2) > a > button {
     background-color: #bb83f1;
 }
@@ -551,12 +550,9 @@ main > section:nth-child(11) > h2 {
 main > section:nth-child(11) > img {
     margin-left: 100px;
     padding: 10px;
+    color: #e51037;
     /* background-position: center;
       background-size: cover;*/
-}
-
-main > section:nth-child(11) > img {
-    color: #111F34;
 }
 
 
@@ -607,8 +603,6 @@ footer > small {
     margin-left: 350px;
 
 }
-
-
 
 
 /*/////////////////////////////////Lap/////////////////////////////////*/
@@ -787,28 +781,20 @@ footer > small {
     }
 
     /*////////////////////////////////////////blog//////////////////////////////////////////////////*/
-
-
-
-
     /*////////////////////////////////////////contact//////////////////////////////////////////////////*/
-
-
-
-
     main > section:nth-child(11) {
         height: 950px;
 
     }
 
 
-    main > section:nth-child(11) >aside{
+    main > section:nth-child(11) > aside {
         top: 450px;
 
     }
 
 
-    footer>small{
+    footer > small {
         font-size: 11px;
         margin-left: 30px;
     }
@@ -816,21 +802,11 @@ footer > small {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*/////////////////////////////////Mobile////////////////////////////////!*/
 @media all and (min-width: 0 ) and  (max-width: 425px) {
 
     header > menu {
-        top:10px;
+        top: 10px;
         right: 8px;
     }
 
@@ -843,18 +819,15 @@ footer > small {
 
     header > img {
         top: 12px;
-        left:15px;
+        left: 15px;
         height: 40px;
     }
-
-
 
 
     main > section:nth-child(1) {
         height: 945px;
         margin-top: 70px;
     }
-
 
 
     main > section:nth-child(1) > h1 {
@@ -889,15 +862,12 @@ footer > small {
         padding: 1px;
     }
 
-/*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
-
-
-    main > section:nth-child(2){
+    /*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
+    main > section:nth-child(2) {
         height: 270px;
     }
 
     /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
-
     main > section:nth-child(3) {
         height: 280px;
     }
@@ -915,7 +885,6 @@ footer > small {
 
 
     /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
-
     main > section:nth-child(4) {
         display: flex;
         flex-direction: column;
@@ -956,13 +925,10 @@ footer > small {
     }
 
 
-
     /*///////////////////////////////////////Education & Experience///////////////////////////////////////////////////*/
-
-
     main > section:nth-child(5) {
         /*border: 3px yellow solid;*/
-       flex-direction: column;
+        flex-direction: column;
         margin: 30px;
     }
 
@@ -996,7 +962,6 @@ footer > small {
     }
 
     /*///////////////////////////////////////Service///////////////////////////////////////////////////*/
-
     main > section:nth-child(6) > section {
         height: 425px;
         display: grid;
@@ -1015,15 +980,12 @@ footer > small {
         font-size: 30px;
     }
 
-/*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
-
+    /*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
     main > section:nth-child(9) > article > B {
         margin-left: 100px;
     }
 
     /*///////////////////////////////////////blog///////////////////////////////////////////////////*/
-
-
     main > section:nth-child(10) > h2 {
         width: 250px;
         font-size: 26px;
@@ -1038,9 +1000,49 @@ footer > small {
     }
 
 
+    /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
+    main > section:nth-child(11) {
+       height: 820px;
+    }
+
+    main > section:nth-child(11) > h2 {
+        font-size: 30px;
+        margin-left: 50px;
+    }
 
 
-}
+    main > section:nth-child(11) > img {
+        margin-left: 15px;
+        /* background-position: center;
+          background-size: cover;*/
+    }
+
+    main > section:nth-child(11) > img > a {
+        font-size: 10px;
+    }
+
+    main > section:nth-child(11) > section {
+        margin: 10px;
+        padding: 30px;
+    }
+
+    main > section:nth-child(11) >aside   {
+       width: 300px;
+        top: 380px;
+    }
+
+    main > section:nth-child(11) >aside >form >fieldset{
+        width: 200px;
+        padding: 0;
+    }
+
+
+
+
+
+
+
+    }
 
 
 
