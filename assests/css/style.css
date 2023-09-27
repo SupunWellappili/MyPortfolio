@@ -980,20 +980,42 @@ footer > small {
     }
 
 
+    main > section:nth-child(5) > section > h3 {
+        font-size: 20px;
+    }
+
+
     main > section:nth-child(5) > section > h4 {
         /*position: relative;*/
-        font-size: 15px;
+        font-size: 14px;
         margin-left: 40px;
     }
 
     main > section:nth-child(5) > section > p {
         font-size: 12px;
         width: 300px;
+        margin-left: 30px;
+    }
+
+    /*///////////////////////////////////////Service///////////////////////////////////////////////////*/
+
+    main > section:nth-child(6) > section {
+        height: 425px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        padding: 40px;
+        gap: 20px;
     }
 
 
+    main > section:nth-child(6) {
+        height: 2250px;
+    }
 
-
+    main > section:nth-child(6) > h2 {
+        font-size: 30px;
+    }
 
 
 }
