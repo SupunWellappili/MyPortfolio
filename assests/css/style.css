@@ -821,6 +821,10 @@ footer > small {
 /*/////////////////////////////////Mobile////////////////////////////////!*/
 @media all and (min-width: 0 ) and  (max-width: 425px) {
 
+    header{
+        width: 410px;
+    }
+
     header > menu {
         top: 10px;
         right: 8px;
@@ -995,6 +999,24 @@ footer > small {
     main > section:nth-child(6) > h2 {
         font-size: 30px;
     }
+
+
+
+    /*///////////////////////////////////////Gallery///////////////////////////////////////////////////*/
+    main > section:nth-child(8) {
+
+        width: 370px;
+
+        /*display: flex;
+        flex-direction: column;*/
+        gap: 8px;
+
+
+    }
+
+
+
+
 
     /*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
     main > section:nth-child(9) > article > B {
