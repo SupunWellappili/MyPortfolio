@@ -128,6 +128,8 @@ main > section:nth-child(1) > section > div > a > button:hover {
     cursor: pointer;
 }
 
+/*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
+
 
 main > section:nth-child(1) > section > div:nth-child(2) > a > button {
     background-color: #bb83f1;
@@ -672,19 +674,61 @@ footer > small {
     }
 
 
+    /*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
 
+    main>section:nth-child(2){
+        height: 220px;
+    }
     main > section:nth-child(2) > h4 {
-        font-size: 20px;
+        font-size: 22px;
         margin-left: 50px;
     }
 
     main > section:nth-child(2) > h5 {
-        font-size: 15px;
+        font-size: 13px;
         margin-left: 50px;
     }
 
+    /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
+
+    main > section:nth-child(3) {
+        height: 270px;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(1) > h2 {
+        font-size: 42px;
+        width: 250px;
+        margin: 10px;
+    }
+
+
+
+    main > section:nth-child(3) > section:nth-child(2) {
+        /*border: 1px red solid;*/
+        gap: 35px;
+        width: 600px;
+        padding: 20px;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(2) > div {
+        /*border: 1px yellow solid;*/
+        font-size: 20px;
+    }
+
+
+    /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
+
+
 
 }
+
+
+
+
+
+
 
 
 
