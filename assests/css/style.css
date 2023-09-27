@@ -613,11 +613,6 @@ footer > small {
 }
 
 
-/*/////////////////////////////////Mobile////////////////////////////////!*/
-@media all and (min-width: 0 ) and  (max-width: 425px) {
-
-
-}
 
 
 /*/////////////////////////////////Lap/////////////////////////////////*/
@@ -823,6 +818,52 @@ footer > small {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////Mobile////////////////////////////////!*/
+@media all and (min-width: 0 ) and  (max-width: 425px) {
+
+
+    header > menu {
+        top:10px;
+        right: 8px;
+    }
+
+
+    header > menu > li {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+
+    header > img {
+        top: 12px;
+        left:15px;
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 
