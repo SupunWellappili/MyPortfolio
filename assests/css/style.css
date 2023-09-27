@@ -5,7 +5,7 @@
 
 
     body{
-        background-color: rgba(22, 20, 31, 0.75);
+        background-color: rgba(22, 20, 31, 0.85);
         scroll-behavior: smooth;
     }
 
@@ -273,7 +273,7 @@
     }
 
     main > section:nth-child(5) > section > h4 {
-        color: #6713bb;
+        color: #1c08d3;
     }
 
 
@@ -283,7 +283,7 @@
         font-size: 18px;
         margin-left: 20px;
         width: 650px;
-        color: rgba(42, 25, 133, 0.94);
+        color: rgba(232, 228, 238, 0.71);
     }
 
 
@@ -615,11 +615,12 @@
     }
 
 
-    /*/////////////////////////////////Mobile/////////////////////////////////*/
+    /*/////////////////////////////////Mobile////////////////////////////////!*/
     @media all and (min-width: 0 ) and  (max-width: 425px){
 
     }
-    /*////////////////////////////////Tab//////////////////////////////////*/
+        /*////////////////////////////////Tab//////////////////////////////////*/
+
 
     @media all and (min-width: 425px ) and  (max-width: 765px){
 
