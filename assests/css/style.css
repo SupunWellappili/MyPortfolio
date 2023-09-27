@@ -368,7 +368,11 @@ main > section:nth-child(7) {
 
 
 main > section:nth-child(7) > section:nth-child(2) > img {
-    border: 3px solid red;
+    /*border: 3px solid red;*/
+
+
+
+
 }
 
 main > section:nth-child(7) > section:nth-child(2) > img:hover {
@@ -418,9 +422,9 @@ main > section:nth-child(8) > div {
 main > section:nth-child(8) > div:nth-child(1) {
     grid-column: 1/4;
     grid-row: 1/5;
+    background-image: url("../my photos/2.jpg");
     background-size: cover;
     background-position: center;
-    background: url("../my photos/2.jpg");
     /*background-color: red;*/
 
 
@@ -618,6 +622,10 @@ footer > small {
 
 @media all and (min-width: 425px ) and  (max-width: 765px) {
 
+    header{
+        width: 99%;
+    }
+
 
     header > menu > li {
         display: inline-block;
@@ -776,6 +784,13 @@ footer > small {
 
     /*///////////////////////////////////////my work///////////////////////////////////////////////////*/
     /*///////////////////////////////////////gallery///////////////////////////////////////////////////*/
+    main > section:nth-child(8) {
+        width: 700px;
+        padding: 0;
+    }
+
+
+
     /*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
     main > section:nth-child(9) {
         flex-wrap: wrap;
@@ -1038,6 +1053,9 @@ footer > small {
     }
 
     /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
+
+
+
     footer > small {
         margin-left: 12px;
         font-size: 6px;

@@ -4,7 +4,7 @@ body {
 }
 
 body > table {
-    background-color: #030b3b;
+    background-color: rgba(31, 25, 25, 0.96);
 }
 
 body > table > caption {
