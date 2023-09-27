@@ -151,7 +151,7 @@ main > section:nth-child(2) > h5 {
 /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
 main > section:nth-child(3) {
     background-color: rgba(9, 70, 162, 0.74);
-    height: 170px;
+    height: 200px;
 }
 
 
@@ -161,7 +161,7 @@ main > section:nth-child(3) > section {
     right: 0;
     margin: auto;
     width: 250px;
-    padding: 5px;
+    padding: 15px;
 }
 
 
@@ -675,10 +675,10 @@ footer > small {
 
 
     /*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
-
-    main>section:nth-child(2){
+    main > section:nth-child(2) {
         height: 220px;
     }
+
     main > section:nth-child(2) > h4 {
         font-size: 22px;
         margin-left: 50px;
@@ -690,9 +690,8 @@ footer > small {
     }
 
     /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
-
     main > section:nth-child(3) {
-        height: 270px;
+        height: 200px;
     }
 
 
@@ -703,34 +702,55 @@ footer > small {
     }
 
 
-
     main > section:nth-child(3) > section:nth-child(2) {
         /*border: 1px red solid;*/
-        gap: 35px;
-        width: 600px;
-        padding: 20px;
+        width: 500px;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 
 
     main > section:nth-child(3) > section:nth-child(2) > div {
         /*border: 1px yellow solid;*/
-        font-size: 20px;
+        font-size: 18px;
+
     }
 
 
-    /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
+    /*/////////////////////////////////////// Counts///////////////////////////////////////////////////*/
+    main > section:nth-child(4) {
+        display: flex;
+        height: 600px;
+    }
 
 
+    main > section:nth-child(4) > div:nth-child(1) {
+        position:absolute;
+        margin-top: 0;
+    }
 
-}
+    main > section:nth-child(4) > div:nth-child(2){
+        margin-top: 300px;
+    }
+
+    main > section:nth-child(4) > div:nth-child(3) {
+        margin-top: 300px;
+    }
+
+    main > section:nth-child(4) > div>h3 {
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(4) > div:nth-child(1)>h3 {
+        margin-left: 300px;
+        font-size: 30px;
 
 
+    }
 
-
-
-
-
-
+    }
 
 
 
