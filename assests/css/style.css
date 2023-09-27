@@ -228,6 +228,7 @@ main > section:nth-child(4) > div > h3 {
 
 
 /*///////////////////////////////////////Education & Experience///////////////////////////////////////////////////*/
+
 main > section:nth-child(5) {
     /*border: 3px yellow solid;*/
     display: flex;
@@ -287,6 +288,7 @@ main > section:nth-child(5) > section > p {
 
 
 /*///////////////////////////////////////Service///////////////////////////////////////////////////*/
+
 main > section:nth-child(6) {
     background-color: rgba(0, 158, 26, 0.04);
     height: 820px;
@@ -305,10 +307,14 @@ main > section:nth-child(6) > h2 {
 main > section:nth-child(6) > section {
     height: 425px;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
     padding: 40px;
     gap: 20px;
+}
+
+main > section:nth-child(6) > section > section > img {
+    margin-left: 110px;
 }
 
 
@@ -726,11 +732,11 @@ footer > small {
 
 
     main > section:nth-child(4) > div:nth-child(1) {
-        position:absolute;
+        position: absolute;
         margin-top: 0;
     }
 
-    main > section:nth-child(4) > div:nth-child(2){
+    main > section:nth-child(4) > div:nth-child(2) {
         margin-top: 300px;
     }
 
@@ -738,20 +744,18 @@ footer > small {
         margin-top: 300px;
     }
 
-    main > section:nth-child(4) > div>h3 {
+    main > section:nth-child(4) > div > h3 {
         margin-left: 100px;
         font-size: 30px;
     }
 
-    main > section:nth-child(4) > div:nth-child(1)>h3 {
+    main > section:nth-child(4) > div:nth-child(1) > h3 {
         margin-left: 300px;
         font-size: 30px;
     }
 
 
-/*///////////////////////////////////////Education & experience///////////////////////////////////////////////////*/
-
-
+    /*///////////////////////////////////////Education & experience///////////////////////////////////////////////////*/
     main > section:nth-child(5) {
         /*border: 3px yellow solid;*/
         flex-direction: column;
@@ -767,13 +771,23 @@ footer > small {
 
     main > section:nth-child(5) > section > p {
         margin: 5px;
-
     }
 
 
+    /*///////////////////////////////////////Service///////////////////////////////////////////////////*/
+    main > section:nth-child(6) {
+        height: 1250px;
+    }
 
 
+    main > section:nth-child(6) > section {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    main > section:nth-child(6) > section > section > img {
+        margin-left: 80px;
+    }
 }
 
 
