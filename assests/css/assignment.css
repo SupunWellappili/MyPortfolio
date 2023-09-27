@@ -26,10 +26,10 @@ body > table > tbody>tr {
     text-decoration: none;
 }
 
-body > table > tbody >tr:nth-child(5){
+body > table > tbody >tr:nth-child(7){
     color: yellow;
 }
-body > table > tbody >tr:nth-child(10){
+body > table > tbody >tr:nth-child(12){
     color: yellow;
 }
 
