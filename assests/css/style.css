@@ -833,7 +833,6 @@ footer > small {
 /*/////////////////////////////////Mobile////////////////////////////////!*/
 @media all and (min-width: 0 ) and  (max-width: 425px) {
 
-
     header > menu {
         top:10px;
         right: 8px;
@@ -851,6 +850,50 @@ footer > small {
         left:15px;
         height: 40px;
     }
+
+
+
+
+    main > section:nth-child(1) {
+        height: 945px;
+        margin-top: 70px;
+    }
+
+
+
+    main > section:nth-child(1) > h1 {
+        top: 50px;
+        margin-left: 80px;
+        font-size: 45px;
+    }
+
+    main > section:nth-child(1) > dd {
+        top: 30px;
+        margin-left: 100px;
+        font-size: 22px;
+    }
+
+
+    main > section:nth-child(1) > aside > img {
+        top: 600px;
+    }
+
+    main > section:nth-child(1) > section {
+        /*border: 1px solid red;*/
+        flex-direction: column;
+        top: 50px;
+        margin-left: 100px;
+    }
+
+
+    main > section:nth-child(1) > section > div {
+        /*border: 1px solid blue;*/
+        font-size: 25px;
+        margin: 5px;
+        padding: 1px;
+    }
+
+
 
 
 
