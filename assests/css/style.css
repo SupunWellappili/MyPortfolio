@@ -520,8 +520,6 @@ main > section:nth-child(10) > section {
     /*border: 1px solid green;*/
     gap: 30px;
     margin: 20px;
-
-
 }
 
 main > section:nth-child(10) > section > article {
@@ -1022,6 +1020,24 @@ footer > small {
     main > section:nth-child(9) > article > B {
         margin-left: 100px;
     }
+
+    /*///////////////////////////////////////blog///////////////////////////////////////////////////*/
+
+
+    main > section:nth-child(10) > h2 {
+        width: 250px;
+        font-size: 26px;
+    }
+
+    main > section:nth-child(10) > section {
+        /*border: 1px solid green;*/
+        flex-direction: column;
+        gap: 4px;
+        margin: 60px;
+
+    }
+
+
 
 
 }
