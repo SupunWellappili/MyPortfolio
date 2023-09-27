@@ -193,8 +193,8 @@ main > section:nth-child(3) > section:nth-child(2) > div {
 main > section:nth-child(4) {
     background: linear-gradient(white, darkblue);
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /*grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);*/
     /*border: 1px solid red;*/
 }
 
@@ -266,12 +266,10 @@ main > section:nth-child(5) > section > h4 {
 main > section:nth-child(5) > section > h3 {
     font-size: 30px;
     margin-left: 60px;
-}
-
-
-main > section:nth-child(5) > section > h3 {
     color: #030b3b;
+
 }
+
 
 main > section:nth-child(5) > section > h4 {
     color: #1c08d3;
@@ -918,10 +916,80 @@ footer > small {
     }
 
 
+    /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
+
+    main > section:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+        /*grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);*/
+        border: 1px solid red;
+        height: 900px;
+    }
+
+    main > section:nth-child(4) > div {
+        border: #009e1a solid 5px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main > section:nth-child(4) > div > h1 {
+        width: 100px;
+        font-size: 100px;
+        border: 1px solid pink;
+
+
+    }
+
+    main > section:nth-child(4) > div > h2 {
+        font-size: 20px;
+
+    }
+
+
+    main > section:nth-child(4) > div > h3 {
+        font-size: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 500px;
+        border: 6px solid blue;
+    }
 
 
 
+    /*///////////////////////////////////////Education & Experience///////////////////////////////////////////////////*/
 
+
+    main > section:nth-child(5) {
+        /*border: 3px yellow solid;*/
+       flex-direction: column;
+        margin: 30px;
+    }
+
+    main > section:nth-child(5) > section {
+        /*border: 2px red solid;*/
+        width: 350px;
+    }
+
+    main > section:nth-child(5) > section > h2 {
+        font-size: 30px;
+        width: 250px;
+        padding: 20px;
+    }
+
+
+    main > section:nth-child(5) > section > h4 {
+        /*position: relative;*/
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    main > section:nth-child(5) > section > p {
+        font-size: 12px;
+        width: 300px;
+    }
 
 
 
