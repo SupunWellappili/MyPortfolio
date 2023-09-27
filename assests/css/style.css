@@ -746,11 +746,35 @@ footer > small {
     main > section:nth-child(4) > div:nth-child(1)>h3 {
         margin-left: 300px;
         font-size: 30px;
+    }
 
+
+/*///////////////////////////////////////Education & experience///////////////////////////////////////////////////*/
+
+
+    main > section:nth-child(5) {
+        /*border: 3px yellow solid;*/
+        flex-direction: column;
 
     }
 
+
+    main > section:nth-child(5) > section {
+        /*border: 2px red solid;*/
+        width: 650px;
     }
+
+
+    main > section:nth-child(5) > section > p {
+        margin: 5px;
+
+    }
+
+
+
+
+
+}
 
 
 
