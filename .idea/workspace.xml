@@ -7,7 +7,8 @@
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/CSS-Framework/POS/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS-Framework/POS/customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS-Framework/POS/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS-Framework/POS/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS-Framework/POS/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS-Framework/POS/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS-Framework/POS/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS-Framework/POS/order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +150,7 @@
       <workItem from="1695380552715" duration="129029000" />
       <workItem from="1695721857077" duration="83040000" />
       <workItem from="1695871225391" duration="1857000" />
-      <workItem from="1696214227104" duration="15991000" />
+      <workItem from="1696214227104" duration="17877000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
