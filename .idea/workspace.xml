@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/JS/SPA/pages/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/SPA/pages/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/SPA/pages/manage_customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/SPA/pages/manage_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/SPA/pages/place_order.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +151,7 @@
       <workItem from="1695380552715" duration="129029000" />
       <workItem from="1695721857077" duration="83040000" />
       <workItem from="1695871225391" duration="1857000" />
-      <workItem from="1696214227104" duration="3670000" />
+      <workItem from="1696214227104" duration="6670000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
