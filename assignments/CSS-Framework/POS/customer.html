@@ -3,50 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Customer-Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assests/normalize.css">
 
 </head>
 <body>
 
 <!--nav-->
-<nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="assets/image/kade%20pic.jpg" alt="Logo" width="80" height="50"
-                 class="d-inline-block align-text-top">
-        </a>
+<header>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/image/kade%20pic.jpg" alt="Logo" width="80" height="50"
+                     class="d-inline-block align-text-top">
+            </a>
 
 
+            <!--tab-->
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item</a>
+                </li>
+            </ul>
 
-<!--tab-->
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Customer</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Order</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Item</a>
-            </li>
+            <!--sign & Register-->
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-        </ul>
+<!--customer Form-->
+<main>
+    <div class="row justify-content-around" style="height: max-content; padding-top: 40px; margin-right: 0">
+        <div class="col-10 col-md-5 col-lg-5 p-0" style="background-color: azure">
+            <h4 class="text-center bg-success p-2 text-light"> Customer</h4>
+            <form>
+                <div class="mb-3 ms-3 me-3">
+                    <input class="form-control" id="custId" placeholder="Input ID :" type="text">
+                </div>
+
+                <div class="mb-3 ms-3 me-3">
+                    <input class="form-control" id="custName" placeholder="Input Name :" type="text">
+                </div>
+
+                <div class="mb-3 ms-3 me-3">
+                    <input class="form-control" id="custAddress" placeholder="Input Address :" type="text">
+                </div>
 
 
-        <!--sign & Register-->
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
-        </ul>
+                <div class="mb-3 ms-3 me-3">
+                    <input class="form-control" id="custSalary" placeholder="Input Salary :" type="text">
+                </div>
+
+                <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search</button>
+                <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update</button>
+                <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete</button>
+                <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Customer</button>
+            </form>
+        </div>
     </div>
-</nav>
-
+</main>
 
 
 <!--table-->
@@ -74,13 +106,12 @@
     </tr>
     <tr>
         <th scope="row">C003</th>
-        <td >Kashmira</td>
+        <td>Kashmira</td>
         <td>Kegalla</td>
         <td>10000</td>
     </tr>
     </tbody>
 </table>
-
 
 
 </body>
