@@ -84,6 +84,14 @@
 
     document.querySelectorAll('h1');
 
+    let interval;
+
+    interval=setInterval(function (){
+        for (i in array){
+            h1[i].textContent = array[i];
+        }
+    })
+
 
 </script>
 
