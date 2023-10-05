@@ -45,12 +45,11 @@
             right: 0%;
         }
 
-        #btn{
+        #btn {
             position: absolute;
             margin-top: 550px;
             margin-right: 700px;
         }
-
 
 
     </style>
@@ -84,13 +83,17 @@
 
     document.querySelectorAll('h1');
 
+
     let interval;
 
-    interval=setInterval(function (){
-        for (i in array){
+    interval = setInterval(function () {
+        for (i in array) {
             h1[i].textContent = array[i];
         }
-    })
+        array.unshift(array[5]);
+        array.pop();
+    }, 1500);
+
 
 
 </script>
