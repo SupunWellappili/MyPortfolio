@@ -78,26 +78,38 @@
 
 <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 
+
 <script>
-    const array = new array['A', 'B', 'C', 'D', 'E', 'F'];
 
-    document.querySelectorAll('h1');
-
-
+    const Arr = new Array('A', 'B', 'C', 'D', 'E', 'F');
+    const h1 = document.querySelectorAll('h1');
+    const stratbtn = document.querySelector('#startbtn');
+    const stopbtn = document.querySelector('#stopbtn');
     let interval;
 
-    interval = setInterval(function () {
-        for (i in array) {
-            h1[i].textContent = array[i];
-        }
-        array.unshift(array[5]);
-        array.pop();
-    }, 1500);
 
+    stratbtn.addEventListener('click', function () {
+        stratdes();
+    });
+
+    stopbtn.addEventListener('click', function () {
+        clearInterval(interval);
+    });
+
+    function stratdes() {
+        clearInterval(interval);
+        interval = setInterval(function () {
+            for (i in Arr) {
+                h1[i].textContent = Arr[i];
+            }
+
+            Arr.unshift(Arr[5]);
+            Arr.pop();
+        }, 1500);
+    }
 
 
 </script>
-
 
 </body>
 </html>
