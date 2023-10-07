@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Knight Rider</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+
     <style>
         body {
             background-color: black;
@@ -139,6 +141,69 @@
     var count = 0;
 
     var v = document.getElementById("prog").value;
+
+
+
+    $('#btnSpeed').click(function (){
+        clearInterval(interval)
+        count=0;
+        v=document.getElementById("prog").value+100;
+        document.getElementById("prog").value=v;
+        lights();
+
+    });
+
+    $('#btnSlow').click(function (){
+        clearInterval(interval);
+        v=document.getElementById("prog").value-100;
+        document.getElementById("prog").value=v;
+        count=0;
+        lights();
+
+    });
+
+
+    $("#btnStart").click(function () {
+        clearInterval(interval);
+        count=0;
+        document.getElementById("bgMusic").play();
+
+        lights();
+
+    });
+
+
+    $("#btnStop").click(function () {
+        document.getElementById("bgMusic").pause();
+
+        clearInterval(interval);
+        count=0;
+        clearInterval(interval);
+        //clearInterval(insideInter);
+
+    });
+
+    function lights() {
+        if(count<1){
+            interval=setInterval(function (){
+                for (var i = 0; i < boxes.length; i++) {
+                    boxes[i].style.backgroundColor=colors[i];
+
+                }
+
+                colors.unshift(colors[6]);
+                //colors.pop();
+                count++;
+                if (count==7){
+                    boxes.reverse()
+                    count=0;
+                    // clearInterval(interval);
+                }
+            },v);
+
+        }
+    }
+
 
 </script>
 
