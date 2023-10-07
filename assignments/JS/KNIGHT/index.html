@@ -5,14 +5,98 @@
     <title>Knight Rider</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <style>
+        body {
+            background-color: black;
+        }
 
+        section {
+            width: 1200px;
+            height: 320px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        section > div {
+            height: 50px;
+            flex-grow: 1;
+            /*//border: 1px solid white;*/
+            border-radius: 20px;
+            background-color: white;
+        }
+
+        section>div:last-child{
+         position: absolute;
+         justify-self: end;
+         align-self: end;
+         right: 0;
+         left: 0;
+         margin: auto;
+         align-items: center;
+         justify-items: center;
+         border: none;
+         background-color: black;
+        }
+
+
+        section>button{
+         position: absolute;
+         justify-self: center;
+         align-self: end;
+        }
+        section>button:nth-child(9){
+         position: absolute;
+         justify-self: end;
+         align-self: end;
+        }
+
+        section:nth-child(2) {
+            z-index: 3;
+        }
+
+        section:nth-child(2) > button {
+            align-self: end;
+            height: 30px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            box-shadow: 0px 0px 2px 2px white;
+        }
+
+        section:nth-child(2) > button:nth-child(1) {
+            margin-left: 450px;
+        }
+
+        section:nth-child(3) {
+            height: 700px;
+            z-index: 0;
+        }
+
+        section:nth-child(3) > progress {
+            width: 1000px;
+            align-self: end;
+            margin-left: 100px;
+        }
+
+        section:nth-child(3) > button {
+            align-self: end;
+            width: 30px;
+        }
     </style>
 </head>
 <body>
 
 
 <section>
-    <audio id="bgMusic" loop> <source src="assets/KR%20songs.mp3"></audio>
+    <audio id="bgMusic" loop>
+        <source src="assets/KR%20songs.mp3">
+    </audio>
 
     <div id="b1"></div>
     <div id="b2"></div>
@@ -31,15 +115,9 @@
 
 <section>
     <progress id="prog" value="200" max="1000"></progress>
-    <button id ="btnSlow">+</button>
+    <button id="btnSlow">+</button>
     <button id="btnSpeed">-</button>
 </section>
-
-
-
-
-
-
 
 
 <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
