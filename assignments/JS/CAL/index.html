@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <style>
-        *body{
+        * body {
 
         }
 
-        input[type=button]{
+
+        input[type=button] {
             border-radius: 100%;
-            width:50px;
+            width: 50px;
             height: 50px;
             color: #50fc0f;
             font-size: 20px;
@@ -18,11 +19,10 @@
         }
 
 
-        .cal-display{
+        .cal-display {
             width: 250px;
             height: 50px;
             border-radius: 10%;
-
         }
 
 
@@ -30,8 +30,8 @@
 </head>
 <body>
 
-<div>
-    <form>
+<div class="calc">
+    <form name="form">
         <input class="cal-display">
     </form>
     <table>
@@ -66,12 +66,36 @@
             <td rowspan="2"><input type="button" value="=" onclick="eql()" style="height: 150px; background-color: #8a5c16"></td>
         </tr>
 
-        <td colspan="2"><input type="button" value="0" onclick="insrt(0)" style="width: 150px;"></td>
-        <td><input type="button" value="." onclick="insrt('.')"></td>
+
+        <tr>
+            <td colspan="2"><input type="button" value="0" onclick="insrt(0)" style="width: 150px;"></td>
+            <td><input type="button" value="." onclick="insrt('.')"></td>
+        </tr>
     </table>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+    function insrt(num) {
+        $('.cal-display').val($('.cal-display').val() + num);
+    }
+
+    function c() {
+        $('.cal-display').val('');
+    }
+
+    function eql() {
+        $('.cal-display').val(eval($('.cal-display').val()));
+    }
+
+    function del() {
+        value = $('.cal-display').val();
+        $('calc-display').val(value.substring(0, value.length - 1));
+    }
+
+
+</script>
 </body>
 </html>
 
