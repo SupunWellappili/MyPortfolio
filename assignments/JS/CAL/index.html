@@ -5,7 +5,26 @@
     <title>Calculator</title>
     <style>
         * body {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            /*padding: 0;*/
+            margin: auto;
+            /*width: 400px;*/
+            /*height: 400px;*/
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
 
+
+        .calc{
+            width: 270px;
+            background-color: rgba(52, 39, 19, 0.51);
+            padding: 20px;
+            border-radius: 10%;
+            border: solid black 2px;
         }
 
 
@@ -23,6 +42,8 @@
             width: 250px;
             height: 50px;
             border-radius: 10%;
+            background-color: #009e1a;
+            font-size: 30px;
         }
 
 
@@ -39,7 +60,7 @@
             <td><input type="button" value="C" onclick="c()"></td>
             <td><input type="button" value="/" onclick="insrt('/')"></td>
             <td><input type="button" value="<" onclick="del()"></td>
-            <td><input type="button" value="X" onclick="insrt('*')"></td>
+            <td><input type="button" value="x" onclick="insrt('*')"></td>
         </tr>
 
 
@@ -63,7 +84,7 @@
             <td><input type="button" value="1" onclick="insrt(1)"></td>
             <td><input type="button" value="2" onclick="insrt(2)"></td>
             <td><input type="button" value="3" onclick="insrt(3)"></td>
-            <td rowspan="2"><input type="button" value="=" onclick="eql()" style="height: 150px; background-color: #8a5c16"></td>
+            <td rowspan="2"><input type="button" value="=" onclick="eql()" style="height: 120px; background-color: rgba(229,19,107,0.5)"></td>
         </tr>
 
 
