@@ -46,15 +46,19 @@
                     <h3 class="position-absolute start-50 translate-middle fs-4 text-primary " style="top: 320px;">
                         Customer</h3>
                 </section>
+
+
                 <section class="w-25 position-relative rounded-4" style="background-color: rgb(255,255,255)">
-                    <a id="home-item" class="nav-link active" aria-current="page" href="item.html">
+                    <a id="home-item" class="nav-link active" aria-current="page" href="#">
                         <img class="pic position-absolute top-50 start-50 translate-middle" width="220px"
                              src="assets/image/item.png" alt="This is Item"></a>
-                    <h3 class="position-absolute start-50 translate-middle fs-4 text-primary " style="top: 320px;">
+                    <h3 class="position-absolute start-50 translate-middle fs-4 text-primary" style="top: 320px;">
                         Item</h3>
                 </section>
+
+
                 <section class="w-25  position-relative rounded-4" style="background-color: rgb(255,255,255)">
-                    <a id="home-order" class="nav-link active" aria-current="page" href="order.html">
+                    <a id="home-order" class="nav-link active" aria-current="page" href="#">
                         <img class="pic position-absolute top-50 start-50 translate-middle" width="250px"
                              src="assets/image/order.png" alt="This is Order"></a>
                     <h3 class="position-absolute start-50 translate-middle fs-4 text-primary" style="top: 320px;">
@@ -107,7 +111,6 @@
                     <h4 class="text-center bg-success p-2 text-light"> Customer</h4>
 
                     <form>
-
                         <div class="mb-3 ms-3 me-3">
                             <input class="form-control" id="custId" placeholder="Input ID :" type="text">
                         </div>
@@ -451,13 +454,18 @@
 
     // const btnHomeElements = document.querySelectorAll(".home-nav");
 
-
-
     homeCus.addEventListener("click",function (){
         cusPage.style.display='block';
         homePage.style.display='none';
         itemPage.style.display='none';
         orderPage.style.display='none';
+    });
+
+    homeItem.addEventListener("click",function (){
+        itemPage.style.display = 'block';
+        cusPage.style.display='none';
+        orderPage.style.display='none';
+        homePage.style.display='none';
     });
 
 </script>
