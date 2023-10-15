@@ -33,7 +33,7 @@
 -->
 
 
-<!--cus nav-->
+<!-- navigation bar-->
 <section id=nav-bar class="pages-nav">
     <header>
         <nav class="navbar bg-body-tertiary">
@@ -46,16 +46,16 @@
 
                 <!--tab-->
                 <ul class="nav justify-content-center">
-                    <li class="nav-item">
+                    <li class="nav-Home">
                         <a id="page-home" class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-cus">
                         <a id="page-cus" class="nav-link" href="#">Customer</a>
                     </li>
                     <li class="nav-item">
                         <a id="page-item" class="nav-link" href="#">Item</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-order">
                         <a id="page-order" class="nav-link" href="#">Order</a>
                     </li>
                 </ul>
@@ -95,7 +95,7 @@
 
 
 <!--customer page-->
-<section id="cus-page">
+<section id="customer-page">
     <main>
         <div class="row justify-content-around" style="height: max-content; padding-top: 40px; margin-right: 0">
             <div class="col-10 col-md-5 col-lg-5 p-0" style="background-color: azure">
@@ -415,16 +415,22 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script>
 
+    let navBar = document.querySelector("#nav-bar");
+
     let homePage = document.querySelector("#home-page");
     let cusPage = document.querySelector("#customer-page");
     let itemPage = document.querySelector("#item-page");
     let orderPage = document.querySelector("#order-page");
 
+    let navHome = document.querySelector("#nav-Home");
+    let navCus = document.querySelector("#nav-cus");
+    let navItem = document.querySelector("#nav-item");
+    let navOrder = document.querySelector("#nav-order");
+
+
     let homeCus = document.querySelector("#home-cus");
     let homeItem = document.querySelector("#home-item");
     let homeOrder = document.querySelector("#home-order");
-
-    let pagesNav = document.querySelector(".nav justify-content-center");
 
 
     homePage.style.display = 'block';
