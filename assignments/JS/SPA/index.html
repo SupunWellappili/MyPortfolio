@@ -47,16 +47,16 @@
                 <!--tab-->
                 <ul class="nav justify-content-center">
                     <li class="nav-Home">
-                        <a id="page-home" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="nav-home" class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-cus">
-                        <a id="page-cus" class="nav-link" href="#">Customer</a>
+                        <a id="nav-cus" class="nav-link" href="#">Customer</a>
                     </li>
                     <li class="nav-item">
-                        <a id="page-item" class="nav-link" href="#">Item</a>
+                        <a id="nav-item" class="nav-link" href="#">Item</a>
                     </li>
                     <li class="nav-order">
-                        <a id="page-order" class="nav-link" href="#">Order</a>
+                        <a id="nav-order" class="nav-link" href="#">Order</a>
                     </li>
                 </ul>
             </div>
@@ -422,7 +422,7 @@
     let itemPage = document.querySelector("#item-page");
     let orderPage = document.querySelector("#order-page");
 
-    let navHome = document.querySelector("#nav-Home");
+    let navHome = document.querySelector("#nav-home");
     let navCus = document.querySelector("#nav-cus");
     let navItem = document.querySelector("#nav-item");
     let navOrder = document.querySelector("#nav-order");
@@ -433,15 +433,15 @@
     let homeOrder = document.querySelector("#home-order");
 
 
+    navBar.style.display ='block';
     homePage.style.display = 'block';
     cusPage.style.display = 'none';
     itemPage.style.display = 'none';
     orderPage.style.display = 'none';
 
 
-    // const btnHomeElements = document.querySelectorAll(".home-nav");
-
     homeCus.addEventListener("click", function () {
+        navBar.style.display ='block';
         cusPage.style.display = 'block';
         homePage.style.display = 'none';
         itemPage.style.display = 'none';
@@ -450,6 +450,7 @@
 
 
     homeItem.addEventListener("click", function () {
+        navBar.style.display ='block';
         itemPage.style.display = 'block';
         cusPage.style.display = 'none';
         orderPage.style.display = 'none';
@@ -458,10 +459,19 @@
 
 
     homeOrder.addEventListener("click", function () {
+        navBar.style.display ='block';
         orderPage.style.display = 'block';
         cusPage.style.display = 'none';
         itemPage.style.display = 'none';
         homePage.style.display = 'none';
+    });
+
+    navCus.addEventListener("click",function (){
+        navBar.style.display='block';
+        cusPage.style.display='block';
+        homePage.style.display='none';
+        itemPage.style.display='none';
+        orderPage.style.display ='none';
     });
 
 
