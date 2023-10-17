@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>In-Memory-POS</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8">
+    <title>In-Memory-POS</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/pages/home.css">
+
+
+
+
+</head>
+
+<body>
 
 <!-- navigation bar-->
 <section id=nav-bar class="pages-nav">
@@ -18,7 +25,6 @@
                          class="d-inline-block align-text-top">ThogaKade POS System
                 </a>
 
-t
                 <!--tab-->
                 <ul class="nav justify-content-center">
                     <li class="nav-Home">
@@ -401,5 +407,92 @@ t
 <script src="controllers/validation/CustomerController.js"></script>
 <script src="controllers/validation/ItemController.js"></script>
 <script src="controllers/validation/PurchaseOrderController.js"></script>
+<script>
+
+    let navBar = document.querySelector("#nav-bar");
+
+    let homePage = document.querySelector("#home-page");
+    let cusPage = document.querySelector("#customer-page");
+    let itemPage = document.querySelector("#item-page");
+    let orderPage = document.querySelector("#order-page");
+
+    let navHome = document.querySelector("#nav-home");
+    let navCus = document.querySelector("#nav-cus");
+    let navItem = document.querySelector("#nav-item");
+    let navOrder = document.querySelector("#nav-order");
+
+
+    let homeCus = document.querySelector("#home-cus");
+    let homeItem = document.querySelector("#home-item");
+    let homeOrder = document.querySelector("#home-order");
+
+
+    navBar.style.display = 'block';
+    homePage.style.display = 'block';
+    cusPage.style.display = 'none';
+    itemPage.style.display = 'none';
+    orderPage.style.display = 'none';
+
+
+    homeCus.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        cusPage.style.display = 'block';
+        homePage.style.display = 'none';
+        itemPage.style.display = 'none';
+        orderPage.style.display = 'none';
+    });
+
+
+    homeItem.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        itemPage.style.display = 'block';
+        cusPage.style.display = 'none';
+        orderPage.style.display = 'none';
+        homePage.style.display = 'none';
+    });
+
+
+    homeOrder.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        orderPage.style.display = 'block';
+        cusPage.style.display = 'none';
+        itemPage.style.display = 'none';
+        homePage.style.display = 'none';
+    });
+
+
+    navHome.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        homePage.style.display = 'block';
+        cusPage.style.display = 'none';
+        itemPage.style.display = 'none';
+        orderPage.style.display = 'none';
+    });
+
+
+    navCus.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        cusPage.style.display = 'block';
+        homePage.style.display = 'none';
+        itemPage.style.display = 'none';
+        orderPage.style.display = 'none';
+    });
+
+    navItem.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        itemPage.style.display = 'block';
+        cusPage.style.display = 'none';
+        homePage.style.display = 'none';
+        orderPage.style.display = 'none';
+    });
+
+    navOrder.addEventListener("click", function () {
+        navBar.style.display = 'block';
+        orderPage.style.display = 'block';
+        itemPage.style.display = 'none';
+        cusPage.style.display = 'none';
+        homePage.style.display = 'none';
+    });
+</script>
 </body>
 </html>
