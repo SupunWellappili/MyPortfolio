@@ -30,11 +30,17 @@ $('#btnSave').click(function () {
             $('#tblCustomer').append(row);
         }
     }
-
-
     getAllCustomer();
 
+
+    $('#tblCustomer>tr').on('dblclick', function () {
+        //this.remove();
+        $(this).remove();
+    });
+
 });
+
+
 
 
 
