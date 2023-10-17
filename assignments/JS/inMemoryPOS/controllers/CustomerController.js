@@ -32,6 +32,7 @@ $('#btnSave').click(function () {
     }
     getAllCustomer();
 
+//////////////////////////////////Row data Remove///////////////////////////////////////////
 
     $('#tblCustomer>tr').on('dblclick', function () {
         //this.remove();
@@ -39,6 +40,41 @@ $('#btnSave').click(function () {
     });
 
 });
+
+///////////////////////////////////Search controller////////////////////////////////////////////////
+
+$('#custId').on('keydown', function (event) {
+    if (event.code == "Enter") {
+        let typedId = $('#custId').val();
+        let customer = searchCustomer(typedId);
+        if (customer != null) {
+            setTextFiledValues(customer.id, customer.name, customer.address, customer.salary)
+        } else {
+            alert("There id no Customer available for that " + typedId);
+            setTextFiledValues("", " ", "", "")
+        }
+    }
+});
+
+function setTextFiledValues(id, name, address, salary) {
+    $('#custId').val(id);
+    $('#custName').val(name);
+    $('#custAddress').val(address);
+    $('#custSalary').val(salary);
+};
+
+
+function searchCustomer(custId) {
+    for (let customer of customers) {
+        if (customer.id == custId) {
+            return customer;
+        }
+    }
+    return null;
+};
+
+
+
 
 
 
