@@ -32,6 +32,12 @@ $('#btnSave').click(function () {
     }
     getAllCustomer();
 
+    $('#custId,#custName,#custAddress,#custSalary').on('keydown', function (event) {
+        if (event.key == "Tab") {
+            event.preventDefault();
+        }
+    })
+
 //////////////////////////////////Row data Remove///////////////////////////////////////////
 
     $('#tblCustomer>tr').on('dblclick', function () {
@@ -72,8 +78,6 @@ function searchCustomer(custId) {
     }
     return null;
 };
-
-
 
 
 
