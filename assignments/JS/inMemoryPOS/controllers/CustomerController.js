@@ -23,7 +23,7 @@ $('#btnSave').click(function () {
 //////////////////////////////////Customer Table///////////////////////////////////////////
 
     function getAllCustomer() {
-
+        $('#tblCustomer').empty();
         for (var i of customers) {
             var row = `<tr><td>${i.id}</td><td>${i.name} </td><td>${i.address}</td><td> ${i.salary}</td></tr>`;
 
