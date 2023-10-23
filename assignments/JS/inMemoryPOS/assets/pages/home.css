@@ -13,7 +13,6 @@
 /*//////////////////////////////////////////////////////////////////////////////*/
 
 
-
 h1 {
     font-size: 100px;
     color: white;
@@ -41,12 +40,14 @@ body > div > div {
     right: 0;
     margin: auto;
     /*border: 5px white solid;*/
-    background-image: url("assignments/JS/inMemoryPOS/assets/img/animated-monkey-image-0286.gif");
+    background: url("https://media.tenor.com/28DFFVtvNqYAAAAC/loading.gif");
     /*background-color: red;*/
     background-size: cover;
     background-position: center;
+
 }
 
 body > header {
     position: relative;
 }
+
