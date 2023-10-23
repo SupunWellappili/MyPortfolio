@@ -17,6 +17,9 @@ $('#btnSave').click(function () {
     }
 
     customers.push(customerObject);
+    getAllCustomer();
+    bindRowClickEvents();
+
 
 
 
@@ -30,7 +33,6 @@ $('#btnSave').click(function () {
             $('#tblCustomer').append(row);
         }
     }
-    getAllCustomer();
 
     $('#custId,#custName,#custAddress,#custSalary').on('keydown', function (event) {
         if (event.key == "Tab") {
@@ -38,14 +40,48 @@ $('#btnSave').click(function () {
         }
     })
 
-//////////////////////////////////Row data Remove///////////////////////////////////////////
+
+
+
+
+    //////////////////////////////////Row data Remove///////////////////////////////////////////
 
     $('#tblCustomer>tr').on('dblclick', function () {
         //this.remove();
         $(this).remove();
-    });
+    })
 
+
+    //////////////////////////////////table Row On click ///////////////////////////////////////////
+
+    function bindRowClickEvents() {
+        $('#tblCustomer>tr').click(function () {
+          let id = $(this).children().eq(0).text();
+            let name = $(this).children().eq(1).text();
+            let address = $(this).children().eq(2).text();
+            let salary = $(this).children().eq(3).text();
+
+
+            $('#custId').val(id);
+            $('#custName').val(name);
+            $('#custAddress').val(address);
+            $('#custSalary').val(salary);
+
+        })
+
+    }
 });
+
+
+
+
+
+
+
+
+
+
+
 
 ///////////////////////////////////Search controller////////////////////////////////////////////////
 
@@ -62,7 +98,7 @@ $('#custId').on('keydown', function (event) {
     }
 });
 
-function setTextFiledValues(id, name, address, salary) {
+function setTextFiledValues(id, name, address, salary){
     $('#custId').val(id);
     $('#custName').val(name);
     $('#custAddress').val(address);

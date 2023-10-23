@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <title>In-Memory-POS</title>
     <meta name="viewport" content="width=device-width initial-scale=1">
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/pages/home.css">
+    <link rel="stylesheet" href="../../../assests/normalize.css">
 </head>
 
 <body>
+<div id="loader">
+    <div></div>
+</div>
 
 <!-- navigation bar-->
 <section id=nav-bar class="pages-nav">
@@ -395,8 +398,8 @@
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="controllers/CustomerController.js"></script>
 <script src="controllers/DashboardController.js"></script>
+<script src="controllers/CustomerController.js"></script>
 <script src="controllers/ItemController.js"></script>
 <script src="controllers/PurchaseOrderController.js"></script>
 <script src="model/Customer.js"></script>

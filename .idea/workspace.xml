@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit" />
+    <list default="true" id="25e73017-b016-4194-a570-6e5449c3a9d8" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets/pages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets/pages/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/controllers/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/controllers/CustomerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/controllers/DashboardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/controllers/DashboardController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/inMemoryPOS/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +46,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/JS/SPA/assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/JS/inMemoryPOS/assets/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -61,9 +67,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets/img" />
       <recent name="$PROJECT_DIR$/assignments/JS/SPA/assets" />
       <recent name="$PROJECT_DIR$/assignments/CSS-Framework/POS/assets" />
-      <recent name="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets/img" />
       <recent name="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets" />
       <recent name="$PROJECT_DIR$/assignments/JS/CAL/assets" />
     </key>
@@ -159,6 +165,9 @@
       <workItem from="1697122829010" duration="754000" />
       <workItem from="1697212025083" duration="11862000" />
       <workItem from="1697265934942" duration="32841000" />
+      <workItem from="1697468019060" duration="29454000" />
+      <workItem from="1697677792192" duration="12462000" />
+      <workItem from="1698034332266" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
