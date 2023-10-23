@@ -1,5 +1,4 @@
-
-var customers= [];// Create a Array in global Scope
+var customers = [];// Create a Array in global Scope
 var customerObject;
 
 $('#btnSave').click(function () {
@@ -19,8 +18,7 @@ $('#btnSave').click(function () {
     customers.push(customerObject);
     getAllCustomer();
     bindRowClickEvents();
-
-
+    getSearchCustomer();
 
 
 //////////////////////////////////Customer Table///////////////////////////////////////////
@@ -41,9 +39,6 @@ $('#btnSave').click(function () {
     })
 
 
-
-
-
     //////////////////////////////////Row data Remove///////////////////////////////////////////
 
     $('#tblCustomer>tr').on('dblclick', function () {
@@ -56,7 +51,7 @@ $('#btnSave').click(function () {
 
     function bindRowClickEvents() {
         $('#tblCustomer>tr').click(function () {
-          let id = $(this).children().eq(0).text();
+            let id = $(this).children().eq(0).text();
             let name = $(this).children().eq(1).text();
             let address = $(this).children().eq(2).text();
             let salary = $(this).children().eq(3).text();
@@ -73,32 +68,33 @@ $('#btnSave').click(function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
 ///////////////////////////////////Search controller////////////////////////////////////////////////
+
+$('#btnGet').click(function () {
+    getSearchCustomer();
+});
+
 
 $('#custId').on('keydown', function (event) {
     if (event.code == "Enter") {
-        let typedId = $('#custId').val();
-        let customer = searchCustomer(typedId);
-        if (customer != null) {
-            setTextFiledValues(customer.id, customer.name, customer.address, customer.salary)
-        } else {
-            alert("There id no Customer available for that " + typedId);
-            setTextFiledValues("", " ", "", "")
-        }
+        getSearchCustomer();
     }
 });
 
-function setTextFiledValues(id, name, address, salary){
+
+function getSearchCustomer() {
+    let typedId = $('#custId').val();
+    let customer = searchCustomer(typedId);
+    if (customer != null) {
+        setTextFiledValues(customer.id, customer.name, customer.address, customer.salary)
+    } else {
+        alert("There id no Customer available for that " + typedId);
+        setTextFiledValues("", " ", "", "")
+    }
+
+}
+
+function setTextFiledValues(id, name, address, salary) {
     $('#custId').val(id);
     $('#custName').val(name);
     $('#custAddress').val(address);
