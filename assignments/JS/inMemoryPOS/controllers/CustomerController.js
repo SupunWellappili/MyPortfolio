@@ -23,14 +23,7 @@ $('#btnSave').click(function () {
 
 //////////////////////////////////Customer Table///////////////////////////////////////////
 
-    function getAllCustomer() {
-        $('#tblCustomer').empty();
-        for (var i of customers) {
-            var row = `<tr><td>${i.id}</td><td>${i.name} </td><td>${i.address}</td><td> ${i.salary}</td></tr>`;
 
-            $('#tblCustomer').append(row);
-        }
-    }
 
     $('#custId,#custName,#custAddress,#custSalary').on('keydown', function (event) {
         if (event.key == "Tab") {
@@ -66,6 +59,16 @@ $('#btnSave').click(function () {
 
     }
 });
+
+
+function getAllCustomer() {
+    $('#tblCustomer').empty();
+    for (var i of customers) {
+        var row = `<tr><td>${i.id}</td><td>${i.name} </td><td>${i.address}</td><td> ${i.salary}</td></tr>`;
+
+        $('#tblCustomer').append(row);
+    }
+}
 
 
 ///////////////////////////////////Search controller////////////////////////////////////////////////
@@ -111,6 +114,44 @@ function searchCustomer(custId) {
     return null;
 };
 
+
+
+
+
+
+
+
+
+////////////////////////////////Delete Button////////////////////////////////////////////////
+
+
+$("#btnDelete").click(function () {
+    let deleteId = $('#custId').val();
+    let option = confirm("Do you really want to delete " + deleteId);
+    if (option) {
+        if (deleteCustomer(deleteId)) {
+            alert("Customer Successfully Deleted..");
+            setTextFiledValues("", " ", "", "")
+        } else {
+            alert("No such customer to delete. please check the ID");
+        }
+    }
+});
+
+
+///////////////////////////////////Delete controller////////////////////////////////////////////////
+
+function deleteCustomer(custId) {
+    let customer = searchCustomer(custId);
+    if (customer != null) {
+        let indexNumber = customers.indexOf(customer);
+        customers.splice(indexNumber, 1);
+         getAllCustomer();
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 
