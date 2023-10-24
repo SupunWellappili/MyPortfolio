@@ -34,7 +34,8 @@ function bindRowItemClickEvents() {
             $('#itUnitPrice').val(price);
             $('#itQuantity').val(quantity);
         }
-    )}
+    )
+}
 
 
 function getAllItem() {
@@ -47,9 +48,19 @@ function getAllItem() {
 
 
 ///////////////////////////////////Item Search controller////////////////////////////////////////////////
+$('#btnSearchItem').click(function () {
+    getSearchItem();
+});
+
 
 $('#itemCode').on('keydown', function (event) {
     if (event.code == "Enter") {
+        getSearchItem()
+    }
+});
+
+
+function getSearchItem() {
         let typedCode = $('#itemCode').val();
         let item = searchItem(typedCode);
         if (item != null) {
@@ -58,8 +69,7 @@ $('#itemCode').on('keydown', function (event) {
             alert("There id no Item available for that " + typedCode);
             setTextFiledValuesItem("", " ", "", "")
         }
-    }
-});
+}
 
 function setTextFiledValuesItem(code, name, price, quantity) {
     $('#itemCode').val(code);
