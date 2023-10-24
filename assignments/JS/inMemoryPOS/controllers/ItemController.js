@@ -1,3 +1,4 @@
+var items =[];
 var itemObject;
 $("#btnSaveItem").click(function () {
     let itCode = $('#itemCode').val();
@@ -13,7 +14,7 @@ $("#btnSaveItem").click(function () {
         quantity: itQuantity
     };
 
-
+    items.push(itemObject);
 });
 
 
