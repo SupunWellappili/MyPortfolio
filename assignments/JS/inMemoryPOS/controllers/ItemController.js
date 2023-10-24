@@ -87,3 +87,35 @@ function searchItem(itemCode) {
     }
     return null;
 };
+
+
+////////////////////////////////Item Delete Button////////////////////////////////////////////////
+
+
+$("#btnDeleteItem").click(function () {
+    let deleteCode = $('#itemCode').val();
+    let option = confirm("Do you really want to delete " + deleteCode);
+    if (option) {
+        if (deleteItem(deleteCode)) {
+            alert("Item Successfully Deleted..");
+            setTextFiledValues("", " ", "", "")
+        } else {
+            alert("No such Item to delete. please check the Code");
+        }
+    }
+});
+
+
+///////////////////////////////////Item Delete controller////////////////////////////////////////////////
+
+function deleteItem(itemCode) {
+    let item = searchItem(itemCode);
+    if (item != null) {
+        let indexNumber = items.indexOf(item);
+        items.splice(indexNumber, 1);
+        getAllItem();
+        return true;
+    } else {
+        return false;
+    }
+}
