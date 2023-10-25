@@ -232,9 +232,16 @@
     <div class="container text-center"
          style="margin-top: 30px; background-color: rgba(11,119,213,0.84);">
         <div class="row">
+
+
+
+
+<!-- //////////////////////////////////////////INVOICE DETAILS///////////////////////////////////////////////////////////////////           -->
+
             <div class="col" style="height: 330px; margin-right: 30px;">
                 <h3 class="bg-success rounded-4" style="color: white; width: 400px;">INVOICE
                     DETAILS</h3>
+
 
 
                 <div class="container text-center" style="margin-top: 30px;">
@@ -280,6 +287,12 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+<!-- ////////////////////////////////////////////////ITEM SELECT/////////////////////////////////////////////////////////////           -->
+
 
             <div class="col" style="height: 330px; margin-right: 30px;">
                 <h3 class="bg-success rounded-4" style="color: white;width: 400px;">ITEM SELECT</h3>
@@ -336,8 +349,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+
+
+
+
+ <!-- /////////////////////////////////////////////Amount////////////////////////////////////////////////////////////////           -->
+
 
             <div class="col"
                  style="height: 300px; height: 360px; width: auto; background-color: rgba(36,113,163,0.2);">
@@ -429,90 +447,7 @@
 <script src="controllers/validation/PurchaseOrderController.js"></script>
 <script>
 
-    let navBar = document.querySelector("#nav-bar");
 
-    let homePage = document.querySelector("#home-page");
-    let cusPage = document.querySelector("#customer-page");
-    let itemPage = document.querySelector("#item-page");
-    let orderPage = document.querySelector("#order-page");
-
-    let navHome = document.querySelector("#nav-home");
-    let navCus = document.querySelector("#nav-cus");
-    let navItem = document.querySelector("#nav-item");
-    let navOrder = document.querySelector("#nav-order");
-
-
-    let homeCus = document.querySelector("#home-cus");
-    let homeItem = document.querySelector("#home-item");
-    let homeOrder = document.querySelector("#home-order");
-
-
-    navBar.style.display = 'block';
-    homePage.style.display = 'block';
-    cusPage.style.display = 'none';
-    itemPage.style.display = 'none';
-    orderPage.style.display = 'none';
-
-
-    homeCus.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        cusPage.style.display = 'block';
-        homePage.style.display = 'none';
-        itemPage.style.display = 'none';
-        orderPage.style.display = 'none';
-    });
-
-
-    homeItem.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        itemPage.style.display = 'block';
-        cusPage.style.display = 'none';
-        orderPage.style.display = 'none';
-        homePage.style.display = 'none';
-    });
-
-
-    homeOrder.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        orderPage.style.display = 'block';
-        cusPage.style.display = 'none';
-        itemPage.style.display = 'none';
-        homePage.style.display = 'none';
-    });
-
-
-    navHome.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        homePage.style.display = 'block';
-        cusPage.style.display = 'none';
-        itemPage.style.display = 'none';
-        orderPage.style.display = 'none';
-    });
-
-
-    navCus.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        cusPage.style.display = 'block';
-        homePage.style.display = 'none';
-        itemPage.style.display = 'none';
-        orderPage.style.display = 'none';
-    });
-
-    navItem.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        itemPage.style.display = 'block';
-        cusPage.style.display = 'none';
-        homePage.style.display = 'none';
-        orderPage.style.display = 'none';
-    });
-
-    navOrder.addEventListener("click", function () {
-        navBar.style.display = 'block';
-        orderPage.style.display = 'block';
-        itemPage.style.display = 'none';
-        cusPage.style.display = 'none';
-        homePage.style.display = 'none';
-    });
 </script>
 </body>
 </html>
