@@ -1,4 +1,3 @@
-var customers = [];// Create a Array in global Scope
 var customerObject;
 
 $('#btnSave').click(function () {
