@@ -137,4 +137,30 @@ function deleteItem(itemCode) {
     }
 }
 
+////////////////////////////////Update Button////////////////////////////////////////////////
 
+$('#btnUpdateItem').click(function () {
+    let itCode = $('#itemCode').val();
+    let response = updateItem(itCode);
+    if (response) {
+        alert("Customer updated Successfully..");
+        setTextFiledValues("", " ", "", "")
+    } else {
+        alert("Updated Failed..");
+    }
+});
+
+///////////////////////////////////Update controller////////////////////////////////////////////////
+function updateItem(itCode) {
+    let item = searchItem(itCode);
+    if (item != null) {
+        item.code = $('#itemCode').val();
+        item.name = $('#itemName').val();
+        item.price = $('#itemUnitPrice').val();
+        item.quantity = $('#itemQuantity').val();
+        getAllItem();
+        return true;
+    } else {
+        return false;
+    }
+}
