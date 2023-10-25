@@ -19,6 +19,7 @@ $('#btnSaveItem').click(function () {
     getAllItem();
     bindRowItemClickEvents();
     getSearchItem();
+    loadAllItemForOption();
 
 
 //////////////////////////////////Customer Table///////////////////////////////////////////
