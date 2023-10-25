@@ -115,7 +115,7 @@ $("#btnDeleteItem").click(function () {
     if (option) {
         if (deleteItem(deleteCode)) {
             alert("Item Successfully Deleted..");
-            setTextFiledValues("", " ", "", "")
+            setTextFiledValuesItem("", " ", "", "")
         } else {
             alert("No such Item to delete. please check the Code");
         }
@@ -137,20 +137,20 @@ function deleteItem(itemCode) {
     }
 }
 
-////////////////////////////////Update Button////////////////////////////////////////////////
+////////////////////////////////Item Update Button////////////////////////////////////////////////
 
 $('#btnUpdateItem').click(function () {
     let itCode = $('#itemCode').val();
     let response = updateItem(itCode);
     if (response) {
-        alert("Customer updated Successfully..");
-        setTextFiledValues("", " ", "", "")
+        alert("Item updated Successfully..");
+        setTextFiledValuesItem("", " ", "", "")
     } else {
-        alert("Updated Failed..");
+        alert("Item Updated Failed..");
     }
 });
 
-///////////////////////////////////Update controller////////////////////////////////////////////////
+///////////////////////////////////Item Update controller////////////////////////////////////////////////
 function updateItem(itCode) {
     let item = searchItem(itCode);
     if (item != null) {

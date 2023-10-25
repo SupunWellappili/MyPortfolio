@@ -148,6 +148,34 @@ function deleteCustomer(custId) {
 }
 
 
+////////////////////////////////Customer Update Button////////////////////////////////////////////////
+
+$('#btnUpdate').click(function () {
+    let customerId = $('#custId').val();
+    let response = updateCustomer(customerId);
+    if (response) {
+        alert("Customer updated Successfully..");
+        setTextFiledValues("", " ", "", "")
+    } else {
+        alert("Customer Updated Failed..");
+    }
+});
+
+
+///////////////////////////////////Customer Update controller////////////////////////////////////////////////
+function updateCustomer(custId) {
+    let customer = searchCustomer(custId);
+    if (customer != null) {
+        customer.id = $('#custId').val();
+        customer.name = $('#custName').val();
+        customer.address = $('#custAddress').val();
+        customer.salary = $('#custSalary').val();
+        getAllCustomer();
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 
