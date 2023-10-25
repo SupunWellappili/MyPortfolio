@@ -1,3 +1,5 @@
+
+/////////////////////////////cust ID//////////////////////////////////////////////////
 function loadAllCustomerForOption() {
     // console.log(customers);
     $('#orderCustID').empty();
@@ -5,4 +7,14 @@ function loadAllCustomerForOption() {
         $('#orderCustID').append(`<option>${cus.id}</option>`);
     }
 
+}
+
+
+/////////////////////////////Item Code//////////////////////////////////////////////////
+
+function loadAllItemForOption(){
+    $('#orderItemCode').empty();
+    for (let item of items) {
+        $('#orderItemCode').append(`<option>${item.id}</option>`);
+    }
 }
