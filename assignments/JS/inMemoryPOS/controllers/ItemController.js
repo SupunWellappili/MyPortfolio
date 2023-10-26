@@ -20,6 +20,8 @@ $('#btnSaveItem').click(function () {
     bindRowItemClickEvents();
     getSearchItem();
     loadAllItemForOption();
+     setTextFiledValuesItem("", "", "", "")
+
 
 
 
@@ -85,7 +87,7 @@ function getSearchItem() {
         setTextFiledValuesItem(item.code, item.name, item.price, item.quantity)
     } else {
         alert("There id no Item available for that " + typedCode);
-        setTextFiledValuesItem("", " ", "", "")
+        setTextFiledValuesItem("", "", "", "")
     }
 }
 
@@ -116,7 +118,7 @@ $("#btnDeleteItem").click(function () {
     if (option) {
         if (deleteItem(deleteCode)) {
             alert("Item Successfully Deleted..");
-            setTextFiledValuesItem("", " ", "", "")
+            setTextFiledValuesItem("", "", "", "")
         } else {
             alert("No such Item to delete. please check the Code");
         }
@@ -145,7 +147,7 @@ $('#btnUpdateItem').click(function () {
     let response = updateItem(itCode);
     if (response) {
         alert("Item updated Successfully..");
-        setTextFiledValuesItem("", " ", "", "")
+        setTextFiledValuesItem("", "", "", "")
     } else {
         alert("Item Updated Failed..");
     }
