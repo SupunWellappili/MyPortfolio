@@ -34,7 +34,7 @@ function checkValidation() {
 
 function setButtonState(value) {
     if (value > 0) {
-        $('#btnSave').attr('disabled', true);
+        // $('#btnSave').attr('disabled', true);
     } else {
         $('#btnSave').attr('disable', false);
     }

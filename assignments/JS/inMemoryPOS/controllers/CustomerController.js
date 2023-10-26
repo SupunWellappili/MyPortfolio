@@ -7,6 +7,7 @@ $('#btnSave').click(function () {
     let customerSalary = $('#custSalary').val();
 
 
+
     customerObject = {
         id: customerID,
         name: customerName,
@@ -19,6 +20,8 @@ $('#btnSave').click(function () {
     bindRowClickEvents();
     getSearchCustomer();
     loadAllCustomerForOption();
+    setTextFiledValues("", "", "", "")
+
 
 
 
@@ -88,7 +91,7 @@ function getSearchCustomer() {
         setTextFiledValues(customer.id, customer.name, customer.address, customer.salary)
     } else {
         alert("There id no Customer available for that " + typedId);
-        setTextFiledValues("", " ", "", "")
+        setTextFiledValues("", "", "", "")
     }
 
 }
@@ -121,7 +124,7 @@ $("#btnDelete").click(function () {
     if (option) {
         if (deleteCustomer(deleteId)) {
             alert("Customer Successfully Deleted..");
-            setTextFiledValues("", " ", "", "")
+            setTextFiledValues("", "", "", "")
         } else {
             alert("No such customer to delete. please check the ID");
         }
@@ -151,7 +154,7 @@ $('#btnUpdate').click(function () {
     let response = updateCustomer(customerId);
     if (response) {
         alert("Customer updated Successfully..");
-        setTextFiledValues("", " ", "", "")
+        setTextFiledValues("", "", "", "")
     } else {
         alert("Customer Updated Failed..");
     }
