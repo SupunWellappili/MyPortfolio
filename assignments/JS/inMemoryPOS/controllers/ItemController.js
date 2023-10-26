@@ -22,13 +22,6 @@ $('#btnSaveItem').click(function () {
     loadAllItemForOption();
 
 
-//////////////////////////////////Customer Table///////////////////////////////////////////
-
-    $('#itemCode,#itemName,#itemUnitPrice,#itemQuantity').on('keydown', function (event) {
-        if (event.key == "Tab") {
-            event.preventDefault();
-        }
-    })
 
 
 //////////////////////////////////Item Row data Remove///////////////////////////////////////////
@@ -56,6 +49,14 @@ $('#btnSaveItem').click(function () {
 });
 
 
+
+//////////////////////////////////Tab Key Hold///////////////////////////////////////////
+
+$('#itemCode,#itemName,#itemUnitPrice,#itemQuantity').on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+})
 function getAllItem() {
     $('#tblItem').empty();
     for (var i of items) {

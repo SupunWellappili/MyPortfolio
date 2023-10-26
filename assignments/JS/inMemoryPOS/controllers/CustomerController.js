@@ -21,15 +21,6 @@ $('#btnSave').click(function () {
     loadAllCustomerForOption();
 
 
-//////////////////////////////////Customer Table///////////////////////////////////////////
-
-
-
-    $('#custId,#custName,#custAddress,#custSalary').on('keydown', function (event) {
-        if (event.key == "Tab") {
-            event.preventDefault();
-        }
-    })
 
 
     //////////////////////////////////Row data Remove///////////////////////////////////////////
@@ -60,6 +51,13 @@ $('#btnSave').click(function () {
     }
 });
 
+//////////////////////////////////Tab key Hold///////////////////////////////////////////
+
+$('#custId,#custName,#custAddress,#custSalary').on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+})
 
 function getAllCustomer() {
     $('#tblCustomer').empty();
