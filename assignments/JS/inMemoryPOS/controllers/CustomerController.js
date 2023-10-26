@@ -45,13 +45,11 @@ $('#btnSave').click(function () {
             $('#custName').val(name);
             $('#custAddress').val(address);
             $('#custSalary').val(salary);
-
         })
-
     }
 });
 
-//////////////////////////////////Tab key Hold///////////////////////////////////////////
+//////////////////////////////////Tab Key Hold///////////////////////////////////////////
 
 $('#custId,#custName,#custAddress,#custSalary').on('keydown', function (event) {
     if (event.key == "Tab") {
@@ -69,7 +67,7 @@ function getAllCustomer() {
 }
 
 
-///////////////////////////////////Search controller////////////////////////////////////////////////
+///////////////////////////////////Search Controller////////////////////////////////////////////////
 
 $('#btnGet').click(function () {
     getSearchCustomer();
@@ -160,7 +158,8 @@ $('#btnUpdate').click(function () {
 });
 
 
-///////////////////////////////////Customer Update controller////////////////////////////////////////////////
+///////////////////////////////////Customer Update Controller////////////////////////////////////////////////
+
 function updateCustomer(custId) {
     let customer = searchCustomer(custId);
     if (customer != null) {

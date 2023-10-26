@@ -32,7 +32,6 @@ function checkValidation() {
 }
 
 
-
 function setButtonState(value) {
     if (value > 0) {
         $('#btnSave').attr('disabled', true);
@@ -40,7 +39,6 @@ function setButtonState(value) {
         $('#btnSave').attr('disable', false);
     }
 }
-
 
 
 function check(regex, txtFiled) {
@@ -69,15 +67,15 @@ function textSuccess(txtField, error) {
 
 
 function defaultText(txtField) {
-    txtField.css('border', '1px solid #ced4da');
+    txtField.css('border', '2px solid black');
     txtField.parent().children('span').text(error);
 }
 
 
-
+/*
 function focusText(txtField) {
     txtField.focus();
-}
+}*/
 
 
 
