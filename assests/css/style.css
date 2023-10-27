@@ -1,3 +1,48 @@
+/*//////////////////////////loader///////////////////*/
+
+
+h1 {
+    /*font-size: 100px;*/
+    color: white;
+    /*background-color: red;*/
+    text-align: center;
+}
+
+body > div {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+body > div > div {
+    position: absolute;
+    /*width: 200px;
+    height: 250px;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*border: 5px white solid;*/
+    background: url("https://miro.medium.com/v2/resize:fit:1400/1*e_Loq49BI4WmN7o9ItTADg.gif");
+    /*background-color: red;*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+body > header {
+    position: relative;
+}
+
+
+
+/*//////////////////////////style///////////////////*/
+
 
 * {
     text-decoration: none;
@@ -371,8 +416,6 @@ main > section:nth-child(7) > section:nth-child(2) > img {
     /*border: 3px solid red;*/
 
 
-
-
 }
 
 main > section:nth-child(7) > section:nth-child(2) > img:hover {
@@ -622,7 +665,7 @@ footer > small {
 
 @media all and (min-width: 425px ) and  (max-width: 765px) {
 
-    header{
+    header {
         width: 99%;
     }
 
@@ -790,7 +833,6 @@ footer > small {
     }
 
 
-
     /*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
     main > section:nth-child(9) {
         flex-wrap: wrap;
@@ -821,7 +863,7 @@ footer > small {
 /*/////////////////////////////////Mobile////////////////////////////////!*/
 @media all and (min-width: 0 ) and  (max-width: 425px) {
 
-    header{
+    header {
         width: 410px;
     }
 
@@ -905,34 +947,33 @@ footer > small {
 
 
     /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
-
     main > section:nth-child(4) {
-       flex-direction: column;
+        flex-direction: column;
         /*grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);*/
         /*border: 1px solid red;*/
         height: 900px;
     }
 
-    main>section:nth-child(4)>div:nth-child(1)>h3{
+    main > section:nth-child(4) > div:nth-child(1) > h3 {
         left: 0;
         right: 0;
         margin: auto;
         width: 300px;
     }
 
-    main>section:nth-child(4)>div:nth-child(2)>h3 {
+    main > section:nth-child(4) > div:nth-child(2) > h3 {
         left: 0;
         right: 0;
         margin: auto;
     }
 
 
-    main>section:nth-child(4)>div:nth-child(3){
+    main > section:nth-child(4) > div:nth-child(3) {
         margin-top: 0;
     }
 
-    main>section:nth-child(4)>div:nth-child(3)>h3{
+    main > section:nth-child(4) > div:nth-child(3) > h3 {
         margin: 0;
     }
 
@@ -993,7 +1034,6 @@ footer > small {
     }
 
 
-
     /*///////////////////////////////////////Gallery///////////////////////////////////////////////////*/
     main > section:nth-child(8) {
 
@@ -1005,9 +1045,6 @@ footer > small {
 
 
     }
-
-
-
 
 
     /*///////////////////////////////////////recommend///////////////////////////////////////////////////*/
@@ -1067,9 +1104,6 @@ footer > small {
     }
 
     /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
-
-
-
     footer > small {
         margin-left: 12px;
         font-size: 6px;
