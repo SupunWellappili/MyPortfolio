@@ -80,6 +80,10 @@ header > img {
 
 header > img:hover {
     cursor: pointer;
+    color: #0033ff;
+    background-color: #7fea1d;
+    box-shadow: 0px 3px 5px #FFF500, -0px -3px 5px #ff002f;
+    transition: all;
 }
 
 
@@ -95,11 +99,13 @@ header > menu > li {
     display: inline-block;
     padding: 15px;
     font-size: 25px;
+
 }
 
 
 header > menu > li:hover {
-    background-color: rgba(58, 192, 222, 0.21);
+    background-color: rgba(229, 211, 11, 0.73);
+
 }
 
 
@@ -137,7 +143,14 @@ main > section:nth-child(1) > aside > img {
     position: absolute;
     top: 124px;
     right: 170px;
+}
 
+main > section:nth-child(1) > aside >img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
 }
 
 
@@ -256,7 +269,10 @@ main > section:nth-child(4) > div > h1 {
     font-size: 150px;
     color: white;
     text-shadow: 15px 10px black;
+    animation: shake 2s;
+    animation-iteration-count: infinite;
 }
+
 
 
 main > section:nth-child(4) > div > h3 {
@@ -650,16 +666,103 @@ footer > small {
 }
 
 
-button:hover{
+/*button:hover{
     color: #0033ff;
-    background-color: black;
+    background-color: #7fea1d;
     box-shadow: 0px 3px 5px #FFF500, -0px -3px 5px #FFF500;
     transition: all;
+}*/
+
+.Menu:hover{
+    color: #0fd955;
+    background-color: rgba(25, 43, 238, 0.48);
+    box-shadow: 0px 2px 5px #e1c50c, -5px -5px 20px #f60707;
+    transition: all;
+
 }
 
 
 
+button {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    height: 45px;
+    padding: 10px 20px;
+    background: white;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid;
+    color: #1a1d23;
+    z-index: 1;
+    transition: 0.5s all ease;
+}
 
+button:hover {
+    color: white;
+    cursor: pointer;
+    border: 0px;
+}
+
+button:active {
+    transform: scale(0.85);
+}
+
+button:before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    top: -100%;
+    background: #0FD9C1FF;
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+
+button:hover:before {
+    top: 0;
+    left: 0;
+    border: 0px;
+    transform: rotate(180deg);
+}
+
+button:after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    top: 100%;
+    background: #0fd9c1;
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+
+button:hover:after {
+    top: 0;
+    left: 50%;
+    border: 0px;
+    transform: rotate(180deg);
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
 
 
