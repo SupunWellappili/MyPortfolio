@@ -1,12 +1,8 @@
+
+
+
 /*//////////////////////////loader///////////////////*/
 
-
-h1 {
-    /*font-size: 100px;*/
-    color: white;
-    /*background-color: red;*/
-    text-align: center;
-}
 
 body > div {
     position: fixed;
@@ -33,22 +29,19 @@ body > div > div {
     /*background-color: red;*/
     background-size: cover;
     background-position: center;
-
 }
 
+/*
 body > header {
     position: relative;
 }
-
-
+*/
 
 /*//////////////////////////style///////////////////*/
-
 
 * {
     text-decoration: none;
 }
-
 
 body {
     background-color: rgba(22, 20, 31, 0.85);
@@ -58,7 +51,7 @@ body {
 
 body > img {
     height: 100vh;
-    width: 100%;
+    width: 10%;
     position: fixed;
     z-index: -5;
     opacity: 0.6;
@@ -235,6 +228,7 @@ main > section:nth-child(3) > section:nth-child(2) > div {
 
 
 /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
+
 main > section:nth-child(4) {
     background: linear-gradient(white, darkblue);
     display: flex;
@@ -654,6 +648,12 @@ footer > small {
 }
 
 
+
+
+
+
+
+
 /*/////////////////////////////////Lap/////////////////////////////////*/
 
 @media all and (min-width: 765px ) and  (max-width: 1280px) {
@@ -717,6 +717,7 @@ footer > small {
 
 
     /*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
+
     main > section:nth-child(2) {
         height: 220px;
     }
@@ -732,6 +733,8 @@ footer > small {
     }
 
     /*///////////////////////////////////////My Skill///////////////////////////////////////////////////*/
+
+
     main > section:nth-child(3) {
         height: 200px;
     }
@@ -1105,6 +1108,7 @@ footer > small {
     }
 
     /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
+
     footer > small {
         margin-left: 12px;
         font-size: 6px;
