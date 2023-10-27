@@ -1,22 +1,22 @@
 body {
-    background-color: #16141FD8;
-    color: white;
+    /*background-color: rgba(106, 84, 208, 0.85);*/
+    /*color: white;*/
 }
 
 body > table {
-    background-color: rgba(31, 25, 25, 0.96);
+    background-color: rgb(112, 194, 179);
 }
 
 body > table > caption {
     font-size: 40px;
-    color: #009e1a;
+    color: rgba(30, 34, 203, 0.71);
     margin: 20px;
 }
 
 body > table > thead {
-    color: #93009e;
+    color: rgb(152, 239, 58);
     font-size: 23px;
-    background-color: #200833;
+    background-color: #8c45c4;
     height: 80px;
 }
 
@@ -27,10 +27,13 @@ body > table > tbody>tr {
 }
 
 body > table > tbody >tr:nth-child(7){
-    color: yellow;
+    color: #1a140b;
+    font-size: 25px;
 }
 body > table > tbody >tr:nth-child(12){
-    color: yellow;
+    color: #1a140b;
+    font-size: 25px;
+
 }
 
 
