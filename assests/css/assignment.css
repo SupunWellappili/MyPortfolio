@@ -1,16 +1,26 @@
 body {
+    background: url("https://cdn.stocksnap.io/img-thumbs/280h/bokeh-lights_CXNXR1QOFU.jpg");
     /*background-color: rgba(106, 84, 208, 0.85);*/
     /*color: white;*/
 }
 
 body > table {
+    position: absolute;
     background-color: rgb(112, 194, 179);
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    margin: auto;
 }
 
 body > table > caption {
-    font-size: 40px;
-    color: rgba(30, 34, 203, 0.71);
-    margin: 20px;
+    position: relative;
+    font-size: 50px;
+    top: 80px;
+    color: rgba(241, 241, 9, 0.96);
+    /*z-index: 1;*/
+
 }
 
 body > table > thead {
