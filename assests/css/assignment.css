@@ -5,13 +5,14 @@ body {
 }
 
 body > table {
-    position: absolute;
+    position: relative;
     background-color: rgb(112, 194, 179);
     left: 0px;
     right: 0px;
     top:0px;
     bottom: 0px;
     margin: auto;
+
 }
 
 body > table > caption {
@@ -43,9 +44,7 @@ body > table > tbody >tr:nth-child(7){
 body > table > tbody >tr:nth-child(12){
     color: #1a140b;
     font-size: 25px;
-
 }
-
 
 
 

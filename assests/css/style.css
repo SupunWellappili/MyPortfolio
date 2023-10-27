@@ -37,10 +37,11 @@ body > header {
 }
 */
 
-/*//////////////////////////style///////////////////*/
+/*//////////////////////////style sheet///////////////////*/
 
 * {
     text-decoration: none;
+
 }
 
 body {
@@ -136,6 +137,7 @@ main > section:nth-child(1) > aside > img {
     position: absolute;
     top: 124px;
     right: 170px;
+
 }
 
 
@@ -648,6 +650,17 @@ footer > small {
 }
 
 
+button:hover{
+    color: #0033ff;
+    background-color: black;
+    box-shadow: 0px 3px 5px #FFF500, -0px -3px 5px #FFF500;
+    transition: all;
+}
+
+
+
+
+
 
 
 
@@ -659,6 +672,17 @@ footer > small {
 @media all and (min-width: 765px ) and  (max-width: 1280px) {
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*////////////////////////////////Tab//////////////////////////////////*/
@@ -1108,12 +1132,10 @@ footer > small {
     }
 
     /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
-
     footer > small {
         margin-left: 12px;
         font-size: 6px;
     }
-
 }
 
 
