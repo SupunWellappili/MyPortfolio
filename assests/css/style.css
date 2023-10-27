@@ -388,6 +388,9 @@ main > section:nth-child(6) > section > section:hover {
     cursor: pointer;
     box-shadow: 2px 3px 10px #FFF500, -2px -3px 10px #ff002f;
     transition: all;
+    background-color: white;
+    cursor: pointer;
+    color: white;
 }
 
 main > section:nth-child(6) > section > section > h4 {
@@ -571,6 +574,13 @@ main > section:nth-child(9) > article > B {
     margin-left: 180px;
 }
 
+main > section:nth-child(9) > article:hover {
+    transition: all;
+    cursor: pointer;
+    color: #2f07e0;
+}
+
+
 
 /*///////////////////////////////////////blog///////////////////////////////////////////////////*/
 
@@ -599,7 +609,23 @@ main > section:nth-child(10) > section > article {
     padding: 50px;
     background-color: #77DB9F;
     font-size: 18px;
+
 }
+
+main > section:nth-child(10) > section > article:hover {
+    background-color: white;
+    box-shadow: 2px 3px 10px #FFF500, -2px -3px 10px #ff002f;
+    transition: all;
+    cursor: pointer;
+    color: green;
+}
+
+
+
+
+
+
+
 
 
 /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
