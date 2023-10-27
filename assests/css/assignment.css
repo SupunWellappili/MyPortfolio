@@ -2,6 +2,8 @@ body {
     background: url("https://cdn.stocksnap.io/img-thumbs/280h/bokeh-lights_CXNXR1QOFU.jpg");
     /*background-color: rgba(106, 84, 208, 0.85);*/
     /*color: white;*/
+    scroll-behavior: smooth;
+
 }
 
 body > table {

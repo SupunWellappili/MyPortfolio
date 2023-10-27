@@ -42,8 +42,9 @@ body > header {
 }
 
 body {
-    background-color: rgba(22, 20, 31, 0.85);
+    /*background-color: rgba(22, 20, 31, 0.85);*/
     scroll-behavior: smooth;
+
 }
 
 
@@ -1238,6 +1239,7 @@ button:hover:after {
 
 
     /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
+
     main > section:nth-child(11) {
         height: 820px;
     }
@@ -1272,6 +1274,9 @@ button:hover:after {
         width: 200px;
         padding: 0;
     }
+
+
+
 
     /*///////////////////////////////////////footer///////////////////////////////////////////////////*/
     footer > small {
