@@ -29,6 +29,7 @@ body > div > div {
     margin: auto;
     /*border: 5px white solid;*/
     background: url("https://miro.medium.com/v2/resize:fit:1400/1*e_Loq49BI4WmN7o9ItTADg.gif");
+    /*background: url("assests/profile/loading.gif");*/
     /*background-color: red;*/
     background-size: cover;
     background-position: center;
