@@ -49,6 +49,9 @@ body > table > tbody >tr:nth-child(12){
 }
 
 
-
+body>table>tbody>tr>td>a:hover{
+    color: rgba(227, 7, 209, 0.8);
+    font-size: 20px;
+}
 
 
