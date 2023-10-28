@@ -205,7 +205,7 @@ main > section:nth-child(3) {
     height: 200px;
 }
 
-main > section:nth-child(3):hover{
+main > section:nth-child(3):hover {
     background-color: rgba(105, 55, 231, 0.27);
 }
 
@@ -242,12 +242,12 @@ main > section:nth-child(3) > section:nth-child(2) > div {
     font-size: 25px;
 }
 
-main > section:nth-child(3) > section:nth-child(2) > div:hover{
+main > section:nth-child(3) > section:nth-child(2) > div:hover {
     color: rgba(173, 6, 173, 0.99);
 }
 
 
-    /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
+/*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
 
 main > section:nth-child(4) {
     background: linear-gradient(white, darkblue);
@@ -397,7 +397,6 @@ main > section:nth-child(6) > section > section:hover {
     box-shadow: 2px 3px 10px #FFF500, -2px -3px 10px #ff002f;
     transition: all;
     background-color: white;
-    cursor: pointer;
     color: white;
 }
 
@@ -446,30 +445,38 @@ main > section:nth-child(7) {
     background-color: rgba(14, 74, 203, 0.48);
 }
 
-
-main > section:nth-child(7) > section:nth-child(2) > img {
-    /*border: 3px solid red;*/
-
-
+main > section:nth-child(7):hover {
+    background-color: rgba(104, 22, 225, 0.48);
 }
 
+
 main > section:nth-child(7) > section:nth-child(2) > img:hover {
+    /*border: 3px solid red;*/
     cursor: pointer;
+    box-shadow: 2px 3px 10px #FFF500, -2px -3px 10px #ff002f;
+    transition: all;
+    background-color: white;
+    color: white;
+}
+
+main > section:nth-child(7) > section:nth-child(2) {
+    /*border: #009e1a 2px solid;*/
+    margin: 60px;
 }
 
 
 main > section:nth-child(7) > div {
+    position: relative;
     width: 95px;
     font-size: 20px;
     left: 0;
     right: 0;
     margin: auto;
     padding: 10px;
+
+
 }
 
-main > section:nth-child(7) > div > a > button:hover {
-    cursor: pointer;
-}
 
 
 /*///////////////////////////////////////Gallery///////////////////////////////////////////////////*/
@@ -504,7 +511,6 @@ main > section:nth-child(8) > div:nth-child(1) {
     background-size: cover;
     background-position: center;
     /*background-color: red;*/
-
 
 }
 
@@ -589,7 +595,6 @@ main > section:nth-child(9) > article:hover {
 }
 
 
-
 /*///////////////////////////////////////blog///////////////////////////////////////////////////*/
 
 main > section:nth-child(10) > h2 {
@@ -627,13 +632,6 @@ main > section:nth-child(10) > section > article:hover {
     cursor: pointer;
     color: green;
 }
-
-
-
-
-
-
-
 
 
 /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
@@ -1246,7 +1244,6 @@ button:hover:after {
 
 
     /*///////////////////////////////////////Contact///////////////////////////////////////////////////*/
-
     main > section:nth-child(11) {
         height: 820px;
     }
