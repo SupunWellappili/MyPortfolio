@@ -75,10 +75,12 @@ function defaultText(txtField) {
 }
 
 
+
 /*
 function focusText(txtField) {
     txtField.focus();
-}*/
+}
+*/
 
 
 

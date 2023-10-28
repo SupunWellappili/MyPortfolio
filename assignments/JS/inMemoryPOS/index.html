@@ -132,22 +132,22 @@
         </thead>
         <tbody id="tblCustomer">
         <tr>
-            <td>C001</td>
-            <td>Mahinda</td>
-            <td>Tangalle</td>
-            <td>30000</td>
+            <td>C00-001</td>
+            <td>Mahinda Wicrama</td>
+            <td>NO 01, Tangalle</td>
+            <td>3400.43</td>
         </tr>
         <tr>
-            <td>C002</td>
-            <td>Anjaana</td>
-            <td>Kelaniya</td>
-            <td>60000</td>
+            <td>C00-002</td>
+            <td>Anjaana Samadine</td>
+            <td>NO 23/3, Kelaniya</td>
+            <td>6300.00</td>
         </tr>
         <tr>
-            <td>C003</td>
-            <td>Kashmira</td>
-            <td>Kegalla</td>
-            <td>10000</td>
+            <td>C00-003</td>
+            <td>Kashmira Pathirana</td>
+            <td>NO 12/3, Kegalla</td>
+            <td>1000.12</td>
         </tr>
         </tbody>
     </table>
@@ -208,19 +208,19 @@
         </thead>
         <tbody id="tblItem">
         <tr>
-            <td>It-01</td>
+            <td>It-001</td>
             <td>Shampoo</td>
             <td>375.00</td>
             <td>304</td>
         </tr>
         <tr>
-            <td>It-02</td>
+            <td>It-002</td>
             <td>Cotton</td>
             <td>54.67</td>
             <td>450</td>
         </tr>
         <tr>
-            <td>It-03</td>
+            <td>It-003</td>
             <td>Samba Rice</td>
             <td>133.20</td>
             <td>1020</td>
@@ -244,13 +244,11 @@
                 <h3 class="bg-success rounded-4" style="color: white; width: 400px;">INVOICE
                     DETAILS</h3>
 
-
-
                 <div class="container text-center" style="margin-top: 30px;">
                     <div class="row">
                         <div class="col">
                             Order ID:
-                            <input type="text" class="form-control" placeholder="">
+                            <input id="orderCode" type="text" class="form-control" placeholder="Ord-001">
                         </div>
                         <div class="col">
                             Date :
@@ -309,9 +307,9 @@
                             Item Code :
                             <select id="orderItemCode" class="form-select" aria-label="Default select example">
                                 <option selected></option>
-                                <option value="1">It-01</option>
-                                <option value="2">It-02</option>
-                                <option value="3">It-02</option>
+                                <option value="1">It-001</option>
+                                <option value="2">It-002</option>
+                                <option value="3">It-003</option>
                             </select>
                         </div>
                         <div class="col">
@@ -420,16 +418,18 @@
         </thead>
         <tbody>
         <tr>
-            <td>It-01</td>
+            <td>It-001</td>
             <td>Shampoo</td>
             <td>375.00</td>
             <td>03</td>
+            <td>12</td>
         </tr>
         <tr>
-            <th scope="row">It-02</th>
+            <td>It-002</td>
             <td>Cotton</td>
             <td>54.67</td>
             <td>11</td>
+            <td>42</td>
         </tr>
 
         </tbody>
