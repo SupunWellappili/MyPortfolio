@@ -182,7 +182,7 @@ main > section:nth-child(1) > section > div > a > button:hover {
 
 
 main > section:nth-child(1) > section > div:nth-child(2) > a > button {
-    background-color: #bb83f1;
+    background-color: #7c06ee;
 }
 
 /*///////////////////////////////////////My Info///////////////////////////////////////////////////*/
@@ -205,6 +205,9 @@ main > section:nth-child(3) {
     height: 200px;
 }
 
+main > section:nth-child(3):hover{
+    background-color: rgba(105, 55, 231, 0.27);
+}
 
 main > section:nth-child(3) > section {
     position: relative;
@@ -235,12 +238,16 @@ main > section:nth-child(3) > section:nth-child(2) {
 
 main > section:nth-child(3) > section:nth-child(2) > div {
     /*border: 1px yellow solid;*/
-    color: #c1a7d9;
+    color: #7e08ea;
     font-size: 25px;
 }
 
+main > section:nth-child(3) > section:nth-child(2) > div:hover{
+    color: rgba(173, 6, 173, 0.99);
+}
 
-/*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
+
+    /*///////////////////////////////////////Project Counts///////////////////////////////////////////////////*/
 
 main > section:nth-child(4) {
     background: linear-gradient(white, darkblue);
@@ -340,7 +347,7 @@ main > section:nth-child(5) > section > p {
 
 main > section:nth-child(5) > section:hover {
     cursor: pointer;
-    background: rgba(18, 250, 64, 0.53);
+    background: rgba(129, 47, 231, 0.53);
 
 }
 
