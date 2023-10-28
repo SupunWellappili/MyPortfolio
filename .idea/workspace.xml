@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,46 +33,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/JS/inMemoryPOS/assets/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/supunwellappili/Documents/IJSE/WorkingZone/MyPortfolio/assignments/JS/QUE/QUE-01/assets",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;CSS&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets/img" />
+      <recent name="$PROJECT_DIR$/assignments/JS/QUE/QUE-01/assets" />
       <recent name="$PROJECT_DIR$/assignments/JS/SPA/assets" />
-      <recent name="$PROJECT_DIR$/assignments/CSS-Framework/POS/assets" />
-      <recent name="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets" />
-      <recent name="$PROJECT_DIR$/assignments/JS/CAL/assets" />
+      <recent name="$PROJECT_DIR$/assignments/JS/QUE/QUE-02/assets" />
+      <recent name="$PROJECT_DIR$/assignments/JS/KNIGHT/assets" />
+      <recent name="$PROJECT_DIR$/assignments/JS/inMemoryPOS/assets/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/JS/SPA/assets/image" />
+      <recent name="$PROJECT_DIR$/assests/JS" />
       <recent name="$PROJECT_DIR$/assignments/JS/QUE/QUE-02" />
       <recent name="$PROJECT_DIR$/assests/css" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/page" />
-      <recent name="$PROJECT_DIR$/assests/my photos" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,6 +163,7 @@
       <workItem from="1697677792192" duration="12462000" />
       <workItem from="1698034332266" duration="17000" />
       <workItem from="1698034370194" duration="85848000" />
+      <workItem from="1698371424372" duration="41557000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686766402446</created>
