@@ -1,0 +1,460 @@
+<!--<!DOCTYPE html>-->
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>In-Memory-POS</title>-->
+<!--    <meta name="viewport" content="width=device-width initial-scale=1">-->
+<!--    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="../../../assests/normalize.css">-->
+<!--    <link rel="stylesheet" href="assets/pages/home.css">-->
+<!--    <link rel="stylesheet" href="assignments/JS/inMemoryPOS/assets/img/POS.png">-->
+<!--    <script src="controllers/ItemController.js"></script>-->
+<!--    <link  rel="icon" href="assets/img/kade pic.jpg">-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<div id="loader">-->
+<!--    <div></div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash; navigation bar&ndash;&gt;-->
+<!--<section id=nav-bar class="pages-nav">-->
+<!--    <header>-->
+<!--        <nav class="navbar bg-body-tertiary">-->
+<!--            <div class="container-fluid">-->
+<!--                <a class="navbar-brand" href="#">-->
+<!--                    <img src="assets/img/kade%20pic.jpg" alt="Logo" width="80" height="50"-->
+<!--                         class="d-inline-block align-text-top">ThogaKade POS System-->
+<!--                </a>-->
+
+<!--                &lt;!&ndash;tab&ndash;&gt;-->
+<!--                <ul class="nav justify-content-center">-->
+<!--                    <li class="nav-Home">-->
+<!--                        <a id="nav-home" class="nav-link active" aria-current="page" href="#">Home</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-cus">-->
+<!--                        <a id="nav-cus" class="nav-link" href="#">Customer</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a id="nav-item" class="nav-link" href="#">Item</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-order">-->
+<!--                        <a id="nav-order" class="nav-link" href="#">Order</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </nav>-->
+<!--    </header>-->
+<!--</section>-->
+
+
+<!--&lt;!&ndash;home page&ndash;&gt;-->
+<!--<section id="home-page">-->
+<!--    <main id="menu">-->
+<!--        <section class="d-flex w-100 h-50 justify-content-evenly position-relative" style="top:20%">-->
+<!--            <section class="w-25 position-relative rounded-4" style="background-color: rgb(255,255,255)">-->
+<!--                <a id="home-cus" class="nav-link active" aria-current="page" href="#">-->
+<!--                    <img class="pic position-absolute top-50 start-50 translate-middle" width="220px"-->
+<!--                         src="assets/img/7988629.png" alt="This is Customer"></a>-->
+<!--                <h3 class="position-absolute start-50 translate-middle fs-4 text-primary " style="top: 320px;">-->
+<!--                    Customer</h3>-->
+<!--            </section>-->
+<!--            <section class="w-25 position-relative rounded-4" style="background-color: rgb(255,255,255)">-->
+<!--                <a id="home-item" class="nav-link active" aria-current="page" href="#">-->
+<!--                    <img class="pic position-absolute top-50 start-50 translate-middle" width="220px"-->
+<!--                         src="assets/img/shopping_cart.png" alt="This is Item"></a>-->
+<!--                <h3 class="position-absolute start-50 translate-middle fs-4 text-primary" style="top: 320px;">-->
+<!--                    Item</h3>-->
+<!--            </section>-->
+<!--            <section class="w-25  position-relative rounded-4" style="background-color: rgb(255,255,255)">-->
+<!--                <a id="home-order" class="nav-link active" aria-current="page" href="#">-->
+<!--                    <img class="pic position-absolute top-50 start-50 translate-middle" width="250px"-->
+<!--                         src="assets/img/1356594.png" alt="This is Order"></a>-->
+<!--                <h3 class="position-absolute start-50 translate-middle fs-4 text-primary" style="top: 320px;">-->
+<!--                    Order</h3>-->
+<!--            </section>-->
+<!--        </section>-->
+<!--    </main>-->
+<!--</section>-->
+
+
+<!--&lt;!&ndash;customer page&ndash;&gt;-->
+<!--<section id="customer-page">-->
+<!--    <main>-->
+<!--        <div class="row justify-content-around" style="height: max-content; padding-top: 40px; margin-right: 0">-->
+<!--            <div class="col-10 col-md-5 col-lg-5 p-0" style="background-color: azure">-->
+<!--                <h4 class="text-center bg-success p-2 text-light"> Customer</h4>-->
+
+<!--                <form>-->
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="custId" placeholder="Input ID :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="custName" placeholder="Input Name :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="custAddress" placeholder="Input Address :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="custSalary" placeholder="Input Salary :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <button id="btnGet" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search-->
+<!--                    </button>-->
+<!--                    <button id="btnUpdate" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update-->
+<!--                    </button>-->
+<!--                    <button id="btnDelete" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete-->
+<!--                    </button>-->
+<!--                    <button id="btnSave" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Customer-->
+<!--                    </button>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </main>-->
+
+
+<!--    &lt;!&ndash;table&ndash;&gt;-->
+<!--    <table class="table">-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th scope="col">Customer ID</th>-->
+<!--            <th scope="col">Customer Name</th>-->
+<!--            <th scope="col">Customer Address</th>-->
+<!--            <th scope="col">Customer Salary</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody id="tblCustomer">-->
+<!--        <tr>-->
+<!--            <td>C00-001</td>-->
+<!--            <td>Mahinda Wicrama</td>-->
+<!--            <td>NO 01, Tangalle</td>-->
+<!--            <td>3400.43</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>C00-002</td>-->
+<!--            <td>Anjaana Samadine</td>-->
+<!--            <td>NO 23/3, Kelaniya</td>-->
+<!--            <td>6300.00</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>C00-003</td>-->
+<!--            <td>Kashmira Pathirana</td>-->
+<!--            <td>NO 12/3, Kegalla</td>-->
+<!--            <td>1000.12</td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</section>-->
+
+
+<!--&lt;!&ndash;item page&ndash;&gt;-->
+<!--<section id="item-page">-->
+<!--    <main>-->
+<!--        <div class="row justify-content-around"-->
+<!--             style="height: max-content; padding-top: 40px; margin-right: 0">-->
+<!--            <div class="col-10 col-md-5 col-lg-5 p-0" style="background-color: azure">-->
+<!--                <h4 class="text-center bg-success p-2 text-light"> Item </h4>-->
+<!--                <form>-->
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="itemCode" placeholder="Input Code :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="itemName" placeholder="Input Name :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="itemUnitPrice" placeholder="Input Unit Price :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-3 ms-3 me-3">-->
+<!--                        <input class="form-control" id="itemQuantity" placeholder="Input Quantity :" type="text">-->
+<!--                    </div>-->
+
+
+<!--                    <button id="btnSearchItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search-->
+<!--                    </button>-->
+<!--                    <button id="btnUpdateItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update-->
+<!--                    </button>-->
+<!--                    <button id="btnDeleteItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete-->
+<!--                    </button>-->
+<!--                    <button id="btnSaveItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Item-->
+<!--                    </button>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </main>-->
+
+
+<!--    &lt;!&ndash;table&ndash;&gt;-->
+<!--    <table class="table">-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th scope="col">Item Code</th>-->
+<!--            <th scope="col">Item Name</th>-->
+<!--            <th scope="col">Item Unit Price</th>-->
+<!--            <th scope="col">Item Quantity</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody id="tblItem">-->
+<!--        <tr>-->
+<!--            <td>It-001</td>-->
+<!--            <td>Shampoo</td>-->
+<!--            <td>375.00</td>-->
+<!--            <td>304</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>It-002</td>-->
+<!--            <td>Cotton</td>-->
+<!--            <td>54.67</td>-->
+<!--            <td>450</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>It-003</td>-->
+<!--            <td>Samba Rice</td>-->
+<!--            <td>133.20</td>-->
+<!--            <td>1020</td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</section>-->
+
+<!--&lt;!&ndash;order page&ndash;&gt;-->
+<!--<section id="order-page">-->
+<!--    <div class="container text-center"-->
+<!--         style="margin-top: 30px; background-color: rgba(11,119,213,0.84);">-->
+<!--        <div class="row">-->
+
+
+
+
+<!--&lt;!&ndash; //////////////////////////////////////////INVOICE DETAILS///////////////////////////////////////////////////////////////////           &ndash;&gt;-->
+
+<!--            <div class="col" style="height: 330px; margin-right: 30px;">-->
+<!--                <h3 class="bg-success rounded-4" style="color: white; width: 400px;">INVOICE-->
+<!--                    DETAILS</h3>-->
+
+<!--                <div class="container text-center" style="margin-top: 30px;">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            Order ID:-->
+<!--                            <input id="orderCode" type="text" class="form-control" placeholder="Ord-001">-->
+<!--                        </div>-->
+<!--                        <div class="col">-->
+<!--                            Date :-->
+<!--                            <input type="date" class="form-control" placeholder="">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+
+
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div  class="col">Cust ID :-->
+<!--                            <select id="orderCustID" class="form-select" aria-label="Default select example">-->
+<!--                                <option selected></option>-->
+<!--                                <option value="1">C001</option>-->
+<!--                                <option value="2">C002</option>-->
+<!--                                <option value="3">C003</option>-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="col">-->
+<!--                            Cust Name:-->
+<!--                            <input id="orderCustName" type="text" class="form-control" placeholder="">-->
+<!--                        </div>-->
+
+
+
+<!--                        <div class="container text-center">-->
+<!--                            <div class="row">-->
+<!--                                <div class="col">-->
+<!--                                    Salary :-->
+<!--                                    <input id="orderCustSalary" type="text" class="form-control" placeholder="">-->
+<!--                                </div>-->
+<!--                                <div class="col">-->
+<!--                                    Address :-->
+<!--                                    <input id="orderCustAddress" type="text" class="form-control" placeholder="">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+
+<!--&lt;!&ndash; ////////////////////////////////////////////////ITEM SELECT/////////////////////////////////////////////////////////////           &ndash;&gt;-->
+
+
+<!--            <div class="col" style="height: 330px; margin-right: 30px;">-->
+<!--                <h3 class="bg-success rounded-4" style="color: white;width: 400px;">ITEM SELECT</h3>-->
+<!--                &lt;!&ndash; code &ndash;&gt;-->
+<!--                <div class="container text-center" style="margin-top: 30px;">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            Item Code :-->
+<!--                            <select id="orderItemCode" class="form-select" aria-label="Default select example">-->
+<!--                                <option selected></option>-->
+<!--                                <option value="1">It-001</option>-->
+<!--                                <option value="2">It-002</option>-->
+<!--                                <option value="3">It-003</option>-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="col">-->
+<!--                            Item Name :-->
+<!--                            <select class="form-select" aria-label="Default select example">-->
+<!--                                <option selected></option>-->
+<!--                                <option value="1">Shampoo</option>-->
+<!--                                <option value="2">Cotton</option>-->
+<!--                                <option value="3">Samba Rice</option>-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            Price :-->
+<!--                            <input type="text" class="form-control" placeholder="">-->
+
+<!--                        </div>-->
+<!--                        <div class="col">-->
+<!--                            QtyOnHand :-->
+<!--                            <input type="text" class="form-control" placeholder="">-->
+
+<!--                        </div>-->
+
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            OrderQTY :-->
+<!--                            <input type="text" class="form-control" placeholder="">-->
+
+<!--                        </div>-->
+<!--                        <div class="col">-->
+<!--                            <button type="button" class="btn btn-danger" style="margin-top: 100px;">-->
+<!--                                ADD-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+
+<!-- &lt;!&ndash; /////////////////////////////////////////////AMOUNT////////////////////////////////////////////////////////////////           &ndash;&gt;-->
+
+
+<!--            <div class="col"-->
+<!--                 style="height: 300px; height: 360px; width: auto; background-color: rgba(36,113,163,0.2);">-->
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col" style="color: blue;font-size: 30px;">-->
+<!--                            Amount :-->
+<!--                            <label class="form-label"-->
+<!--                                   style="font-size: 40px;color: deeppink;">2300.30</label>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            Cash :-->
+<!--                            <input type="text" class="form-control" placeholder="">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            Balance :-->
+<!--                            <input type="text" class="form-control" placeholder="">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="container text-center">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col">-->
+<!--                            <button type="button" class="btn btn-primary" style="margin-top: 40px;">-->
+<!--                                PAY-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash;    table&ndash;&gt;-->
+<!--    <table class="table">-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th scope="col">Item Code</th>-->
+<!--            <th scope="col">Item Name</th>-->
+<!--            <th scope="col">Price</th>-->
+<!--            <th scope="col">Count</th>-->
+<!--            <th scope="col">Total</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr>-->
+<!--            <td>It-001</td>-->
+<!--            <td>Shampoo</td>-->
+<!--            <td>375.00</td>-->
+<!--            <td>03</td>-->
+<!--            <td>12</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>It-002</td>-->
+<!--            <td>Cotton</td>-->
+<!--            <td>54.67</td>-->
+<!--            <td>11</td>-->
+<!--            <td>42</td>-->
+<!--        </tr>-->
+
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</section>-->
+
+
+<!--<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+<!--<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
+
+<!--<script src="db/DB.js"></script>-->
+<!--<script src="controllers/validation/CustomerController.js"></script>-->
+<!--<script src="controllers/validation/ItemController.js"></script>-->
+<!--<script src="controllers/validation/PurchaseOrderController.js"></script>-->
+<!--<script src="controllers/DashboardController.js"></script>-->
+<!--<script src="controllers/CustomerController.js"></script>-->
+<!--<script src="controllers/ItemController.js"></script>-->
+<!--<script src="controllers/PurchaseOrderController.js"></script>-->
+<!--<script src="model/Customer.js"></script>-->
+<!--<script src="model/Item.js"></script>-->
+<!--<script src="model/OrderDetails.js"></script>-->
+<!--<script src="model/PurchaseOrder.js"></script>-->
+<!--<script>-->
+
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
