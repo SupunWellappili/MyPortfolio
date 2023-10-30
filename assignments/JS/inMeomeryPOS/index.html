@@ -1,51 +1,33 @@
-<!--
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
-    <title>SPA</title>
+    <title>In-Memory-POS</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../assests/normalize.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="../../CSS-Framework/POS/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/pages/home.css">
-    <link rel="icon" href="assets/image/POS.png">
+    <link rel="stylesheet" href="assignments/JS/inMemoryPOS/assets/img/POS.png">
+    <script src="controllers/ItemController.js"></script>
+    <link rel="icon" href="assets/img/kade pic.jpg">
 </head>
+
 <body>
+<div id="loader">
+    <div></div>
+</div>
 
-&lt;!&ndash; Home navigation bar&ndash;&gt;
-&lt;!&ndash;
-<section id="nav-bar">
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/image/kade%20pic.jpg" alt="Logo" width="80" height="50"
-                     class="d-inline-block align-text-top">
-                ThogaKade POS System
-            </a>
-
-             <ul class="nav justify-content-center">
-                 <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Login</a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="#">Register</a>
-             </ul>
-        </div>
-    </nav>
-&ndash;&gt;
-
-
-&lt;!&ndash; navigation bar&ndash;&gt;
+<!-- navigation bar-->
 <section id=nav-bar class="pages-nav">
     <header>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/image/kade%20pic.jpg" alt="Logo" width="80" height="50"
+                    <img src="assets/img/kade%20pic.jpg" alt="Logo" width="80" height="50"
                          class="d-inline-block align-text-top">ThogaKade POS System
                 </a>
 
-
-                &lt;!&ndash;tab&ndash;&gt;
+                <!--tab-->
                 <ul class="nav justify-content-center">
                     <li class="nav-Home">
                         <a id="nav-home" class="nav-link active" aria-current="page" href="#">Home</a>
@@ -65,28 +47,29 @@
     </header>
 </section>
 
-&lt;!&ndash;home page&ndash;&gt;
+
+<!--home page-->
 <section id="home-page">
     <main id="menu">
         <section class="d-flex w-100 h-50 justify-content-evenly position-relative" style="top:20%">
             <section class="w-25 position-relative rounded-4" style="background-color: rgb(255,255,255)">
                 <a id="home-cus" class="nav-link active" aria-current="page" href="#">
                     <img class="pic position-absolute top-50 start-50 translate-middle" width="220px"
-                         src="assets/image/customericon.png" alt="This is Customer"></a>
+                         src="assets/img/7988629.png" alt="This is Customer"></a>
                 <h3 class="position-absolute start-50 translate-middle fs-4 text-primary " style="top: 320px;">
                     Customer</h3>
             </section>
             <section class="w-25 position-relative rounded-4" style="background-color: rgb(255,255,255)">
                 <a id="home-item" class="nav-link active" aria-current="page" href="#">
                     <img class="pic position-absolute top-50 start-50 translate-middle" width="220px"
-                         src="assets/image/item.png" alt="This is Item"></a>
+                         src="assets/img/shopping_cart.png" alt="This is Item"></a>
                 <h3 class="position-absolute start-50 translate-middle fs-4 text-primary" style="top: 320px;">
                     Item</h3>
             </section>
             <section class="w-25  position-relative rounded-4" style="background-color: rgb(255,255,255)">
                 <a id="home-order" class="nav-link active" aria-current="page" href="#">
                     <img class="pic position-absolute top-50 start-50 translate-middle" width="250px"
-                         src="assets/image/order.png" alt="This is Order"></a>
+                         src="assets/img/1356594.png" alt="This is Order"></a>
                 <h3 class="position-absolute start-50 translate-middle fs-4 text-primary" style="top: 320px;">
                     Order</h3>
             </section>
@@ -95,7 +78,7 @@
 </section>
 
 
-&lt;!&ndash;customer page&ndash;&gt;
+<!--customer page-->
 <section id="customer-page">
     <main>
         <div class="row justify-content-around" style="height: max-content; padding-top: 40px; margin-right: 0">
@@ -123,17 +106,21 @@
                     </div>
 
 
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search</button>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update</button>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete</button>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Customer</button>
+                    <button id="btnGet" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search
+                    </button>
+                    <button id="btnUpdate" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update
+                    </button>
+                    <button id="btnDelete" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete
+                    </button>
+                    <button id="btnSave" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Customer
+                    </button>
                 </form>
             </div>
         </div>
     </main>
 
 
-    &lt;!&ndash;table&ndash;&gt;
+    <!--table-->
     <table class="table">
         <thead>
         <tr>
@@ -143,31 +130,31 @@
             <th scope="col">Customer Salary</th>
         </tr>
         </thead>
-        <tbody>
+        <tbody id="tblCustomer">
         <tr>
-            <th scope="row">C001</th>
-            <td>Mahinda</td>
-            <td>Tangalle</td>
-            <td>30000</td>
+            <td>C00-001</td>
+            <td>Mahinda Wicrama</td>
+            <td>NO 01, Tangalle</td>
+            <td>3400.43</td>
         </tr>
         <tr>
-            <th scope="row">C002</th>
-            <td>Anjaana</td>
-            <td>Kelaniya</td>
-            <td>60000</td>
+            <td>C00-002</td>
+            <td>Anjaana Samadine</td>
+            <td>NO 23/3, Kelaniya</td>
+            <td>6300.00</td>
         </tr>
         <tr>
-            <th scope="row">C003</th>
-            <td>Kashmira</td>
-            <td>Kegalla</td>
-            <td>10000</td>
+            <td>C00-003</td>
+            <td>Kashmira Pathirana</td>
+            <td>NO 12/3, Kegalla</td>
+            <td>1000.12</td>
         </tr>
         </tbody>
     </table>
 </section>
 
 
-&lt;!&ndash;item page&ndash;&gt;
+<!--item page-->
 <section id="item-page">
     <main>
         <div class="row justify-content-around"
@@ -176,17 +163,32 @@
                 <h4 class="text-center bg-success p-2 text-light"> Item </h4>
                 <form>
                     <div class="mb-3 ms-3 me-3">
-                        <input class="form-control" id="cusId" placeholder="Input Customer ID :"
-                               type="text">
+                        <input class="form-control" id="itemCode" placeholder="Input Code :" type="text">
                     </div>
 
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search
+
+                    <div class="mb-3 ms-3 me-3">
+                        <input class="form-control" id="itemName" placeholder="Input Name :" type="text">
+                    </div>
+
+
+                    <div class="mb-3 ms-3 me-3">
+                        <input class="form-control" id="itemUnitPrice" placeholder="Input Unit Price :" type="text">
+                    </div>
+
+
+                    <div class="mb-3 ms-3 me-3">
+                        <input class="form-control" id="itemQuantity" placeholder="Input Quantity :" type="text">
+                    </div>
+
+
+                    <button id="btnSearchItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search
                     </button>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update
+                    <button id="btnUpdateItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Update
                     </button>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete
+                    <button id="btnDeleteItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Delete
                     </button>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Item
+                    <button id="btnSaveItem" class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Add Item
                     </button>
                 </form>
             </div>
@@ -194,7 +196,7 @@
     </main>
 
 
-    &lt;!&ndash;table&ndash;&gt;
+    <!--table-->
     <table class="table">
         <thead>
         <tr>
@@ -204,21 +206,21 @@
             <th scope="col">Item Quantity</th>
         </tr>
         </thead>
-        <tbody>
+        <tbody id="tblItem">
         <tr>
-            <th scope="row">It-01</th>
+            <td>It-001</td>
             <td>Shampoo</td>
             <td>375.00</td>
             <td>304</td>
         </tr>
         <tr>
-            <th scope="row">It-02</th>
+            <td>It-002</td>
             <td>Cotton</td>
             <td>54.67</td>
             <td>450</td>
         </tr>
         <tr>
-            <th scope="row">It-03</th>
+            <td>It-003</td>
             <td>Samba Rice</td>
             <td>133.20</td>
             <td>1020</td>
@@ -227,21 +229,24 @@
     </table>
 </section>
 
-&lt;!&ndash;order page&ndash;&gt;
+<!--order page-->
 <section id="order-page">
     <div class="container text-center"
          style="margin-top: 30px; background-color: rgba(11,119,213,0.84);">
         <div class="row">
+
+
+            <!-- //////////////////////////////////////////INVOICE DETAILS///////////////////////////////////////////////////////////////////           -->
+
             <div class="col" style="height: 330px; margin-right: 30px;">
                 <h3 class="bg-success rounded-4" style="color: white; width: 400px;">INVOICE
                     DETAILS</h3>
-
 
                 <div class="container text-center" style="margin-top: 30px;">
                     <div class="row">
                         <div class="col">
                             Order ID:
-                            <input type="text" class="form-control" placeholder="">
+                            <input id="orderCode" type="text" class="form-control" placeholder="Ord-001">
                         </div>
                         <div class="col">
                             Date :
@@ -249,11 +254,12 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="container text-center">
                     <div class="row">
-                        <div class="col">
-                            Cust ID :
-                            <select class="form-select" aria-label="Default select example">
+                        <div class="col">Cust ID :
+                            <select id="orderCustID" class="form-select" aria-label="Default select example">
                                 <option selected></option>
                                 <option value="1">C001</option>
                                 <option value="2">C002</option>
@@ -262,18 +268,19 @@
                         </div>
                         <div class="col">
                             Cust Name:
-                            <input type="text" class="form-control" placeholder="">
+                            <input id="orderCustName" type="text" class="form-control" placeholder="">
                         </div>
+
 
                         <div class="container text-center">
                             <div class="row">
                                 <div class="col">
                                     Salary :
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input id="orderCustSalary" type="text" class="form-control" placeholder="">
                                 </div>
                                 <div class="col">
                                     Address :
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input id="orderCustAddress" type="text" class="form-control" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -281,18 +288,22 @@
                 </div>
             </div>
 
+
+            <!-- ////////////////////////////////////////////////ITEM SELECT/////////////////////////////////////////////////////////////           -->
+
+
             <div class="col" style="height: 330px; margin-right: 30px;">
                 <h3 class="bg-success rounded-4" style="color: white;width: 400px;">ITEM SELECT</h3>
-                &lt;!&ndash; code &ndash;&gt;
+                <!-- code -->
                 <div class="container text-center" style="margin-top: 30px;">
                     <div class="row">
                         <div class="col">
                             Item Code :
-                            <select class="form-select" aria-label="Default select example">
+                            <select id="orderItemCode" class="form-select" aria-label="Default select example">
                                 <option selected></option>
-                                <option value="1">It-01</option>
-                                <option value="2">It-02</option>
-                                <option value="3">It-02</option>
+                                <option value="1">It-001</option>
+                                <option value="2">It-002</option>
+                                <option value="3">It-003</option>
                             </select>
                         </div>
                         <div class="col">
@@ -336,8 +347,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+
+
+            <!-- /////////////////////////////////////////////AMOUNT////////////////////////////////////////////////////////////////           -->
+
 
             <div class="col"
                  style="height: 300px; height: 360px; width: auto; background-color: rgba(36,113,163,0.2);">
@@ -383,7 +397,7 @@
     </div>
 
 
-    &lt;!&ndash;    table&ndash;&gt;
+    <!--    table-->
     <table class="table">
         <thead>
         <tr>
@@ -396,16 +410,18 @@
         </thead>
         <tbody>
         <tr>
-            <th scope="row">It-01</th>
+            <td>It-001</td>
             <td>Shampoo</td>
             <td>375.00</td>
             <td>03</td>
+            <td>12</td>
         </tr>
         <tr>
-            <th scope="row">It-02</th>
+            <td>It-002</td>
             <td>Cotton</td>
             <td>54.67</td>
             <td>11</td>
+            <td>42</td>
         </tr>
 
         </tbody>
@@ -413,97 +429,24 @@
 </section>
 
 
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="db/DB.js"></script>
+<script src="controllers/validation/CustomerController.js"></script>
+<script src="controllers/validation/ItemController.js"></script>
+<script src="controllers/validation/PurchaseOrderController.js"></script>
+<script src="controllers/DashboardController.js"></script>
+<script src="controllers/CustomerController.js"></script>
+<script src="controllers/ItemController.js"></script>
+<script src="controllers/PurchaseOrderController.js"></script>
+<script src="model/Customer.js"></script>
+<script src="model/Item.js"></script>
+<script src="model/OrderDetails.js"></script>
+<script src="model/PurchaseOrder.js"></script>
 <script>
-
-    let navBar = document.querySelector("#nav-bar");
-
-    let homePage = document.querySelector("#home-page");
-    let cusPage = document.querySelector("#customer-page");
-    let itemPage = document.querySelector("#item-page");
-    let orderPage = document.querySelector("#order-page");
-
-    let navHome = document.querySelector("#nav-home");
-    let navCus = document.querySelector("#nav-cus");
-    let navItem = document.querySelector("#nav-item");
-    let navOrder = document.querySelector("#nav-order");
-
-
-    let homeCus = document.querySelector("#home-cus");
-    let homeItem = document.querySelector("#home-item");
-    let homeOrder = document.querySelector("#home-order");
-
-
-    navBar.style.display ='block';
-    homePage.style.display = 'block';
-    cusPage.style.display = 'none';
-    itemPage.style.display = 'none';
-    orderPage.style.display = 'none';
-
-
-    homeCus.addEventListener("click", function () {
-        navBar.style.display ='block';
-        cusPage.style.display = 'block';
-        homePage.style.display = 'none';
-        itemPage.style.display = 'none';
-        orderPage.style.display = 'none';
-    });
-
-
-    homeItem.addEventListener("click", function () {
-        navBar.style.display ='block';
-        itemPage.style.display = 'block';
-        cusPage.style.display = 'none';
-        orderPage.style.display = 'none';
-        homePage.style.display = 'none';
-    });
-
-
-    homeOrder.addEventListener("click", function () {
-        navBar.style.display ='block';
-        orderPage.style.display = 'block';
-        cusPage.style.display = 'none';
-        itemPage.style.display = 'none';
-        homePage.style.display = 'none';
-    });
-
-
-    navHome.addEventListener("click",function (){
-        navBar.style.display='block';
-        homePage.style.display='block';
-        cusPage.style.display='none';
-        itemPage.style.display='none';
-        orderPage.style.display ='none';
-    });
-
-
-    navCus.addEventListener("click",function (){
-        navBar.style.display='block';
-        cusPage.style.display='block';
-        homePage.style.display='none';
-        itemPage.style.display='none';
-        orderPage.style.display ='none';
-    });
-
-    navItem.addEventListener("click",function (){
-        navBar.style.display='block';
-        itemPage.style.display='block';
-        cusPage.style.display='none';
-        homePage.style.display='none';
-        orderPage.style.display ='none';
-    });
-
-    navOrder.addEventListener("click",function (){
-        navBar.style.display='block';
-        orderPage.style.display ='block';
-        itemPage.style.display='none';
-        cusPage.style.display='none';
-        homePage.style.display='none';
-    });
 
 
 </script>
 </body>
 </html>
-
--->

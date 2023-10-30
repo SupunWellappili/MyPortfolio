@@ -1,0 +1,382 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>POS System</title>-->
+<!--    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">-->
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Rubik+Iso&display=swap" rel="stylesheet">-->
+<!--    <link rel="stylesheet" href="../../../assests/normalize.css">-->
+<!--    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">-->
+
+
+<!--</head>-->
+<!--<body class="bg-black object-fit-scale">-->
+<!--<header>-->
+<!--    <nav class="navbar navbar-expand-md  bg-black border-bottom border-white">-->
+<!--        <div class="container-fluid">-->
+<!--            <a class="navbar-brand  text-warning" href="#">POS System</a>-->
+<!--            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"-->
+<!--                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"-->
+<!--                    aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse " id="navbarSupportedContent">-->
+<!--                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">-->
+<!--                    <li id="btnHome" class="nav-item">-->
+<!--                        <a class="nav-link text-warning" aria-current="page" href="index.html">Home</a>-->
+<!--                    </li>-->
+<!--                    <li id="btnCustomer" class="nav-item">-->
+<!--                        <a class="nav-link text-white">Customers</a>-->
+<!--                    </li>-->
+<!--                    <li id="btnItem" class="nav-item">-->
+<!--                        <a class="nav-link text-white">Items</a>-->
+<!--                    </li>-->
+<!--                    <li id="btnOrders" class="nav-item">-->
+<!--                        <a class="nav-link text-white">Orders</a>-->
+<!--                    </li>-->
+<!--                    <li id="btnPlaceOrder" class="nav-item ms-4">-->
+<!--                        <a class="nav-link border-warning border rounded text-white">Place New-->
+<!--                            Order</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <form class="d-flex me-3" role="search">-->
+<!--                    <input class="form-control me-2 bg-black border border-white text-white" type="search"-->
+<!--                           placeholder="Search" aria-label="Search">-->
+<!--                    <button class="btn btn-outline-light" type="submit">Search</button>-->
+<!--                </form>-->
+<!--                <button type="button" class="btn btn-outline-warning">Sign Up</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </nav>-->
+<!--</header>-->
+
+<!--<main id="home" class="bg-black container">-->
+<!--    <section class="container-fluid fl">-->
+<!--        <div class="col  object-fit-contain">-->
+<!--            <div class="object-fit-contain">-->
+<!--                <img src="" style="width: 500px"-->
+<!--                     class="center-block d-block mx-auto object-fit-scale">-->
+<!--            </div>-->
+<!--            <div class="text-white text-center ">-->
+<!--                <h2 class="text-capitalize text-bg-warning">TECHNO COMPUTERS</h2>-->
+<!--                <h4>Your Computer Partner</h4>-->
+<!--                <p></p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--</main>-->
+<!--<main id="customer" class="container">-->
+<!--    <section class="row p-4 m-0 object-fit-contain">-->
+<!--        <nav aria-label="breadcrumb" class="text-white">-->
+<!--            <ol class="breadcrumb">-->
+<!--                <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>-->
+<!--                <li class="breadcrumb-item active text-white" aria-current="page">Customers</li>-->
+<!--            </ol>-->
+<!--        </nav>-->
+
+<!--        &lt;!&ndash;        <h5 class="text-warning text-lg-start" >Customer Management</h5>&ndash;&gt;-->
+<!--        <div class="col border-warning m-3 border rounded object-fit-contain">-->
+<!--            <h5 class="text-warning text-center m-lg-3 pt-5">Add a New Customer</h5>-->
+<!--            <form class="m-5">-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="InputCID" class="form-label text-white">Customer ID</label>-->
+<!--                    <input type="text" class="form-control  text-warning bg-black" id="InputCID">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="InputName" class="form-label text-white">Name</label>-->
+<!--                    <input type="text" class="form-control   text-warning bg-black" id="InputName">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="inputAddress" class="form-label text-white">Address</label>-->
+<!--                    <input type="text" class="form-control  text-warning bg-black" id="inputAddress">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="inputContact" class="form-label text-white">Contact</label>-->
+<!--                    <input type="tel" class="form-control  text-warning bg-black " id="inputContact">-->
+<!--                </div>-->
+<!--                <div class="row m-0 gap-2 mt-5">-->
+<!--                    <button id="btnSaveCustomer" type="button" class="btn btn-outline-warning  col">Save</button>-->
+<!--                    <button id="btnUpdateCus" type="button" class="btn btn-outline-light  col">Update</button>-->
+<!--                    <button id="btnAllCus" type="button" class="btn btn-outline-light col">Get All</button>-->
+<!--                </div>-->
+<!--                <div class="row m-0 gap-2 mt-5">-->
+<!--                    <button id="btnDeleteCustomer" type="button" class="btn btn-outline-danger  col">Delete</button>-->
+<!--                </div>-->
+<!--                &lt;!&ndash;                <button type="submit" class="btn btn-outline-warning  container-fluid">Save</button>&ndash;&gt;-->
+<!--                &lt;!&ndash;                <button type="submit" class="btn btn-outline-light disabled container-fluid">Update</button>&ndash;&gt;-->
+<!--            </form>-->
+<!--        </div>-->
+<!--        <div class="col border-white m-3  border-start">-->
+<!--            <table class="table text-white">-->
+<!--                <thead class="text-warning">-->
+<!--                <tr>-->
+<!--                    <th scope="col">ID</th>-->
+<!--                    <th scope="col">Name</th>-->
+<!--                    <th scope="col">Address</th>-->
+<!--                    <th scope="col">Contact</th>-->
+<!--                    <th scope="col">Action</th>-->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody id="tableBodyCus">-->
+<!--                </tbody>-->
+<!--            </table>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--</main>-->
+<!--<main id="item" class="container">-->
+<!--    <section class="row p-4 m-0">-->
+<!--        <nav aria-label="breadcrumb" class="text-white">-->
+<!--            <ol class="breadcrumb">-->
+<!--                <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>-->
+<!--                <li class="breadcrumb-item active text-white" aria-current="page">Items</li>-->
+<!--            </ol>-->
+<!--        </nav>-->
+
+<!--        &lt;!&ndash;        <h5 class="text-warning text-lg-start" >Customer Management</h5>&ndash;&gt;-->
+<!--        <div class="col border-warning m-3 border rounded">-->
+<!--            <h5 class="text-warning text-center m-lg-3 pt-5">Add a New Item</h5>-->
+<!--            <form class="m-5">-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="InputItemID" class="form-label text-white">Item ID</label>-->
+<!--                    <input type="text" class="form-control bg-black  text-warning "-->
+<!--                           id="InputItemID">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="InputDesc" class="form-label text-white">Description</label>-->
+<!--                    <input type="text"-->
+<!--                           class="form-control bg-black  text-warning "-->
+<!--                           id="InputDesc">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="inputUnitPrice" class="form-label text-white">Unit Price</label>-->
+<!--                    <input type="number"-->
+<!--                           class="form-control bg-black  text-warning "-->
+<!--                           id="inputUnitPrice">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="inputQty" class="form-label text-white">Quantity</label>-->
+<!--                    <input type="number"-->
+<!--                           class="form-control bg-black  text-warning  "-->
+<!--                           id="inputQty">-->
+<!--                </div>-->
+<!--                <div class="row m-0 gap-2 mt-5">-->
+<!--                    <button id="btnSaveItem" type="button" class="btn btn-outline-warning  col">Save</button>-->
+<!--                    <button id="btnUpdateItem" type="button" class="btn btn-outline-light col">Update</button>-->
+<!--                    <button id="btnAllItem" type="button" class="btn btn-outline-light col">Get All</button>-->
+<!--                </div>-->
+<!--                <div class="row m-0 gap-2 mt-5">-->
+<!--                    <button id="btnDeleteItem" type="button" class="btn btn-outline-danger  col">Delete</button>-->
+<!--                </div>-->
+<!--                &lt;!&ndash;                <button type="submit" class="btn btn-outline-warning  container-fluid">Save</button>&ndash;&gt;-->
+<!--                &lt;!&ndash;                <button type="submit" class="btn btn-outline-light disabled container-fluid">Update</button>&ndash;&gt;-->
+<!--            </form>-->
+<!--        </div>-->
+<!--        <div class="col border-white m-3  border-start">-->
+<!--            <table class="table text-white">-->
+<!--                <thead class="text-warning">-->
+<!--                <tr>-->
+<!--                    <th scope="col">ID</th>-->
+<!--                    <th scope="col">Description</th>-->
+<!--                    <th scope="col">Unit Price</th>-->
+<!--                    <th scope="col">Qty On Hnd</th>-->
+<!--                    <th scope="col">Action</th>-->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody id="tblBodyItem"></tbody>-->
+<!--            </table>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--</main>-->
+<!--<main id="orders" class="container col">-->
+<!--    <nav aria-label="breadcrumb" class="text-white">-->
+<!--        <ol class="breadcrumb">-->
+<!--            <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>-->
+<!--            <li class="breadcrumb-item active text-white" aria-current="page">Orders</li>-->
+<!--        </ol>-->
+<!--    </nav>-->
+<!--    <section class="row  m-auto">-->
+<!--        <table class="table text-white container col">-->
+<!--            <thead class="text-warning">-->
+<!--            <tr>-->
+<!--                <th scope="col">Order ID</th>-->
+<!--                <th scope="col">Date</th>-->
+<!--                <th scope="col">Customer ID</th>-->
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody id="tblBodyOrders">-->
+
+
+<!--            </tbody>-->
+<!--        </table>-->
+<!--    </section>-->
+<!--</main>-->
+<!--<main id="placeOrder" class="container-fluid">-->
+<!--    <section class="row p-4 m-0">-->
+<!--        <nav aria-label="breadcrumb" class="text-white">-->
+<!--            <ol class="breadcrumb">-->
+<!--                <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>-->
+<!--                <li class="breadcrumb-item active text-white" aria-current="page">Place Order</li>-->
+<!--            </ol>-->
+<!--        </nav>-->
+
+<!--        &lt;!&ndash;        <h5 class="text-warning text-lg-start" >Customer Management</h5>&ndash;&gt;-->
+<!--        <div class="col border-warning m-3 border rounded">-->
+<!--            <h5 class="text-warning text-center m-lg-3 pt-2">Place A New Order</h5>-->
+
+<!--            <div class="row ">-->
+<!--                <h6 class="text-white">Invoice Details</h6>-->
+<!--                <form class=" me-3">-->
+<!--                    <div class="row border-bottom border-white">-->
+<!--                        <div class="mb-1 col">-->
+<!--                            <label for="InputOID" class="form-label text-white">Order ID</label>-->
+<!--                            <input type="text"-->
+<!--                                   class="form-control bg-black  text-warning "-->
+<!--                                   id="InputOID">-->
+<!--                        </div>-->
+<!--                        <div class="mb-1 col mb-4">-->
+<!--                            <label for="InputDate" class="form-label text-white">Date</label>-->
+<!--                            <input type="date"-->
+<!--                                   class="form-control bg-black  text-warning "-->
+<!--                                   id="InputDate">-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                    <h6 class="text-warning mt-4">Customer Details</h6>-->
+
+<!--                    <div class="row border-bottom border-white">-->
+<!--                        <div class="mb-1 col">-->
+<!--                            <label for="selectCusId" class="form-label text-white">Customer ID</label>-->
+<!--                            <select class="form-select bg-black text-warning"-->
+<!--                                    aria-label="Default select example" id="selectCusId">-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="mb-1 col mb-4">-->
+<!--                            <label for="SelectedCusName" class="form-label text-white">Customer Name</label>-->
+<!--                            <input type="text"-->
+<!--                                   class="form-control bg-black  text-warning  "-->
+<!--                                   id="SelectedCusName" readonly>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                    <h6 class="text-warning mt-4">Item Details</h6>-->
+
+<!--                    <div class="row">-->
+<!--                        <div class="mb-1 col">-->
+<!--                            <label for="selectItemId" class="form-label text-white">Item ID</label>-->
+<!--                            <select class="form-select bg-black text-warning "-->
+<!--                                    aria-label="Default select example" id="selectItemId">-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="mb-1 col mb-4">-->
+<!--                            <label for="selectedItemName" class="form-label text-white">Description</label>-->
+<!--                            <input type="text"-->
+<!--                                   class="form-control bg-black  text-warning  "-->
+<!--                                   id="selectedItemName" readonly>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                    <div class="row">-->
+<!--                        <div class="mb-1 col">-->
+<!--                            <label for="UnitPriceP" class="form-label text-white">Unit Price</label>-->
+<!--                            <input type="number"-->
+<!--                                   class="form-control bg-black  text-warning "-->
+<!--                                   id="UnitPriceP" readonly>-->
+<!--                        </div>-->
+<!--                        <div class="mb-1 col">-->
+<!--                            <label for="QtyOnHndP" class="form-label text-white">Qty On Hnd</label>-->
+<!--                            <input type="number"-->
+<!--                                   class="form-control bg-black  text-warning "-->
+<!--                                   id="QtyOnHndP" readonly>-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-1 col">-->
+<!--                            <label for="QtyP" class="form-label text-white">Qty</label>-->
+<!--                            <input type="number"-->
+<!--                                   class="form-control bg-black text-warning "-->
+<!--                                   id="QtyP">-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+
+<!--                </form>-->
+<!--            </div>-->
+
+<!--            <button class="btn btn-outline-light container-fluid mt-5 mb-5" type="button" id="btnAddToCart">Add To-->
+<!--                Cart-->
+<!--            </button>-->
+<!--        </div>-->
+
+<!--        <div class="col m-3 ">-->
+<!--            <div class="border rounded border-warning">-->
+<!--                <h5 class="text-warning mt-4 mb-3 ms-2">Cart</h5>-->
+<!--                <table class="table text-white ">-->
+<!--                    <thead class="text-warning">-->
+<!--                    <tr>-->
+<!--                        <th scope="col">ID</th>-->
+<!--                        <th scope="col">Description</th>-->
+<!--                        <th scope="col">Unit Price</th>-->
+<!--                        <th scope="col">Qty</th>-->
+<!--                        <th scope="col">Total</th>-->
+<!--                        <th scope="col">Action</th>-->
+<!--                    </tr>-->
+<!--                    </thead>-->
+<!--                    <tbody id="tblCartBody"></tbody>-->
+<!--                </table>-->
+<!--            </div>-->
+<!--            <div class="row mt-5 border border-warning rounded">-->
+<!--                <h5 class="text-warning  mt-3 mb-2">Purcahse Order</h5>-->
+<!--                <div class="row">-->
+<!--                    <div class="mb-1 col">-->
+<!--                        <label for="inputTotal" class="form-label text-white">Total</label>-->
+<!--                        <input type="number"-->
+<!--                               class="form-control bg-black  text-warning "-->
+<!--                               id="inputTotal" readonly>-->
+<!--                    </div>-->
+
+<!--                    <div class="mb-1 col">-->
+<!--                        <label for="inputDiscount" class="form-label text-white">Discount</label>-->
+<!--                        <input type="number"-->
+<!--                               class="form-control bg-black  text-warning "-->
+<!--                               id="inputDiscount">-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="mb-5 col text-warning">-->
+<!--                            <label for="inputSubTotal" class="form-label ">Sub Total</label>-->
+<!--                            <input type="number"-->
+<!--                                   class="form-control bg-black text-warning  mb-4 rounded"-->
+<!--                                   id="inputSubTotal" readonly>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="row">-->
+<!--                    <div class="mb-1 col">-->
+<!--                        <label for="inputCash" class="form-label text-white">Cash</label>-->
+<!--                        <input type="number"-->
+<!--                               class="form-control bg-black  text-warning "-->
+<!--                               id="inputCash">-->
+<!--                    </div>-->
+
+
+<!--                    <div class="mb-1 col">-->
+<!--                        <label for="inputBalance" class="form-label text-white">Balance</label>-->
+<!--                        <input type="number"-->
+<!--                               class="form-control bg-black  text-warning "-->
+<!--                               id="inputBalance" readonly>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+<!--                <div class="row ms-1">-->
+<!--                    <button id="btnPurchase" class="btn btn-outline-warning mt-5 mb-5" type="submit">Purchace</button>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </div>-->
+<!--        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
+<!--        <script src="assets/pages/DashboardController.js"></script>-->
+
+
+<!--    </section>-->
+<!--</main>-->
